@@ -9,6 +9,7 @@
 #include "string.h"
 #include "stdio.h"
 
+
 static uint32_t GetPage(uint32_t Address)
 {
   for (int indx=0; indx<128; indx++)
@@ -22,7 +23,7 @@ static uint32_t GetPage(uint32_t Address)
   return -1;
 }
 
-uint32_t Flash_Write_Data (uint32_t StartPageAddress, uint32_t * DATA_32, uint32_t NumberWords)
+uint32_t Flash_Write_Data (uint32_t StartPageAddress, uint32_t *DATA_32, uint32_t NumberWords)
 {
 
 	static FLASH_EraseInitTypeDef EraseInitStruct;
@@ -90,7 +91,7 @@ void Flash_Read_Data (uint32_t StartPageAddress, __IO uint32_t * DATA_32)
 	}
 }
 
-void Convert_To_Str (uint32_t *data, char *str)
+void Convert_To_Str (const char *data, char *str)
 {
 	int numberofbytes = ((strlen(data)/4) + ((strlen(data) % 4) != 0)) *4;
 

@@ -56,12 +56,18 @@ void HAL_TIM_MspPostInit(TIM_HandleTypeDef *htim);
 void Error_Handler(void);
 
 /* USER CODE BEGIN EFP */
+void stopReflow();
+void startReflow();
+void Draw_Reflow_Curve();
+void calculateReflowCurve();
 
 /* USER CODE END EFP */
 
 /* Private defines -----------------------------------------------------------*/
 #define CS_Pin GPIO_PIN_4
 #define CS_GPIO_Port GPIOA
+#define BUZZER_Pin GPIO_PIN_15
+#define BUZZER_GPIO_Port GPIOA
 /* USER CODE BEGIN Private defines */
 
 /* USER CODE END Private defines */

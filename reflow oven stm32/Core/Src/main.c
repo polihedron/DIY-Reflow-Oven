@@ -74,33 +74,74 @@ static void MX_USART1_UART_Init(void);
 /* USER CODE BEGIN 0 */
 
 typedef struct {
-	float32_t KP ;
-	float32_t Ki ;
-	float32_t KD ;
-	float32_t firstHeatUpRate;
-	uint32_t SoakTempeture ;
-	uint32_t SoakTime ;
-	float32_t secondHeatUpRate;
-	uint32_t ReflowTempeture ;
-	uint32_t ReflowTime;
-}ReflowTemplate;
 
+	float32_t KP;
+	float32_t Ki;
+	float32_t KD;
+	float32_t firstHeatUpRate;
+	uint32_t SoakTempeture;
+	uint32_t SoakTime;
+	float32_t secondHeatUpRate;
+	uint32_t ReflowTempeture;
+	uint32_t ReflowTime;
+
+	float32_t firstHeatUpRate0;
+	uint32_t SoakTempeture0;
+	uint32_t SoakTime0;
+	float32_t secondHeatUpRate0;
+	uint32_t ReflowTempeture0;
+	uint32_t ReflowTime0;
+
+	float32_t firstHeatUpRate1;
+	uint32_t SoakTempeture1;
+	uint32_t SoakTime1;
+	float32_t secondHeatUpRate1;
+	uint32_t ReflowTempeture1;
+	uint32_t ReflowTime1;
+
+	float32_t firstHeatUpRate2;
+	uint32_t SoakTempeture2;
+	uint32_t SoakTime2;
+	float32_t secondHeatUpRate2;
+	uint32_t ReflowTempeture2;
+	uint32_t ReflowTime2;
+
+	float32_t firstHeatUpRate3;
+	uint32_t SoakTempeture3;
+	uint32_t SoakTime3;
+	float32_t secondHeatUpRate3;
+	uint32_t ReflowTempeture3;
+	uint32_t ReflowTime3;
+
+}	ReflowTemplate;
+
+
+uint32_t TimerBUZZER;
+uint32_t TimerGui;
+uint8_t beep;
 uint8_t data[2];
 uint8_t ReflowCurve[4000];
 float temp;
+float lastTemp;
 float duty;
-uint32_t data_flash[] = {400, 200, 0, 50, 900, 2};
+
 arm_pid_instance_f32 PID;
 ReflowTemplate ReflowParameters;
+
 uint8_t ReflowEnable = 0;
+uint8_t BuzzerEnable = 0;
 uint16_t ReflowIndex = 0;
+
 float32_t debug = 0;
 uint8_t Cmd_End[3] = {0xFF, 0xFF, 0xFF};
 uint8_t UART_Recieved_Data[5]={'p','0','x','x','x'};
 uint8_t UART_Recieved_Flag = 0;
+
 char input[20];
 uint16_t PhaseIndex[5]={0};
-char ConsoleMSG[20];
+
+char ConsoleMSG[25];
+
 uint8_t TempDrawEnable = 0;
 uint32_t TempDrawCounter = 0;
 
@@ -122,19 +163,17 @@ uint8_t test2[5] = {'p','0','x','x','x'};
 //HAL_FLASH_Lock();
 //}
 
-void SaveParameters(){
-	Flash_Write_Data(0x0801FC00, &ReflowParameters, 9);
+
+void SaveReflowParameters(){
+	Flash_Write_Data(0x0801FC00, (uint32_t *)&ReflowParameters, 33);
 }
-
-
-
-
 
 
 void HAL_UART_RxCpltCallback(UART_HandleTypeDef *huart){
 	HAL_UART_Receive_IT(&huart1, UART_Recieved_Data, 5);
 	UART_Recieved_Flag =1;
 }
+
 
 void NEXTION_SendString (char *ID, char *string){
 	char buf[50];
@@ -144,12 +183,14 @@ void NEXTION_SendString (char *ID, char *string){
 
 }
 
+
 void NEXTION_SendFloat (char *ID, float32_t number){
 	char buf[50];
 	int len = sprintf(buf, "%s.txt=\"%.2f\"", ID, number);
 	HAL_UART_Transmit(&huart1, (uint8_t *)buf, len, 1000);
 	HAL_UART_Transmit(&huart1, Cmd_End, 3, 100);
 }
+
 
 void NEXTION_SenduInt (char *ID, uint32_t number){
 	char buf[50];
@@ -158,10 +199,12 @@ void NEXTION_SenduInt (char *ID, uint32_t number){
 	HAL_UART_Transmit(&huart1, Cmd_End, 3, 100);
 }
 
+
 void NEXTION_CMD (char *string){
 	HAL_UART_Transmit(&huart1, (uint8_t *)string, strlen(string), 1000);
 	HAL_UART_Transmit(&huart1, Cmd_End, 3, 100);
 }
+
 
 void UpdatePage(){
 	NEXTION_SendFloat("t1",ReflowParameters.firstHeatUpRate);
@@ -172,13 +215,15 @@ void UpdatePage(){
 	NEXTION_SenduInt("t6", ReflowParameters.ReflowTime);
 }
 
+
 void NextionDrawDot(uint32_t x, uint32_t y){
 
 	char buf[50];
-	int len = sprintf(buf, "cirs %lu,%lu,2,BLUE", x, y);
+	int len = sprintf(buf, "cirs %lu,%lu,2,1311", x, y);	//RGB888: 0.160.255 RGB565:1311
 	HAL_UART_Transmit(&huart1, (uint8_t *)buf, len, 1000);
 	HAL_UART_Transmit(&huart1, Cmd_End, 3, 100);
 }
+
 
 void NextionDrawTemp(uint32_t x, uint32_t y){
 
@@ -187,8 +232,6 @@ void NextionDrawTemp(uint32_t x, uint32_t y){
 	HAL_UART_Transmit(&huart1, (uint8_t *)buf, len, 1000);
 	HAL_UART_Transmit(&huart1, Cmd_End, 3, 100);
 }
-
-
 
 float32_t HandleKeyPad() {
 
@@ -208,7 +251,6 @@ float32_t HandleKeyPad() {
 				return 9999;
 		if(strncmp((char*) UART_Recieved_Data, "kback", 5) == 0)
 				return 8888;
-
 
 		if (UART_Recieved_Flag == 1) {
 			input[index] = UART_Recieved_Data[4];
@@ -236,9 +278,10 @@ void Update_Page_3() {
 
 }
 
+
 void Update_Page_0() {
 	uint8_t defaultUart[5] = {'p','0','x','x','x'};
-	for(int i=0;i<5;i++){
+	for(int i=0;i<5;i++)	{
 		UART_Recieved_Data[i]=defaultUart[i];
 	}
 
@@ -248,7 +291,7 @@ void Update_Page_0() {
 	uint32_t OffsetY = 230;
 
 		//Reflow Aktuelle Temperatur anzeigen:
-		if (ReflowEnable == 1){
+		if (ReflowEnable == 1)	{
 			TempDrawEnable = 1;
 
 		}
@@ -263,8 +306,6 @@ void Update_Page_0() {
 
 		}
 
-
-
 	NEXTION_SendFloat("t0", temp);
 	NEXTION_SendFloat("t1", ReflowParameters.firstHeatUpRate);
 	NEXTION_SenduInt("t3", ReflowParameters.SoakTime);
@@ -276,6 +317,7 @@ void Update_Page_0() {
 
 }
 
+
 void Update_Page_2() {
 	uint8_t defaultUart[5] = {'p','2','x','x','x'};
 	for(int i=0;i<5;i++){
@@ -286,7 +328,6 @@ void Update_Page_2() {
 	NEXTION_SendFloat("t1", ReflowParameters.Ki);
 	NEXTION_SendFloat("t2", ReflowParameters.KD);
 }
-
 
 
 void HandleGui(){
@@ -307,13 +348,16 @@ void HandleGui(){
 
 	if(strncmp((char *)UART_Recieved_Data, "p0b01", 5) == 0){
 			stopReflow();
+			  // buzzer beeps at the FINISHED cycle until STOP button pressed
+			  if (BuzzerEnable == 1)	{
+				  BuzzerEnable = 0;
+			  }
 			Update_Page_0();
 			}
 
 	if(strncmp((char *)UART_Recieved_Data, "p0b02", 5) == 0){
 			Update_Page_3();
 			}
-
 
 	//###################Page2##########################
 
@@ -386,12 +430,8 @@ void HandleGui(){
 
 		  if(strncmp((char *)UART_Recieved_Data, "p2b03", 5) == 0){
 			Update_Page_3();
+			SaveReflowParameters();
 		}
-
-
-
-
-
 
 
 	//###################Page 3########################
@@ -537,11 +577,174 @@ void HandleGui(){
 			Update_Page_2();
 		}
 
+
 		  if(strncmp((char *)UART_Recieved_Data, "p3b07", 5) == 0){
 			Update_Page_0();
 			Draw_Reflow_Curve();
-			SaveParameters();
+			SaveReflowParameters();
+
 		}
+
+
+		  	// Save current parameters to Lead 138C profile
+		  if(strncmp((char *)UART_Recieved_Data, "p3bs0", 5) == 0){
+
+			  ReflowParameters.firstHeatUpRate0 = ReflowParameters.firstHeatUpRate;
+			  ReflowParameters.SoakTime0 = ReflowParameters.SoakTime;
+			  ReflowParameters.SoakTempeture0 = ReflowParameters.SoakTempeture;
+			  ReflowParameters.secondHeatUpRate0 = ReflowParameters.secondHeatUpRate;
+			  ReflowParameters.ReflowTime0 = ReflowParameters.ReflowTime;
+			  ReflowParameters.ReflowTempeture0 = ReflowParameters.ReflowTempeture;
+			  Update_Page_3();
+			  // needed page refresh because of strange nextion timers behavior
+			  NEXTION_CMD("page 3");
+			  calculateReflowCurve();
+
+		  }
+
+			 // Load Lead 138C profile
+		  if(strncmp((char *)UART_Recieved_Data, "p3b08", 5) == 0){
+
+			  ReflowParameters.firstHeatUpRate = ReflowParameters.firstHeatUpRate0;
+			  ReflowParameters.SoakTime = ReflowParameters.SoakTime0;
+			  ReflowParameters.SoakTempeture = ReflowParameters.SoakTempeture0;
+			  ReflowParameters.secondHeatUpRate = ReflowParameters.secondHeatUpRate0;
+			  ReflowParameters.ReflowTime = ReflowParameters.ReflowTime0;
+			  ReflowParameters.ReflowTempeture = ReflowParameters.ReflowTempeture0;
+			  Update_Page_3();
+			  //NEXTION_CMD("page 3");
+			  calculateReflowCurve();
+		  }
+
+		  	// Save current parameters to Lead 148C profile
+		  if(strncmp((char *)UART_Recieved_Data, "p3bs1", 5) == 0){
+			  ReflowParameters.firstHeatUpRate1 = ReflowParameters.firstHeatUpRate;
+			  ReflowParameters.SoakTime1 = ReflowParameters.SoakTime;
+			  ReflowParameters.SoakTempeture1 = ReflowParameters.SoakTempeture;
+			  ReflowParameters.secondHeatUpRate1 = ReflowParameters.secondHeatUpRate;
+			  ReflowParameters.ReflowTime1 = ReflowParameters.ReflowTime;
+			  ReflowParameters.ReflowTempeture1 = ReflowParameters.ReflowTempeture;
+			  Update_Page_3();
+			  // needed page refresh because of strange nextion timers behavior
+			  NEXTION_CMD("page 3");
+			  calculateReflowCurve();
+		  }
+
+			 // Load Lead 148C profile
+		  if(strncmp((char *)UART_Recieved_Data, "p3b09", 5) == 0){
+
+			  ReflowParameters.firstHeatUpRate = ReflowParameters.firstHeatUpRate1;
+			  ReflowParameters.SoakTime = ReflowParameters.SoakTime1;
+			  ReflowParameters.SoakTempeture = ReflowParameters.SoakTempeture1;
+			  ReflowParameters.secondHeatUpRate = ReflowParameters.secondHeatUpRate1;
+			  ReflowParameters.ReflowTime = ReflowParameters.ReflowTime1;
+			  ReflowParameters.ReflowTempeture = ReflowParameters.ReflowTempeture1;
+			  Update_Page_3();
+			  //NEXTION_CMD("page 3");
+			  calculateReflowCurve();
+		  }
+
+		  	// Save current parameters to Lead 183C profile
+		  if(strncmp((char *)UART_Recieved_Data, "p3bs2", 5) == 0){
+			  ReflowParameters.firstHeatUpRate2 = ReflowParameters.firstHeatUpRate;
+			  ReflowParameters.SoakTime2 = ReflowParameters.SoakTime;
+			  ReflowParameters.SoakTempeture2 = ReflowParameters.SoakTempeture;
+			  ReflowParameters.secondHeatUpRate2 = ReflowParameters.secondHeatUpRate;
+			  ReflowParameters.ReflowTime2 = ReflowParameters.ReflowTime;
+			  ReflowParameters.ReflowTempeture2 = ReflowParameters.ReflowTempeture;
+			  Update_Page_3();
+			  // needed page refresh because of strange nextion timers behavior
+			  NEXTION_CMD("page 3");
+			  calculateReflowCurve();
+		  }
+
+			 // Load Lead 183C profile
+		  if(strncmp((char *)UART_Recieved_Data, "p3b10", 5) == 0){
+
+			  ReflowParameters.firstHeatUpRate = ReflowParameters.firstHeatUpRate2;
+			  ReflowParameters.SoakTime = ReflowParameters.SoakTime2;
+			  ReflowParameters.SoakTempeture = ReflowParameters.SoakTempeture2;
+			  ReflowParameters.secondHeatUpRate = ReflowParameters.secondHeatUpRate2;
+			  ReflowParameters.ReflowTime = ReflowParameters.ReflowTime2;
+			  ReflowParameters.ReflowTempeture = ReflowParameters.ReflowTempeture2;
+			  Update_Page_3();
+			  //NEXTION_CMD("page 3");
+			  calculateReflowCurve();
+		  }
+
+		  	// Save current parameters to Lead 217C profile
+		  if(strncmp((char *)UART_Recieved_Data, "p3bs3", 5) == 0){
+			  ReflowParameters.firstHeatUpRate3 = ReflowParameters.firstHeatUpRate;
+			  ReflowParameters.SoakTime3 = ReflowParameters.SoakTime;
+			  ReflowParameters.SoakTempeture3 = ReflowParameters.SoakTempeture;
+			  ReflowParameters.secondHeatUpRate3 = ReflowParameters.secondHeatUpRate;
+			  ReflowParameters.ReflowTime3 = ReflowParameters.ReflowTime;
+			  ReflowParameters.ReflowTempeture3 = ReflowParameters.ReflowTempeture;
+			  Update_Page_3();
+			  // needed page refresh because of strange nextion timers behavior
+			  NEXTION_CMD("page 3");
+			  calculateReflowCurve();
+		  }
+
+		  	// Load Lead 217C profile
+		  if(strncmp((char *)UART_Recieved_Data, "p3b11", 5) == 0){
+
+			  ReflowParameters.firstHeatUpRate = ReflowParameters.firstHeatUpRate3;
+			  ReflowParameters.SoakTime = ReflowParameters.SoakTime3;
+			  ReflowParameters.SoakTempeture = ReflowParameters.SoakTempeture3;
+			  ReflowParameters.secondHeatUpRate = ReflowParameters.secondHeatUpRate3;
+			  ReflowParameters.ReflowTime = ReflowParameters.ReflowTime3;
+			  ReflowParameters.ReflowTempeture = ReflowParameters.ReflowTempeture3;
+			  Update_Page_3();
+			  //NEXTION_CMD("page 3");
+			  calculateReflowCurve();
+		  }
+
+		  // restore factory default profiles	(not all tested)
+		  if(strncmp((char *)UART_Recieved_Data, "p3br7", 5) == 0){
+
+			  	// Lead 217C https://www.chipquik.com/datasheets/TS391SNL50.pdf
+				ReflowParameters.firstHeatUpRate3 = 0.75;
+				ReflowParameters.SoakTime3 = 100;
+				ReflowParameters.SoakTempeture3 = 175;
+				ReflowParameters.secondHeatUpRate3 = 1;
+				ReflowParameters.ReflowTime3 = 90;
+				ReflowParameters.ReflowTempeture3 = 240;
+				// Lead 183C https://www.chipquik.com/datasheets/TS391AX50.pdf
+				ReflowParameters.firstHeatUpRate2 = 0.75;
+				ReflowParameters.SoakTime2 = 100;
+				ReflowParameters.SoakTempeture2 = 150;
+				ReflowParameters.secondHeatUpRate2 = 1;
+				ReflowParameters.ReflowTime2 = 100;
+				ReflowParameters.ReflowTempeture2 = 230;
+				// Lead 148C
+				ReflowParameters.firstHeatUpRate1 = 0.75;
+				ReflowParameters.SoakTime1 = 100;
+				ReflowParameters.SoakTempeture1 = 140;
+				ReflowParameters.secondHeatUpRate1 = 1;
+				ReflowParameters.ReflowTime1 = 100;
+				ReflowParameters.ReflowTempeture1 = 175;
+				// Lead 138C http://www.chipquik.com/datasheets/TS391LT50.pdf
+				ReflowParameters.firstHeatUpRate0 = 0.75;
+				ReflowParameters.SoakTime0 = 100;
+				ReflowParameters.SoakTempeture0 = 130;
+				ReflowParameters.secondHeatUpRate0 = 1;
+				ReflowParameters.ReflowTime0 = 100;
+				ReflowParameters.ReflowTempeture0 = 165;
+				// Lead default (138C)
+				ReflowParameters.firstHeatUpRate = 0.75;
+				ReflowParameters.SoakTime = 100;
+				ReflowParameters.SoakTempeture = 130;
+				ReflowParameters.secondHeatUpRate = 1;
+				ReflowParameters.ReflowTime = 100;
+				ReflowParameters.ReflowTempeture = 165;
+
+				calculateReflowCurve();
+				Update_Page_0();
+		  }
+
+
+		//N
 		//NEXTION_SendFloat("t0", ReflowParameters.firstHeatUpRate);
 
 
@@ -557,11 +760,11 @@ void HandleGui(){
 
 
 void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim) {
-	float32_t dx = 0.625/4; //275px / 880s / 500ms
+/*	float32_t dx = 0.625/4; //275px / 880s / 500ms
 	float32_t dy = 0.8333; //200px / 240 Grad
 	uint32_t OffsetX = 35;
 	uint32_t OffsetY = 230;
-
+*/
 	TempDrawCounter++;
 
 	if (htim == &htim4) {
@@ -569,28 +772,30 @@ void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim) {
 		HAL_GPIO_WritePin(CS_GPIO_Port, CS_Pin, 0);
 		HAL_SPI_Receive(&hspi1, data, 2, 100);
 		HAL_GPIO_WritePin(CS_GPIO_Port, CS_Pin, 1);
+
 		temp = ((((uint16_t) data[1] << 8) | data[2]) >> 3) * 0.249;
+		// some basic filter to reduce random and noisy temperature readings
+		if ((fabs(temp - lastTemp) > 30) && (HAL_GetTick() > 4000))	{
+			temp = lastTemp;
+		}
+		else {
+			lastTemp=temp;
+		}
 
 		//Reflow Prozess Einleiten:
 		if (ReflowEnable == 1) {
 			//NextionDrawTemp(OffsetX + (uint32_t)((float32_t)(ReflowIndex)*dx), OffsetY - (uint32_t)((float32_t)(temp)*dy));
 
 			if(ReflowIndex == PhaseIndex[0])
-				sprintf(ConsoleMSG,"HEAT UP");
+				sprintf(ConsoleMSG,"PREHEAT");
 			if(ReflowIndex == PhaseIndex[1])
 				sprintf(ConsoleMSG,"SOAK");
 			if(ReflowIndex == PhaseIndex[2])
 				sprintf(ConsoleMSG,"HEAT UP");
 			if(ReflowIndex == PhaseIndex[3])
 				sprintf(ConsoleMSG,"REFLOW");
-			if(ReflowIndex == PhaseIndex[4])
-				sprintf(ConsoleMSG,"COOL DOWN");
-
-
-
-
-
-
+//			if(ReflowIndex == PhaseIndex[4])
+//				sprintf(ConsoleMSG,"COOL DOWN");
 
 			//Regelabweichung
 			float pid_error =  ReflowCurve[ReflowIndex] - temp;
@@ -614,8 +819,9 @@ void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim) {
 			ReflowIndex++;
 			//Abbruchbedingung
 			if (ReflowIndex == PhaseIndex[4]) {
-				sprintf(ConsoleMSG,"FINISHED");
-				ReflowEnable = 0;
+				sprintf(ConsoleMSG,"FINISHED, OPEN DOOR");
+					BuzzerEnable = 1;
+					ReflowEnable = 0;
 			}
 
 		} else {
@@ -628,18 +834,6 @@ void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim) {
 
 }
 
-void setReflowParameters(){
-	ReflowParameters.KP = 10;
-	ReflowParameters.Ki = 10;
-	ReflowParameters.KD = 0;
-	ReflowParameters.firstHeatUpRate = 1.2;
-	ReflowParameters.SoakTempeture = 100;
-	ReflowParameters.SoakTime = 100;
-	ReflowParameters.secondHeatUpRate = 1.2;
-	ReflowParameters.ReflowTempeture = 210;
-	ReflowParameters.ReflowTime =100;
-	sprintf(ConsoleMSG,"IDLE");
-}
 
 void calculateReflowCurve(){
 	for(int i =0;i<4000;i++){
@@ -662,7 +856,6 @@ void calculateReflowCurve(){
 	for(int i=0;i<Soakduration;i++){
 		ReflowCurve[index+i]=ReflowParameters.SoakTempeture;
 	}
-
 
 	//Second Heat Up:
 	index = index + Soakduration;
@@ -692,21 +885,17 @@ void calculateReflowCurve(){
 	ReflowCurve[index] = ReflowParameters.ReflowTempeture - timestep * 1.8;
 	index++;
 	timestep = timestep + 0.5;
+
 	}
-
-
-
-
 }
 
-void Draw_Reflow_Curve(){
+
+void Draw_Reflow_Curve()	{
 	float32_t dx = 0.625 / 4; //275px / 880s / 500 ms
 	float32_t dy = 0.8333; //200px / 240 Grad
 	uint32_t OffsetX = 35;
 	uint32_t OffsetY = 230;
 	uint32_t index = 0;
-
-
 
 	while(ReflowCurve[index] != 0){
 
@@ -719,24 +908,47 @@ void Draw_Reflow_Curve(){
 }
 
 
-
-void startReflow(){
-ReflowEnable = 1;
-NEXTION_CMD("page 0");
-Draw_Reflow_Curve();
-TempDrawCounter = 0;
-Update_Page_0();
-
-
+void startReflow()	{
+	ReflowEnable = 1;
+	NEXTION_CMD("page 0");
+	Draw_Reflow_Curve();
+	TempDrawCounter = 0;
+	Update_Page_0();
 }
 
-void stopReflow(){
-	if(ReflowEnable ==1){
-	ReflowEnable = 0;
-	TempDrawEnable = 0;
-	sprintf(ConsoleMSG,"STOPPED");
-	Update_Page_0();
+
+void stopReflow()	{
+
+	if ( ReflowEnable == 1 )	{
+		ReflowEnable = 0;
+		TempDrawEnable = 0;
+		sprintf(ConsoleMSG,"STOPPED");
+		Update_Page_0();
 	}
+}
+
+
+void beepBeep()	{
+
+	  if (BuzzerEnable == 1)	{
+
+		  if (HAL_GPIO_ReadPin(BUZZER_GPIO_Port, BUZZER_Pin) && ((HAL_GetTick() - TimerBUZZER) > 100))	{
+			  TimerBUZZER = HAL_GetTick();
+			  HAL_GPIO_WritePin(BUZZER_GPIO_Port, BUZZER_Pin, 0);
+		  	}
+
+		  else if (!(HAL_GPIO_ReadPin(BUZZER_GPIO_Port, BUZZER_Pin)) && ((HAL_GetTick() - TimerBUZZER) > 200) && (beep<2))	{
+			  TimerBUZZER = HAL_GetTick();
+			  HAL_GPIO_WritePin(BUZZER_GPIO_Port, BUZZER_Pin, 1);
+			  beep++;
+		  	}
+		  else	{
+			  if ((HAL_GetTick() - TimerBUZZER) > 4000)	{
+			 		beep=0;
+			 	}
+		  }
+	  }
+
 }
 
 /* USER CODE END 0 */
@@ -749,19 +961,15 @@ int main(void)
 {
   /* USER CODE BEGIN 1 */
 
-	setReflowParameters();
-	Flash_Read_Data(0x0801FC00, &ReflowParameters);
+	Flash_Read_Data(0x0801FC00, (uint32_t *)&ReflowParameters);
 	calculateReflowCurve();
-
-
-
 
 	PID.Kp = ReflowParameters.KP;
 	PID.Ki = ReflowParameters.Ki;
 	PID.Kd = ReflowParameters.KD;
 
 	arm_pid_init_f32(&PID, 1);
-
+	 beep=0;
   /* USER CODE END 1 */
 
   /* MCU Configuration--------------------------------------------------------*/
@@ -787,23 +995,21 @@ int main(void)
   MX_TIM1_Init();
   MX_USART1_UART_Init();
   /* USER CODE BEGIN 2 */
+  TimerBUZZER = HAL_GetTick();
+  TimerGui = HAL_GetTick();
+
   HAL_TIM_Base_Start_IT(&htim4);
   HAL_TIM_PWM_Start(&htim1, TIM_CHANNEL_1);
 
   htim1.Instance->CCR1 = 10;
 
   //startReflow();
-	HAL_Delay(2000);
+  HAL_Delay(2000);
   HAL_UART_Receive_IT(&huart1, UART_Recieved_Data, 5);
- sprintf(ConsoleMSG,"IDLE");
- Update_Page_0();
+  sprintf(ConsoleMSG,"IDLE");
+  Update_Page_0();
   Draw_Reflow_Curve();
   HAL_UART_Receive_IT(&huart1, UART_Recieved_Data, 5);
- // SaveParameters();
-
-
-
-  //HAL_Delay(1000);
 
   /* USER CODE END 2 */
 
@@ -814,43 +1020,26 @@ int main(void)
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
-	  //char k[] = "1.2";
-	  //debug = atof(k);
 
-	  //debug = ReflowCurve[ReflowIndex];
-//	  if(UART_Recieved_Data[3] == '1'){
-//	  NEXTION_SendFloat("t0",33);
-//	  debug = 5;
-//	  }
-//	  else{
-//      NEXTION_SendFloat("t0",66);
-//      debug = 3;
-//	  }
-	  HandleGui();
-	  HAL_Delay(500);
+	  if (HAL_GetTick() - TimerGui > 505)	{
+		  TimerGui = HAL_GetTick();
+		  HandleGui();
 
+		 /* if(strncmp((char *)UART_Recieved_Data, "p0xxx", 5) == 0)	{
+			  debug = 5;
+		  }
+		  */
+	  	}
+		if ((ReflowEnable == 1) && (ReflowIndex == PhaseIndex[4])) {
+			BuzzerEnable = 1;
+		}
 
-	  if(strncmp((char *)UART_Recieved_Data, "p0xxx", 5) == 0){
-
-
-		  debug = 5;
-
-	  }
-
-	  //NextionDrawDot(200,200);
-
-
-
-	  //debug = HandleKeyPad();
-	  //debug = atof(input);
-
-	  //UpdatePage();
-
-
+	  beepBeep();
 
   }
-  /* USER CODE END 3 */
 }
+  /* USER CODE END 3 */
+
 
 /**
   * @brief System Clock Configuration
@@ -1085,7 +1274,7 @@ static void MX_GPIO_Init(void)
   __HAL_RCC_GPIOA_CLK_ENABLE();
 
   /*Configure GPIO pin Output Level */
-  HAL_GPIO_WritePin(CS_GPIO_Port, CS_Pin, GPIO_PIN_RESET);
+  HAL_GPIO_WritePin(GPIOA, CS_Pin|BUZZER_Pin, GPIO_PIN_RESET);
 
   /*Configure GPIO pin : CS_Pin */
   GPIO_InitStruct.Pin = CS_Pin;
@@ -1093,6 +1282,13 @@ static void MX_GPIO_Init(void)
   GPIO_InitStruct.Pull = GPIO_NOPULL;
   GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
   HAL_GPIO_Init(CS_GPIO_Port, &GPIO_InitStruct);
+
+  /*Configure GPIO pin : BUZZER_Pin */
+  GPIO_InitStruct.Pin = BUZZER_Pin;
+  GPIO_InitStruct.Mode = GPIO_MODE_OUTPUT_PP;
+  GPIO_InitStruct.Pull = GPIO_PULLDOWN;
+  GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
+  HAL_GPIO_Init(BUZZER_GPIO_Port, &GPIO_InitStruct);
 
 }
 
