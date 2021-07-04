@@ -5,7 +5,8 @@ https://www.instructables.com/DIY-REFLOW-OVEN
 
 https://youtu.be/2SATET4nPhk
 
-I don't like screws on the front panel, so I designed and 3D printed my own cover for a touch display, also I mounted mcu and other modules on a 3D printed holder.
+I don't like screws on the front panel, and because of the curved top and bottom of the front panel I designed and 3D printed my own cover for a touch display, also I mounted mcu and other modules on a 3D printed holder.
+https://www.thingiverse.com/thing:4899782
 
 I added buzzer, four reflow profiles with save and factory reset function.
 https://github.com/polihedron/DIY-Reflow-Oven
