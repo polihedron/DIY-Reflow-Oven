@@ -191,6 +191,13 @@ void NEXTION_SendFloat (char *ID, float32_t number){
 	HAL_UART_Transmit(&huart1, Cmd_End, 3, 100);
 }
 
+void NEXTION_SendFloat_CurrentTemp (char *ID, float32_t number){
+	char buf[50];
+	int len = sprintf(buf, "%s.txt=\"%.1f\"", ID, number);
+	HAL_UART_Transmit(&huart1, (uint8_t *)buf, len, 1000);
+	HAL_UART_Transmit(&huart1, Cmd_End, 3, 100);
+}
+
 
 void NEXTION_SenduInt (char *ID, uint32_t number){
 	char buf[50];
@@ -285,10 +292,10 @@ void Update_Page_0() {
 		UART_Recieved_Data[i]=defaultUart[i];
 	}
 
-	float32_t dx = 0.625/4; //275px / 400s
-	float32_t dy = 0.8333; //200px / 240 Grad
+	float32_t dx = 0.20833; //275px / 660s / 500 ms
+	float32_t dy = 0.7143; //175px / 245 Grad
 	uint32_t OffsetX = 35;
-	uint32_t OffsetY = 230;
+	uint32_t OffsetY = 240;
 
 		//Reflow Aktuelle Temperatur anzeigen:
 		if (ReflowEnable == 1)	{
@@ -306,7 +313,7 @@ void Update_Page_0() {
 
 		}
 
-	NEXTION_SendFloat("t0", temp);
+	NEXTION_SendFloat_CurrentTemp("t0", temp);
 	NEXTION_SendFloat("t1", ReflowParameters.firstHeatUpRate);
 	NEXTION_SenduInt("t3", ReflowParameters.SoakTime);
 	NEXTION_SenduInt("t2", ReflowParameters.SoakTempeture);
@@ -378,6 +385,7 @@ void HandleGui(){
 			  if(Output == 8888){
 				 Output = ReflowParameters.KP;
 			  }
+
 	    ReflowParameters.KP = Output;
 	    PID.Kp = ReflowParameters.KP;
 		arm_pid_init_f32(&PID, 1);
@@ -454,8 +462,10 @@ void HandleGui(){
 				 Output = ReflowParameters.firstHeatUpRate;
 			  }
 
-			  if(Output < 0.2)
+			  if (Output < 0.2)
 				  Output = 0.2;
+			  if (Output > 1.5)
+				  Output = 1.5;
 
 		ReflowParameters.firstHeatUpRate = Output;
 		Update_Page_3();
@@ -478,6 +488,10 @@ void HandleGui(){
 			  if(Output == 8888){
 				 Output = ReflowParameters.SoakTime;
 			  }
+
+			  if (Output > 300)
+				  Output = 300;
+
 			ReflowParameters.SoakTime = Output;
 			Update_Page_3();
 			NEXTION_CMD("page 3");
@@ -499,6 +513,12 @@ void HandleGui(){
 			  if(Output == 8888){
 				 Output = ReflowParameters.SoakTempeture;
 			  }
+
+			  if (Output < 30)
+				  Output = 30;
+			  if (Output > 240)
+				  Output = 240;
+
 			ReflowParameters.SoakTempeture = Output;
 			Update_Page_3();
 			NEXTION_CMD("page 3");
@@ -520,8 +540,12 @@ void HandleGui(){
 			  if(Output == 8888){
 				 Output = ReflowParameters.secondHeatUpRate;
 			  }
-			  if(Output < 0.2)
-						  Output = 0.2;
+
+			  if (Output < 0.2)
+				  Output = 0.2;
+			  if (Output > 1.5)
+				  Output = 1.5;
+
 			ReflowParameters.secondHeatUpRate = Output;
 			Update_Page_3();
 			NEXTION_CMD("page 3");
@@ -545,6 +569,10 @@ void HandleGui(){
 			  if(Output == 8888){
 				 Output = ReflowParameters.ReflowTime;
 			  }
+
+			  if (Output > 300)
+				  Output = 300;
+
 			ReflowParameters.ReflowTime = Output;
 			Update_Page_3();
 			NEXTION_CMD("page 3");
@@ -566,6 +594,10 @@ void HandleGui(){
 			  if(Output == 8888){
 				 Output = ReflowParameters.ReflowTempeture;
 			  }
+			  if (Output < 30)
+				  Output = 30;
+			  if (Output > 240)
+				  Output = 240;
 			ReflowParameters.ReflowTempeture = Output;
 			Update_Page_3();
 			NEXTION_CMD("page 3");
@@ -775,7 +807,7 @@ void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim) {
 
 		temp = ((((uint16_t) data[1] << 8) | data[2]) >> 3) * 0.249;
 		// some basic filter to reduce random and noisy temperature readings
-		if ((fabs(temp - lastTemp) > 30) && (HAL_GetTick() > 4000))	{
+		if ((fabs(temp - lastTemp) > 25) && (HAL_GetTick() > 3000))	{
 			temp = lastTemp;
 		}
 		else {
@@ -891,10 +923,10 @@ void calculateReflowCurve(){
 
 
 void Draw_Reflow_Curve()	{
-	float32_t dx = 0.625 / 4; //275px / 880s / 500 ms
-	float32_t dy = 0.8333; //200px / 240 Grad
+	float32_t dx = 0.20833; //275px / 660s / 500 ms
+		float32_t dy = 0.7143; //175px / 245 Grad
 	uint32_t OffsetX = 35;
-	uint32_t OffsetY = 230;
+	uint32_t OffsetY = 240;
 	uint32_t index = 0;
 
 	while(ReflowCurve[index] != 0){
@@ -937,13 +969,13 @@ void beepBeep()	{
 			  HAL_GPIO_WritePin(BUZZER_GPIO_Port, BUZZER_Pin, 0);
 		  	}
 
-		  else if (!(HAL_GPIO_ReadPin(BUZZER_GPIO_Port, BUZZER_Pin)) && ((HAL_GetTick() - TimerBUZZER) > 200) && (beep<2))	{
+		  else if (!(HAL_GPIO_ReadPin(BUZZER_GPIO_Port, BUZZER_Pin)) && ((HAL_GetTick() - TimerBUZZER) > 100) && (beep<2))	{
 			  TimerBUZZER = HAL_GetTick();
 			  HAL_GPIO_WritePin(BUZZER_GPIO_Port, BUZZER_Pin, 1);
 			  beep++;
 		  	}
 		  else	{
-			  if ((HAL_GetTick() - TimerBUZZER) > 4000)	{
+			  if ((HAL_GetTick() - TimerBUZZER) > 3000)	{
 			 		beep=0;
 			 	}
 		  }

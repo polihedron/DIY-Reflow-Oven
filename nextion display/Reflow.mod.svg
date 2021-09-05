@@ -6,7 +6,7 @@
    version="1.1"
    id="svg8"
    inkscape:version="1.1 (c68e22c387, 2021-05-23)"
-   sodipodi:docname="Reflow.lb160.svg"
+   sodipodi:docname="Reflow.mod.svg"
    inkscape:export-filename="C:\#Projekte\Reflow\Advanced.png"
    inkscape:export-xdpi="96"
    inkscape:export-ydpi="96"
@@ -26,16 +26,16 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="6.0448023"
-     inkscape:cx="282.47408"
-     inkscape:cy="344.51085"
+     inkscape:zoom="1.4415353"
+     inkscape:cx="-49.599895"
+     inkscape:cy="239.67502"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      inkscape:document-rotation="0"
      showgrid="true"
-     inkscape:window-width="3440"
-     inkscape:window-height="1411"
-     inkscape:window-x="1911"
+     inkscape:window-width="1920"
+     inkscape:window-height="1051"
+     inkscape:window-x="-9"
      inkscape:window-y="-9"
      inkscape:window-maximized="1"
      units="px"
@@ -102,7 +102,7 @@
     <rect
        inkscape:export-ydpi="96"
        inkscape:export-xdpi="96"
-       style="fill:#b3b3b3;stroke:none;stroke-width:0.564999;stroke-linecap:round;stroke-dasharray:0.564999, 2.25999999999999979"
+       style="fill:#b3b3b3;stroke:none;stroke-width:0.564999;stroke-linecap:round;stroke-dasharray:0.564999, 2.26"
        id="rect849"
        width="84.666672"
        height="127"
@@ -123,13 +123,13 @@
     <rect
        inkscape:export-ydpi="96"
        inkscape:export-xdpi="96"
-       style="fill:#ffffff;stroke:none;stroke-width:0.874955;stroke-linecap:round;stroke-dasharray:0.874955, 3.49983"
+       style="mix-blend-mode:normal;fill:#ffffff;stroke:#000000;stroke-width:0.530225;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.3"
        id="rect843"
        width="75.406258"
-       height="55.562504"
-       x="7.9375"
-       y="6.6146154"
-       ry="1.3229166"
+       height="48.947952"
+       x="7.9375029"
+       y="15.874967"
+       ry="1.1654273"
        inkscape:export-filename="C:\Users\01123\Desktop\reflow oven\vol\display\0.png" />
     <g
        inkscape:groupmode="layer"
@@ -139,8 +139,8 @@
     <path
        inkscape:export-ydpi="96"
        inkscape:export-xdpi="96"
-       style="fill:none;stroke:#000000;stroke-width:0.529167;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="M 82.020833,60.854201 H 9.2604147 l 10e-7,-52.9166688"
+       style="fill:none;stroke:#000000;stroke-width:0.494991;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 82.020835,63.500001 H 9.2604175 l 10e-7,-46.302117"
        id="path853"
        sodipodi:nodetypes="ccc"
        inkscape:export-filename="C:\Users\01123\Desktop\reflow oven\vol\display\0.png" />
@@ -148,7 +148,7 @@
        inkscape:export-ydpi="96"
        inkscape:export-xdpi="96"
        style="fill:none;stroke:#000000;stroke-width:0.529167;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="m 15.874998,60.854201 v -1.322917 l 2e-6,-1.322917"
+       d="m 15.875,63.500001 v -1.322917 l 2e-6,-1.322916"
        id="path855"
        sodipodi:nodetypes="ccc"
        inkscape:export-filename="C:\Users\01123\Desktop\reflow oven\vol\display\0.png" />
@@ -156,14 +156,14 @@
        inkscape:export-ydpi="96"
        inkscape:export-xdpi="96"
        style="fill:none;stroke:#000000;stroke-width:0.529167;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="M 22.489581,60.854201 V 59.531284"
+       d="M 22.489583,63.500001 V 62.177084"
        id="path857"
        inkscape:export-filename="C:\Users\01123\Desktop\reflow oven\vol\display\0.png" />
     <path
        inkscape:export-ydpi="96"
        inkscape:export-xdpi="96"
        style="fill:none;stroke:#000000;stroke-width:0.529167;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="m 29.104165,60.854201 2e-6,-2.645834"
+       d="m 29.104167,63.500001 2e-6,-2.645834"
        id="path859"
        sodipodi:nodetypes="cc"
        inkscape:export-filename="C:\Users\01123\Desktop\reflow oven\vol\display\0.png" />
@@ -171,14 +171,14 @@
        inkscape:export-ydpi="96"
        inkscape:export-xdpi="96"
        style="fill:none;stroke:#000000;stroke-width:0.529167;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="M 35.718747,60.854201 V 59.531284"
+       d="M 35.718749,63.500001 V 62.177084"
        id="path861"
        inkscape:export-filename="C:\Users\01123\Desktop\reflow oven\vol\display\0.png" />
     <path
        inkscape:export-ydpi="96"
        inkscape:export-xdpi="96"
        style="fill:none;stroke:#000000;stroke-width:0.529167;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="m 42.33333,60.854201 4e-6,-2.645834"
+       d="m 42.333332,63.500001 4e-6,-2.645834"
        id="path863"
        sodipodi:nodetypes="cc"
        inkscape:export-filename="C:\Users\01123\Desktop\reflow oven\vol\display\0.png" />
@@ -186,14 +186,14 @@
        inkscape:export-ydpi="96"
        inkscape:export-xdpi="96"
        style="fill:none;stroke:#000000;stroke-width:0.529167;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="M 48.947916,60.854201 V 59.531284"
+       d="M 48.947918,63.500001 V 62.177084"
        id="path865"
        inkscape:export-filename="C:\Users\01123\Desktop\reflow oven\vol\display\0.png" />
     <path
        inkscape:export-ydpi="96"
        inkscape:export-xdpi="96"
        style="fill:none;stroke:#000000;stroke-width:0.529167;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="m 55.562499,60.854201 2e-6,-2.645834"
+       d="m 55.562501,63.500001 2e-6,-2.645834"
        id="path867"
        sodipodi:nodetypes="cc"
        inkscape:export-filename="C:\Users\01123\Desktop\reflow oven\vol\display\0.png" />
@@ -201,14 +201,14 @@
        inkscape:export-ydpi="96"
        inkscape:export-xdpi="96"
        style="fill:none;stroke:#000000;stroke-width:0.529167;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="M 62.177083,60.854201 V 59.531284"
+       d="M 62.177085,63.500001 V 62.177084"
        id="path869"
        inkscape:export-filename="C:\Users\01123\Desktop\reflow oven\vol\display\0.png" />
     <path
        inkscape:export-ydpi="96"
        inkscape:export-xdpi="96"
        style="fill:none;stroke:#000000;stroke-width:0.529167;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="m 68.791666,60.854201 2e-6,-2.645834"
+       d="m 68.791668,63.500001 2e-6,-2.645834"
        id="path871"
        sodipodi:nodetypes="cc"
        inkscape:export-filename="C:\Users\01123\Desktop\reflow oven\vol\display\0.png" />
@@ -216,14 +216,14 @@
        inkscape:export-ydpi="96"
        inkscape:export-xdpi="96"
        style="fill:none;stroke:#000000;stroke-width:0.529167;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="M 75.406249,60.854201 V 59.531284"
+       d="M 75.406251,63.500001 V 62.177084"
        id="path873"
        inkscape:export-filename="C:\Users\01123\Desktop\reflow oven\vol\display\0.png" />
     <path
        inkscape:export-ydpi="96"
        inkscape:export-xdpi="96"
        style="fill:none;stroke:#000000;stroke-width:0.529167;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="m 82.020832,60.854201 3e-6,-2.645834"
+       d="m 82.020834,63.500001 3e-6,-2.645834"
        id="path875"
        sodipodi:nodetypes="cc"
        inkscape:export-filename="C:\Users\01123\Desktop\reflow oven\vol\display\0.png" />
@@ -231,7 +231,7 @@
        inkscape:export-ydpi="96"
        inkscape:export-xdpi="96"
        style="fill:none;stroke:#000000;stroke-width:0.529167;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="m 9.2604147,54.239618 2.6458353,-10e-7"
+       d="M 9.2604175,56.885418 H 11.906252"
        id="path877"
        sodipodi:nodetypes="cc"
        inkscape:export-filename="C:\Users\01123\Desktop\reflow oven\vol\display\0.png" />
@@ -239,14 +239,14 @@
        inkscape:export-ydpi="96"
        inkscape:export-xdpi="96"
        style="fill:none;stroke:#000000;stroke-width:0.529167;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="M 9.2604147,47.625034 H 10.583331"
+       d="M 9.2604175,50.270834 H 10.583333"
        id="path879"
        inkscape:export-filename="C:\Users\01123\Desktop\reflow oven\vol\display\0.png" />
     <path
        inkscape:export-ydpi="96"
        inkscape:export-xdpi="96"
        style="fill:none;stroke:#000000;stroke-width:0.529167;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="M 9.2604147,41.01045 H 11.90625"
+       d="M 9.2604175,43.65625 H 11.906252"
        id="path881"
        sodipodi:nodetypes="cc"
        inkscape:export-filename="C:\Users\01123\Desktop\reflow oven\vol\display\0.png" />
@@ -254,14 +254,14 @@
        inkscape:export-ydpi="96"
        inkscape:export-xdpi="96"
        style="fill:none;stroke:#000000;stroke-width:0.529167;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="M 9.2604147,34.395868 H 10.583331"
+       d="M 9.2604175,37.041668 H 10.583333"
        id="path883"
        inkscape:export-filename="C:\Users\01123\Desktop\reflow oven\vol\display\0.png" />
     <path
        inkscape:export-ydpi="96"
        inkscape:export-xdpi="96"
        style="fill:none;stroke:#000000;stroke-width:0.529167;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="m 9.2604147,27.781285 2.6458353,-2e-6"
+       d="m 9.2604175,30.427085 2.6458345,-2e-6"
        id="path885"
        sodipodi:nodetypes="cc"
        inkscape:export-filename="C:\Users\01123\Desktop\reflow oven\vol\display\0.png" />
@@ -269,14 +269,14 @@
        inkscape:export-ydpi="96"
        inkscape:export-xdpi="96"
        style="fill:none;stroke:#000000;stroke-width:0.529167;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="M 9.2604147,21.166699 H 10.583331"
+       d="M 9.2604175,23.812499 H 10.583333"
        id="path887"
        inkscape:export-filename="C:\Users\01123\Desktop\reflow oven\vol\display\0.png" />
     <path
        inkscape:export-ydpi="96"
        inkscape:export-xdpi="96"
        style="fill:none;stroke:#000000;stroke-width:0.529167;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="m 9.2604147,14.552116 2.6458353,2e-6"
+       d="m 9.2604175,17.197916 2.6458345,2e-6"
        id="path889"
        sodipodi:nodetypes="cc"
        inkscape:export-filename="C:\Users\01123\Desktop\reflow oven\vol\display\0.png" />
@@ -284,136 +284,136 @@
        inkscape:export-ydpi="96"
        inkscape:export-xdpi="96"
        style="fill:#ffffff;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:0.3"
-       d="M 9.2604147,14.552116 H 82.020832 v 0"
+       d="M 9.2604175,17.197916 H 82.020834 v 0"
        id="path891"
        inkscape:export-filename="C:\Users\01123\Desktop\reflow oven\vol\display\0.png" />
     <path
        inkscape:export-ydpi="96"
        inkscape:export-xdpi="96"
        style="fill:#ffffff;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:0.3"
-       d="M 9.2604147,21.166699 H 82.020832"
+       d="M 9.2604175,23.812499 H 82.020834"
        id="path893"
        inkscape:export-filename="C:\Users\01123\Desktop\reflow oven\vol\display\0.png" />
     <path
        inkscape:export-ydpi="96"
        inkscape:export-xdpi="96"
        style="fill:#ffffff;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:0.3"
-       d="M 9.2604147,27.781285 H 82.020832"
+       d="M 9.2604175,30.427085 H 82.020834"
        id="path895"
        inkscape:export-filename="C:\Users\01123\Desktop\reflow oven\vol\display\0.png" />
     <path
        inkscape:export-ydpi="96"
        inkscape:export-xdpi="96"
        style="fill:#ffffff;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:0.3"
-       d="M 9.2604147,34.395868 H 82.020832"
+       d="M 9.2604175,37.041668 H 82.020834"
        id="path897"
        inkscape:export-filename="C:\Users\01123\Desktop\reflow oven\vol\display\0.png" />
     <path
        inkscape:export-ydpi="96"
        inkscape:export-xdpi="96"
        style="fill:#ffffff;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:0.3"
-       d="M 9.2604147,41.01045 H 82.020832"
+       d="M 9.2604175,43.65625 H 82.020834"
        id="path899"
        inkscape:export-filename="C:\Users\01123\Desktop\reflow oven\vol\display\0.png" />
     <path
        inkscape:export-ydpi="96"
        inkscape:export-xdpi="96"
        style="fill:#ffffff;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:0.3"
-       d="M 9.2604147,47.625034 H 82.020832"
+       d="M 9.2604175,50.270834 H 82.020834"
        id="path901"
        inkscape:export-filename="C:\Users\01123\Desktop\reflow oven\vol\display\0.png" />
     <path
        inkscape:export-ydpi="96"
        inkscape:export-xdpi="96"
        style="fill:#ffffff;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:0.3"
-       d="M 9.2604147,54.239618 H 82.020832"
+       d="M 9.2604175,56.885418 H 82.020834"
        id="path903"
        inkscape:export-filename="C:\Users\01123\Desktop\reflow oven\vol\display\0.png" />
     <path
        inkscape:export-ydpi="96"
        inkscape:export-xdpi="96"
-       style="fill:#ffffff;stroke:#000000;stroke-width:0.264583;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.3"
-       d="M 15.874998,60.854201 V 7.9375322"
+       style="fill:#ffffff;stroke:#000000;stroke-width:0.247495;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.3"
+       d="M 15.875,63.500001 V 17.197884"
        id="path905"
        sodipodi:nodetypes="cc"
        inkscape:export-filename="C:\Users\01123\Desktop\reflow oven\vol\display\0.png" />
     <path
        inkscape:export-ydpi="96"
        inkscape:export-xdpi="96"
-       style="fill:#ffffff;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:0.3"
-       d="m 22.489581,60.854201 10e-7,-52.9166688"
+       style="fill:#ffffff;stroke:#000000;stroke-width:0.247495px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:0.3"
+       d="m 22.489583,63.500001 1e-6,-46.302117"
        id="path907"
        sodipodi:nodetypes="cc"
        inkscape:export-filename="C:\Users\01123\Desktop\reflow oven\vol\display\0.png" />
     <path
        inkscape:export-ydpi="96"
        inkscape:export-xdpi="96"
-       style="fill:#ffffff;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:0.3"
-       d="M 29.104165,60.854201 V 7.9375322"
+       style="fill:#ffffff;stroke:#000000;stroke-width:0.247495px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:0.3"
+       d="M 29.104167,63.500001 V 17.197884"
        id="path909"
        sodipodi:nodetypes="cc"
        inkscape:export-filename="C:\Users\01123\Desktop\reflow oven\vol\display\0.png" />
     <path
        inkscape:export-ydpi="96"
        inkscape:export-xdpi="96"
-       style="fill:#ffffff;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:0.3"
-       d="m 35.718747,60.854201 2e-6,-52.9166688"
+       style="fill:#ffffff;stroke:#000000;stroke-width:0.247495px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:0.3"
+       d="m 35.718749,63.500001 2e-6,-46.302117"
        id="path911"
        sodipodi:nodetypes="cc"
        inkscape:export-filename="C:\Users\01123\Desktop\reflow oven\vol\display\0.png" />
     <path
        inkscape:export-ydpi="96"
        inkscape:export-xdpi="96"
-       style="fill:#ffffff;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:0.3"
-       d="m 42.33333,60.854201 2e-6,-52.9166688"
+       style="fill:#ffffff;stroke:#000000;stroke-width:0.247495px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:0.3"
+       d="m 42.333332,63.500001 2e-6,-46.302117"
        id="path913"
        sodipodi:nodetypes="cc"
        inkscape:export-filename="C:\Users\01123\Desktop\reflow oven\vol\display\0.png" />
     <path
        inkscape:export-ydpi="96"
        inkscape:export-xdpi="96"
-       style="fill:#ffffff;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:0.3"
-       d="M 48.947916,60.854201 V 7.9375322"
+       style="fill:#ffffff;stroke:#000000;stroke-width:0.247495px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:0.3"
+       d="M 48.947918,63.500001 V 17.197884"
        id="path915"
        sodipodi:nodetypes="cc"
        inkscape:export-filename="C:\Users\01123\Desktop\reflow oven\vol\display\0.png" />
     <path
        inkscape:export-ydpi="96"
        inkscape:export-xdpi="96"
-       style="fill:#ffffff;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:0.3"
-       d="M 55.562499,60.854201 V 7.9375322"
+       style="fill:#ffffff;stroke:#000000;stroke-width:0.247495px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:0.3"
+       d="M 55.562501,63.500001 V 17.197884"
        id="path917"
        sodipodi:nodetypes="cc"
        inkscape:export-filename="C:\Users\01123\Desktop\reflow oven\vol\display\0.png" />
     <path
        inkscape:export-ydpi="96"
        inkscape:export-xdpi="96"
-       style="fill:#ffffff;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:0.3"
-       d="M 62.177083,60.854201 V 7.9375322"
+       style="fill:#ffffff;stroke:#000000;stroke-width:0.247495px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:0.3"
+       d="M 62.177085,63.500001 V 17.197884"
        id="path919"
        sodipodi:nodetypes="cc"
        inkscape:export-filename="C:\Users\01123\Desktop\reflow oven\vol\display\0.png" />
     <path
        inkscape:export-ydpi="96"
        inkscape:export-xdpi="96"
-       style="fill:#ffffff;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:0.3"
-       d="M 68.791666,60.854201 V 7.9375322"
+       style="fill:#ffffff;stroke:#000000;stroke-width:0.247495px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:0.3"
+       d="M 68.791668,63.500001 V 17.197884"
        id="path921"
        sodipodi:nodetypes="cc"
        inkscape:export-filename="C:\Users\01123\Desktop\reflow oven\vol\display\0.png" />
     <path
        inkscape:export-ydpi="96"
        inkscape:export-xdpi="96"
-       style="fill:#ffffff;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:0.3"
-       d="m 75.406249,60.854201 10e-7,-52.9166688"
+       style="fill:#ffffff;stroke:#000000;stroke-width:0.247495px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:0.3"
+       d="m 75.406251,63.500001 10e-7,-46.302117"
        id="path923"
        sodipodi:nodetypes="cc"
        inkscape:export-filename="C:\Users\01123\Desktop\reflow oven\vol\display\0.png" />
     <path
        inkscape:export-ydpi="96"
        inkscape:export-xdpi="96"
-       style="fill:#ffffff;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:0.3"
-       d="m 82.020832,60.854201 10e-7,-52.9166688"
+       style="fill:#ffffff;stroke:#000000;stroke-width:0.247495px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:0.3"
+       d="m 82.020834,63.500001 1e-6,-46.302117"
        id="path925"
        sodipodi:nodetypes="cc"
        inkscape:export-filename="C:\Users\01123\Desktop\reflow oven\vol\display\0.png" />
@@ -424,8 +424,8 @@
        id="rect935"
        width="6.614583"
        height="5.2916665"
-       x="0.79374999"
-       y="51.593781"
+       x="0.5184387"
+       y="54.377239"
        ry="1.3229166"
        inkscape:export-filename="C:\Users\01123\Desktop\reflow oven\vol\display\0.png" />
     <text
@@ -433,21 +433,21 @@
        inkscape:export-xdpi="96"
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.96875px;line-height:1.25;font-family:Bahnschrift;-inkscape-font-specification:Bahnschrift;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
-       x="1.7518308"
-       y="55.653999"
+       x="1.6917555"
+       y="58.545074"
        id="text929"
        inkscape:export-filename="C:\Users\01123\Desktop\reflow oven\vol\display\0.png"><tspan
          sodipodi:role="line"
          id="tspan927"
-         x="1.7518308"
-         y="55.653999"
+         x="1.6917555"
+         y="58.545074"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.96875px;font-family:Bahnschrift;-inkscape-font-specification:Bahnschrift;fill:#000000;stroke-width:0.264583">35</tspan></text>
     <rect
        inkscape:export-ydpi="96"
        inkscape:export-xdpi="96"
        ry="1.3229166"
-       y="38.364601"
-       x="0.79374999"
+       y="41.14806"
+       x="0.5184387"
        height="5.2916665"
        width="6.614583"
        id="rect937"
@@ -457,16 +457,16 @@
        inkscape:export-ydpi="96"
        inkscape:export-xdpi="96"
        id="text941"
-       y="42.42482"
-       x="1.7518308"
+       y="45.262089"
+       x="1.0998566"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.96875px;line-height:1.45;font-family:Bahnschrift;-inkscape-font-specification:Bahnschrift;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
        xml:space="preserve"
        inkscape:export-filename="C:\Users\01123\Desktop\reflow oven\vol\display\0.png"><tspan
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.96875px;font-family:Bahnschrift;-inkscape-font-specification:Bahnschrift;fill:#000000;stroke-width:0.264583"
-         y="42.42482"
-         x="1.7518308"
+         y="45.262089"
+         x="1.0998566"
          id="tspan939"
-         sodipodi:role="line">90</tspan></text>
+         sodipodi:role="line">105</tspan></text>
     <rect
        inkscape:export-ydpi="96"
        inkscape:export-xdpi="96"
@@ -474,8 +474,8 @@
        id="rect943"
        width="6.614583"
        height="5.2916665"
-       x="0.79374999"
-       y="25.135422"
+       x="0.5184387"
+       y="27.918879"
        ry="1.3229166"
        inkscape:export-filename="C:\Users\01123\Desktop\reflow oven\vol\display\0.png" />
     <text
@@ -483,21 +483,21 @@
        inkscape:export-xdpi="96"
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.96875px;line-height:1.25;font-family:Bahnschrift;-inkscape-font-specification:Bahnschrift;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
-       x="1.2226642"
-       y="29.195641"
+       x="1.216398"
+       y="32.086716"
        id="text947"
        inkscape:export-filename="C:\Users\01123\Desktop\reflow oven\vol\display\0.png"><tspan
          sodipodi:role="line"
          id="tspan945"
-         x="1.2226642"
-         y="29.195641"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.96875px;font-family:Bahnschrift;-inkscape-font-specification:Bahnschrift;fill:#000000;stroke-width:0.264583">150</tspan></text>
+         x="1.216398"
+         y="32.086716"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.96875px;font-family:Bahnschrift;-inkscape-font-specification:Bahnschrift;fill:#000000;stroke-width:0.264583">175</tspan></text>
     <rect
        inkscape:export-ydpi="96"
        inkscape:export-xdpi="96"
        ry="1.3229166"
-       y="11.906255"
-       x="0.79374999"
+       y="14.781595"
+       x="0.5184353"
        height="5.2916665"
        width="6.614583"
        id="rect949"
@@ -507,80 +507,41 @@
        inkscape:export-ydpi="96"
        inkscape:export-xdpi="96"
        id="text953"
-       y="15.966465"
-       x="1.2226642"
+       y="18.80373"
+       x="0.67830807"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.96875px;line-height:1.25;font-family:Bahnschrift;-inkscape-font-specification:Bahnschrift;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
        xml:space="preserve"
        inkscape:export-filename="C:\Users\01123\Desktop\reflow oven\vol\display\0.png"><tspan
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.96875px;font-family:Bahnschrift;-inkscape-font-specification:Bahnschrift;fill:#000000;stroke-width:0.264583"
-         y="15.966465"
-         x="1.2226642"
+         y="18.80373"
+         x="0.67830807"
          id="tspan951"
-         sodipodi:role="line">210</tspan></text>
-    <path
-       inkscape:export-ydpi="96"
-       inkscape:export-xdpi="96"
-       id="path955"
-       d="M 9.2604147,8.0698235 H 82.020832 v 0"
-       style="fill:#ffffff;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:0.3"
-       inkscape:export-filename="C:\Users\01123\Desktop\reflow oven\vol\display\0.png" />
-    <path
-       inkscape:export-ydpi="96"
-       inkscape:export-xdpi="96"
-       id="path957"
-       d="M 9.2604147,8.0698238 H 10.583331"
-       style="fill:none;stroke:#000000;stroke-width:0.529167;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       inkscape:export-filename="C:\Users\01123\Desktop\reflow oven\vol\display\0.png" />
-    <text
-       inkscape:export-ydpi="96"
-       inkscape:export-xdpi="96"
-       xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
-       x="0.79995126"
-       y="10.583365"
-       id="text967"
-       inkscape:export-filename="C:\Users\01123\Desktop\reflow oven\vol\display\0.png"><tspan
-         sodipodi:role="line"
-         id="tspan965"
-         x="0.79995126"
-         y="10.583365"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.61458px;font-family:Bahnschrift;-inkscape-font-specification:Bahnschrift;stroke-width:0.264583">°C</tspan></text>
+         sodipodi:role="line">245</tspan></text>
     <rect
        inkscape:export-ydpi="96"
        inkscape:export-xdpi="96"
-       ry="1.3229166"
-       y="63.764626"
-       x="0.79374987"
-       height="5.2916665"
-       width="21.166666"
+       ry="2.9765625"
+       y="1.9843751"
+       x="42.333336"
+       height="11.90625"
+       width="39.6875"
        id="rect971"
-       style="fill:#ffffff;stroke:#000000;stroke-width:0.529167;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.3"
+       style="fill:#ffffff;stroke:#000000;stroke-width:1.08688;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.1"
        inkscape:export-filename="C:\Users\01123\Desktop\reflow oven\vol\display\0.png" />
     <text
        inkscape:export-ydpi="96"
        inkscape:export-xdpi="96"
        id="text1009"
-       y="68.019585"
-       x="77.257767"
+       y="69.977097"
+       x="76.982452"
        style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
        xml:space="preserve"
        inkscape:export-filename="C:\Users\01123\Desktop\reflow oven\vol\display\0.png"><tspan
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.61458px;font-family:Bahnschrift;-inkscape-font-specification:Bahnschrift;stroke-width:0.264583"
-         y="68.019585"
-         x="77.257767"
+         y="69.977097"
+         x="76.982452"
          id="tspan1007"
          sodipodi:role="line">s</tspan></text>
-    <rect
-       inkscape:export-ydpi="96"
-       inkscape:export-xdpi="96"
-       ry="0.53039587"
-       y="0.52455735"
-       x="48.947918"
-       height="5.2962761"
-       width="34.135883"
-       id="rect1015"
-       style="fill:#00a0ff;stroke:#ffffff;stroke-width:0.519948;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;fill-opacity:1"
-       inkscape:export-filename="C:\Users\01123\Desktop\reflow oven\vol\display\0.png" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
@@ -592,20 +553,6 @@
          x="58.208336"
          y="3.9687502"
          style="stroke-width:0.264583" /></text>
-    <text
-       inkscape:export-ydpi="96"
-       inkscape:export-xdpi="96"
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.7625px;line-height:1.25;font-family:Bahnschrift;-inkscape-font-specification:Bahnschrift;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.264583"
-       x="51.240459"
-       y="4.7558179"
-       id="text1023"
-       inkscape:export-filename="C:\Users\01123\Desktop\reflow oven\vol\display\0.png"><tspan
-         sodipodi:role="line"
-         id="tspan1021"
-         x="51.240459"
-         y="4.7558179"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.7625px;font-family:Bahnschrift;-inkscape-font-specification:Bahnschrift;fill:#ffffff;stroke-width:0.264583">Reflow Profile</tspan></text>
     <rect
        inkscape:export-ydpi="96"
        inkscape:export-xdpi="96"
@@ -613,22 +560,22 @@
        id="rect1025"
        width="34.135883"
        height="5.2962761"
-       x="8.2020607"
-       y="0.52455735"
+       x="2.7758083"
+       y="1.3229167"
        ry="0.53039587"
        inkscape:export-filename="C:\Users\01123\Desktop\reflow oven\vol\display\0.png" />
     <text
        inkscape:export-ydpi="96"
        inkscape:export-xdpi="96"
        id="text1029"
-       y="4.7558179"
-       x="10.155273"
+       y="5.7078729"
+       x="4.9992609"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.7625px;line-height:1.25;font-family:Bahnschrift;-inkscape-font-specification:Bahnschrift;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.264583"
        xml:space="preserve"
        inkscape:export-filename="C:\Users\01123\Desktop\reflow oven\vol\display\0.png"><tspan
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.7625px;font-family:Bahnschrift;-inkscape-font-specification:Bahnschrift;fill:#ffffff;stroke-width:0.264583"
-         y="4.7558179"
-         x="10.155273"
+         y="5.7078729"
+         x="4.9992609"
          id="tspan1027"
          sodipodi:role="line">Current Temp.</tspan></text>
     <rect
@@ -759,7 +706,7 @@
     <rect
        inkscape:export-ydpi="96"
        inkscape:export-xdpi="96"
-       style="fill:#00e600;stroke:#ffffff;stroke-width:0.529167;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;fill-opacity:1"
+       style="fill:#00e600;fill-opacity:1;stroke:#ffffff;stroke-width:0.529167;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="rect1071"
        width="30.427084"
        height="13.22918"
@@ -771,7 +718,7 @@
        inkscape:export-ydpi="96"
        inkscape:export-xdpi="96"
        ry="0.26458147"
-       y="112.44792"
+       y="112.44793"
        x="67.46875"
        height="13.229151"
        width="16.139585"
@@ -820,14 +767,14 @@
     <path
        inkscape:export-ydpi="96"
        inkscape:export-xdpi="96"
-       d="m 74.250262,113.84059 -0.05994,0.31201 -0.228001,1.14004 c -0.366028,0.14398 -0.696033,0.34652 -0.996052,0.58804 l -1.116039,-0.38403 -0.300019,-0.0961 -0.156011,0.27601 -0.768023,1.32006 -0.156011,0.27602 0.228015,0.204 0.864033,0.75604 c -0.0315,0.1965 -0.07199,0.39301 -0.07199,0.60002 0,0.20701 0.04049,0.40352 0.07199,0.60002 l -0.864033,0.75604 -0.228015,0.20401 0.156011,0.27601 0.768023,1.32005 0.156011,0.27601 0.300019,-0.0959 1.116039,-0.38401 c 0.300019,0.24152 0.630024,0.44401 0.996052,0.58802 l 0.228001,1.14005 0.05994,0.31202 h 2.160089 l 0.05994,-0.31202 0.228015,-1.14005 c 0.366014,-0.14398 0.696033,-0.3465 0.996037,-0.58802 l 1.116054,0.38401 0.300019,0.0959 0.155997,-0.27601 0.768037,-1.32005 0.156011,-0.27601 -0.228015,-0.20401 -0.864033,-0.75604 c 0.0315,-0.1965 0.07199,-0.39301 0.07199,-0.60002 0,-0.20701 -0.04049,-0.40352 -0.07199,-0.60002 l 0.864033,-0.75604 0.228015,-0.204 -0.156011,-0.27602 -0.768037,-1.32006 -0.155997,-0.27601 -0.300019,0.0961 -1.116054,0.38403 c -0.300004,-0.24152 -0.630023,-0.44403 -0.996037,-0.58804 l -0.228015,-1.14004 -0.05994,-0.31201 z m 0.624029,0.76804 h 0.912045 l 0.192006,0.99603 0.04804,0.22802 0.216012,0.072 c 0.436523,0.13657 0.832538,0.36751 1.164052,0.67202 l 0.167999,0.156 0.216012,-0.072 0.972046,-0.33601 0.456016,0.78004 -0.768038,0.68403 -0.180002,0.14398 0.05994,0.228 c 0.04949,0.21901 0.07199,0.44251 0.07199,0.67202 0,0.22951 -0.0225,0.45303 -0.07199,0.67203 l -0.04804,0.22802 0.168,0.14398 0.768037,0.68403 -0.456015,0.78002 -0.972046,-0.33601 -0.216012,-0.072 -0.168,0.15601 c -0.331514,0.30452 -0.727529,0.53552 -1.164052,0.67203 l -0.216011,0.072 -0.04804,0.22801 -0.192005,0.99604 h -0.912046 l -0.192005,-0.99604 -0.04804,-0.22801 -0.216012,-0.072 c -0.436523,-0.13643 -0.832537,-0.36751 -1.164051,-0.67203 l -0.168014,-0.15601 -0.215998,0.072 -0.972046,0.33601 -0.456015,-0.78002 0.768023,-0.68403 0.180017,-0.14398 -0.05994,-0.22802 c -0.04949,-0.219 -0.07199,-0.44252 -0.07199,-0.67203 0,-0.22951 0.0225,-0.45301 0.07199,-0.67202 l 0.05994,-0.228 -0.180017,-0.14398 -0.768023,-0.68403 0.456015,-0.78004 0.972046,0.33601 0.215998,0.072 0.168014,-0.156 c 0.331514,-0.30451 0.727528,-0.53552 1.164051,-0.67204 l 0.216012,-0.072 0.04804,-0.228 z m 0.456015,2.30409 c -1.056038,0 -1.920071,0.86404 -1.920071,1.92007 0,1.05606 0.864033,1.92009 1.920071,1.92009 1.056053,0 1.920086,-0.86403 1.920086,-1.92009 0,-1.05603 -0.864033,-1.92007 -1.920086,-1.92007 z m 0,0.76803 c 0.640532,0 1.152049,0.51153 1.152049,1.15204 0,0.64054 -0.511517,1.15205 -1.152049,1.15205 -0.640517,0 -1.152048,-0.51151 -1.152048,-1.15205 0,-0.64051 0.511531,-1.15204 1.152048,-1.15204 z"
+       d="m 74.461959,114.14437 -0.05994,0.31201 -0.228001,1.14004 c -0.366028,0.14398 -0.696033,0.34652 -0.996052,0.58804 l -1.116039,-0.38403 -0.300019,-0.0961 -0.156011,0.27601 -0.768023,1.32006 -0.156011,0.27602 0.228015,0.204 0.864033,0.75604 c -0.0315,0.1965 -0.07199,0.39301 -0.07199,0.60002 0,0.20701 0.04049,0.40352 0.07199,0.60002 l -0.864033,0.75604 -0.228015,0.20401 0.156011,0.27601 0.768023,1.32005 0.156011,0.27601 0.300019,-0.0959 1.116039,-0.38401 c 0.300019,0.24152 0.630024,0.44401 0.996052,0.58802 l 0.228001,1.14005 0.05994,0.31202 h 2.160089 l 0.05994,-0.31202 0.228015,-1.14005 c 0.366014,-0.14398 0.696033,-0.3465 0.996037,-0.58802 l 1.116054,0.38401 0.300019,0.0959 0.155997,-0.27601 0.768037,-1.32005 0.156011,-0.27601 -0.228015,-0.20401 -0.864033,-0.75604 c 0.0315,-0.1965 0.07199,-0.39301 0.07199,-0.60002 0,-0.20701 -0.04049,-0.40352 -0.07199,-0.60002 l 0.864033,-0.75604 0.228015,-0.204 -0.156011,-0.27602 -0.768037,-1.32006 -0.155997,-0.27601 -0.300019,0.0961 -1.116054,0.38403 c -0.300004,-0.24152 -0.630023,-0.44403 -0.996037,-0.58804 l -0.228015,-1.14004 -0.05994,-0.31201 z m 0.624029,0.76804 h 0.912045 l 0.192006,0.99603 0.04804,0.22802 0.216012,0.072 c 0.436523,0.13657 0.832538,0.36751 1.164052,0.67202 l 0.167999,0.156 0.216012,-0.072 0.972046,-0.33601 0.456016,0.78004 -0.768038,0.68403 -0.180002,0.14398 0.05994,0.228 c 0.04949,0.21901 0.07199,0.44251 0.07199,0.67202 0,0.22951 -0.0225,0.45303 -0.07199,0.67203 l -0.04804,0.22802 0.168,0.14398 0.768037,0.68403 -0.456015,0.78002 -0.972046,-0.33601 -0.216012,-0.072 -0.168,0.15601 c -0.331514,0.30452 -0.727529,0.53552 -1.164052,0.67203 l -0.216011,0.072 -0.04804,0.22801 -0.192005,0.99604 h -0.912046 l -0.192005,-0.99604 -0.04804,-0.22801 -0.216012,-0.072 c -0.436523,-0.13643 -0.832537,-0.36751 -1.164051,-0.67203 l -0.168014,-0.15601 -0.215998,0.072 -0.972046,0.33601 -0.456015,-0.78002 0.768023,-0.68403 0.180017,-0.14398 -0.05994,-0.22802 c -0.04949,-0.219 -0.07199,-0.44252 -0.07199,-0.67203 0,-0.22951 0.0225,-0.45301 0.07199,-0.67202 l 0.05994,-0.228 -0.180017,-0.14398 -0.768023,-0.68403 0.456015,-0.78004 0.972046,0.33601 0.215998,0.072 0.168014,-0.156 c 0.331514,-0.30451 0.727528,-0.53552 1.164051,-0.67204 l 0.216012,-0.072 0.04804,-0.228 z m 0.456015,2.30409 c -1.056038,0 -1.920071,0.86404 -1.920071,1.92007 0,1.05606 0.864033,1.92009 1.920071,1.92009 1.056053,0 1.920086,-0.86403 1.920086,-1.92009 0,-1.05603 -0.864033,-1.92007 -1.920086,-1.92007 z m 0,0.76803 c 0.640532,0 1.152049,0.51153 1.152049,1.15204 0,0.64054 -0.511517,1.15205 -1.152049,1.15205 -0.640517,0 -1.152048,-0.51151 -1.152048,-1.15205 0,-0.64051 0.511531,-1.15204 1.152048,-1.15204 z"
        id="path1087"
        style="fill:#ffffff;stroke-width:0.384016"
        inkscape:export-filename="C:\Users\01123\Desktop\reflow oven\vol\display\0.png" />
     <rect
        inkscape:export-ydpi="96"
        inkscape:export-xdpi="96"
-       style="fill:#00a0ff;stroke:#ffffff;stroke-width:0.529167;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;fill-opacity:1"
+       style="fill:#00a0ff;fill-opacity:1;stroke:#ffffff;stroke-width:0.529167;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="rect1110"
        width="48.947922"
        height="6.6145878"
@@ -844,12 +791,12 @@
        height="6.6202078"
        width="23.28896"
        id="rect1114"
-       style="fill:#00a0ff;stroke:#ffffff;stroke-width:0.52354;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;fill-opacity:1"
+       style="fill:#00a0ff;fill-opacity:1;stroke:#ffffff;stroke-width:0.52354;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        inkscape:export-filename="C:\Users\01123\Desktop\reflow oven\vol\display\0.png" />
     <rect
        inkscape:export-ydpi="96"
        inkscape:export-xdpi="96"
-       style="fill:#00a0ff;stroke:#ffffff;stroke-width:0.529167;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;fill-opacity:1"
+       style="fill:#00a0ff;fill-opacity:1;stroke:#ffffff;stroke-width:0.529167;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="rect1116"
        width="48.947922"
        height="6.6145878"
@@ -860,7 +807,7 @@
     <rect
        inkscape:export-ydpi="96"
        inkscape:export-xdpi="96"
-       style="fill:#00a0ff;stroke:#ffffff;stroke-width:0.529167;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;fill-opacity:1"
+       style="fill:#00a0ff;fill-opacity:1;stroke:#ffffff;stroke-width:0.529167;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="rect1122"
        width="48.947922"
        height="6.6145878"
@@ -871,7 +818,7 @@
     <rect
        inkscape:export-ydpi="96"
        inkscape:export-xdpi="96"
-       style="fill:#00a0ff;stroke:#ffffff;stroke-width:0.52354;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;fill-opacity:1"
+       style="fill:#00a0ff;fill-opacity:1;stroke:#ffffff;stroke-width:0.52354;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="rect1124"
        width="23.28896"
        height="6.6202078"
@@ -882,7 +829,7 @@
     <rect
        inkscape:export-ydpi="96"
        inkscape:export-xdpi="96"
-       style="fill:#00a0ff;stroke:#ffffff;stroke-width:0.52354;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;fill-opacity:1"
+       style="fill:#00a0ff;fill-opacity:1;stroke:#ffffff;stroke-width:0.52354;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="rect1126"
        width="23.28896"
        height="6.6202078"
@@ -899,7 +846,7 @@
        height="6.6202078"
        width="23.28896"
        id="rect1128"
-       style="fill:#00a0ff;stroke:#ffffff;stroke-width:0.52354;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;fill-opacity:1"
+       style="fill:#00a0ff;fill-opacity:1;stroke:#ffffff;stroke-width:0.52354;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        inkscape:export-filename="C:\Users\01123\Desktop\reflow oven\vol\display\0.png" />
     <text
        inkscape:export-ydpi="96"
@@ -907,10 +854,10 @@
        id="text1136"
        y="86.254257"
        x="50.541641"
-       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.264583;"
+       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.264583"
        xml:space="preserve"
        inkscape:export-filename="C:\Users\01123\Desktop\reflow oven\vol\display\0.png"><tspan
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.61458px;font-family:Bahnschrift;-inkscape-font-specification:Bahnschrift;stroke-width:0.264583;fill:#ffffff;"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.61458px;font-family:Bahnschrift;-inkscape-font-specification:Bahnschrift;fill:#ffffff;stroke-width:0.264583"
          y="86.254257"
          x="50.541641"
          id="tspan1134"
@@ -1024,975 +971,42 @@
        inkscape:export-ydpi="96"
        inkscape:export-xdpi="96"
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:7.59487px;line-height:1.25;font-family:sans-serif;display:inline;fill:#ff2a2a;fill-opacity:1;stroke:none;stroke-width:0.189873"
-       x="16.05337"
-       y="68.080406"
+       style="font-style:normal;font-weight:normal;font-size:16.5066px;line-height:1.25;font-family:sans-serif;display:inline;fill:#ff2a2a;fill-opacity:1;stroke:none;stroke-width:0.412669"
+       x="73.467522"
+       y="11.46494"
        id="text1136-3"
-       inkscape:export-filename="C:\Users\01123\Desktop\reflow oven\vol\display\0.png"><tspan
+       inkscape:export-filename="C:\Users\01123\Desktop\reflow oven\vol\display\0.png"
+       transform="scale(0.96058628,1.0410309)"><tspan
          sodipodi:role="line"
          id="tspan1134-6"
-         x="16.05337"
-         y="68.080406"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.74681px;font-family:Bahnschrift;-inkscape-font-specification:Bahnschrift;fill:#ff2a2a;stroke-width:0.189873">°C</tspan></text>
+         x="73.467522"
+         y="11.46494"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.3167px;font-family:Bahnschrift;-inkscape-font-specification:Bahnschrift;fill:#ff2a2a;stroke-width:0.412669">°C</tspan></text>
     <rect
        inkscape:export-ydpi="96"
        inkscape:export-xdpi="96"
-       y="-1.3229485"
-       x="-101.86459"
-       height="127"
-       width="84.666672"
-       id="rect849-1"
-       style="display:inline;fill:#b3b3b3;stroke:none;stroke-width:0.564999;stroke-linecap:round;stroke-dasharray:0.564999, 2.26"
-       inkscape:export-filename="C:\Users\01123\Desktop\reflow oven\vol\display\1.png" />
-    <rect
-       inkscape:export-ydpi="96"
-       inkscape:export-xdpi="96"
-       ry="0.26458147"
-       y="71.437469"
-       x="-67.46875"
-       height="38.364582"
-       width="48.947918"
-       id="rect1100-1"
-       style="display:inline;fill:#ffffff;stroke:#ffffff;stroke-width:0.529167;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       inkscape:export-filename="C:\Users\01123\Desktop\reflow oven\vol\display\1.png" />
-    <rect
-       inkscape:export-ydpi="96"
-       inkscape:export-xdpi="96"
-       ry="1.3229166"
-       y="5.2916679"
-       x="-93.927086"
-       height="55.562504"
-       width="75.406258"
-       id="rect843-5"
-       style="display:inline;fill:#ffffff;stroke:none;stroke-width:0.874956;stroke-linecap:round;stroke-dasharray:0.874956, 3.49983"
-       inkscape:export-filename="C:\Users\01123\Desktop\reflow oven\vol\display\1.png" />
-    <path
-       inkscape:export-ydpi="96"
-       inkscape:export-xdpi="96"
-       sodipodi:nodetypes="ccc"
-       id="path853-0"
-       d="m -19.843755,59.531251 h -72.760414 l 10e-7,-52.9166675"
-       style="display:inline;fill:none;stroke:#000000;stroke-width:0.529167;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       inkscape:export-filename="C:\Users\01123\Desktop\reflow oven\vol\display\1.png" />
-    <path
-       inkscape:export-ydpi="96"
-       inkscape:export-xdpi="96"
-       sodipodi:nodetypes="ccc"
-       id="path855-1"
-       d="m -85.989585,59.531251 v -1.32292 l 2e-6,-1.322909"
-       style="display:inline;fill:none;stroke:#000000;stroke-width:0.529167;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       inkscape:export-filename="C:\Users\01123\Desktop\reflow oven\vol\display\1.png" />
-    <path
-       inkscape:export-ydpi="96"
-       inkscape:export-xdpi="96"
-       id="path857-4"
-       d="m -79.375002,59.531251 v -1.32292"
-       style="display:inline;fill:none;stroke:#000000;stroke-width:0.529167;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       inkscape:export-filename="C:\Users\01123\Desktop\reflow oven\vol\display\1.png" />
-    <path
-       inkscape:export-ydpi="96"
-       inkscape:export-xdpi="96"
-       sodipodi:nodetypes="cc"
-       id="path859-9"
-       d="m -72.760419,59.531251 2e-6,-2.64583"
-       style="display:inline;fill:none;stroke:#000000;stroke-width:0.529167;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       inkscape:export-filename="C:\Users\01123\Desktop\reflow oven\vol\display\1.png" />
-    <path
-       inkscape:export-ydpi="96"
-       inkscape:export-xdpi="96"
-       id="path861-0"
-       d="m -66.145836,59.531251 v -1.32292"
-       style="display:inline;fill:none;stroke:#000000;stroke-width:0.529167;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       inkscape:export-filename="C:\Users\01123\Desktop\reflow oven\vol\display\1.png" />
-    <path
-       inkscape:export-ydpi="96"
-       inkscape:export-xdpi="96"
-       sodipodi:nodetypes="cc"
-       id="path863-6"
-       d="m -59.531255,59.531251 v -2.64583"
-       style="display:inline;fill:none;stroke:#000000;stroke-width:0.529167;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       inkscape:export-filename="C:\Users\01123\Desktop\reflow oven\vol\display\1.png" />
-    <path
-       inkscape:export-ydpi="96"
-       inkscape:export-xdpi="96"
-       id="path865-5"
-       d="m -52.916665,59.531251 v -1.32292"
-       style="display:inline;fill:none;stroke:#000000;stroke-width:0.529167;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       inkscape:export-filename="C:\Users\01123\Desktop\reflow oven\vol\display\1.png" />
-    <path
-       inkscape:export-ydpi="96"
-       inkscape:export-xdpi="96"
-       sodipodi:nodetypes="cc"
-       id="path867-1"
-       d="m -46.302085,59.531251 v -2.64583"
-       style="display:inline;fill:none;stroke:#000000;stroke-width:0.529167;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       inkscape:export-filename="C:\Users\01123\Desktop\reflow oven\vol\display\1.png" />
-    <path
-       inkscape:export-ydpi="96"
-       inkscape:export-xdpi="96"
-       id="path869-8"
-       d="m -39.687505,59.531251 v -1.32292"
-       style="display:inline;fill:none;stroke:#000000;stroke-width:0.529167;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       inkscape:export-filename="C:\Users\01123\Desktop\reflow oven\vol\display\1.png" />
-    <path
-       inkscape:export-ydpi="96"
-       inkscape:export-xdpi="96"
-       sodipodi:nodetypes="cc"
-       id="path871-7"
-       d="m -33.072915,59.531251 v -2.64583"
-       style="display:inline;fill:none;stroke:#000000;stroke-width:0.529167;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       inkscape:export-filename="C:\Users\01123\Desktop\reflow oven\vol\display\1.png" />
-    <path
-       inkscape:export-ydpi="96"
-       inkscape:export-xdpi="96"
-       id="path873-3"
-       d="m -26.458335,59.531251 v -1.32292"
-       style="display:inline;fill:none;stroke:#000000;stroke-width:0.529167;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       inkscape:export-filename="C:\Users\01123\Desktop\reflow oven\vol\display\1.png" />
-    <path
-       inkscape:export-ydpi="96"
-       inkscape:export-xdpi="96"
-       sodipodi:nodetypes="cc"
-       id="path875-6"
-       d="m -19.843755,59.531251 1e-5,-2.64583"
-       style="display:inline;fill:none;stroke:#000000;stroke-width:0.529167;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       inkscape:export-filename="C:\Users\01123\Desktop\reflow oven\vol\display\1.png" />
-    <path
-       inkscape:export-ydpi="96"
-       inkscape:export-xdpi="96"
-       sodipodi:nodetypes="cc"
-       id="path877-0"
-       d="m -92.604169,52.916671 h 2.645836"
-       style="display:inline;fill:none;stroke:#000000;stroke-width:0.529167;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       inkscape:export-filename="C:\Users\01123\Desktop\reflow oven\vol\display\1.png" />
-    <path
-       inkscape:export-ydpi="96"
-       inkscape:export-xdpi="96"
-       id="path879-9"
-       d="m -92.604169,46.302081 h 1.322917"
-       style="display:inline;fill:none;stroke:#000000;stroke-width:0.529167;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       inkscape:export-filename="C:\Users\01123\Desktop\reflow oven\vol\display\1.png" />
-    <path
-       inkscape:export-ydpi="96"
-       inkscape:export-xdpi="96"
-       sodipodi:nodetypes="cc"
-       id="path881-7"
-       d="m -92.604169,39.687501 h 2.645836"
-       style="display:inline;fill:none;stroke:#000000;stroke-width:0.529167;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       inkscape:export-filename="C:\Users\01123\Desktop\reflow oven\vol\display\1.png" />
-    <path
-       inkscape:export-ydpi="96"
-       inkscape:export-xdpi="96"
-       id="path883-4"
-       d="m -92.604169,33.072918 h 1.322917"
-       style="display:inline;fill:none;stroke:#000000;stroke-width:0.529167;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       inkscape:export-filename="C:\Users\01123\Desktop\reflow oven\vol\display\1.png" />
-    <path
-       inkscape:export-ydpi="96"
-       inkscape:export-xdpi="96"
-       sodipodi:nodetypes="cc"
-       id="path885-9"
-       d="m -92.604169,26.458335 h 2.645836"
-       style="display:inline;fill:none;stroke:#000000;stroke-width:0.529167;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       inkscape:export-filename="C:\Users\01123\Desktop\reflow oven\vol\display\1.png" />
-    <path
-       inkscape:export-ydpi="96"
-       inkscape:export-xdpi="96"
-       id="path887-1"
-       d="m -92.604169,19.84375 h 1.322917"
-       style="display:inline;fill:none;stroke:#000000;stroke-width:0.529167;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       inkscape:export-filename="C:\Users\01123\Desktop\reflow oven\vol\display\1.png" />
-    <path
-       inkscape:export-ydpi="96"
-       inkscape:export-xdpi="96"
-       sodipodi:nodetypes="cc"
-       id="path889-7"
-       d="m -92.604169,13.229167 2.645836,2e-6"
-       style="display:inline;fill:none;stroke:#000000;stroke-width:0.529167;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       inkscape:export-filename="C:\Users\01123\Desktop\reflow oven\vol\display\1.png" />
-    <path
-       inkscape:export-ydpi="96"
-       inkscape:export-xdpi="96"
-       id="path891-5"
-       d="m -92.604169,13.229167 h 72.760414 v 0"
-       style="display:inline;fill:#ffffff;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:0.3"
-       inkscape:export-filename="C:\Users\01123\Desktop\reflow oven\vol\display\1.png" />
-    <path
-       inkscape:export-ydpi="96"
-       inkscape:export-xdpi="96"
-       id="path893-1"
-       d="m -92.604169,19.84375 h 72.760414"
-       style="display:inline;fill:#ffffff;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:0.3"
-       inkscape:export-filename="C:\Users\01123\Desktop\reflow oven\vol\display\1.png" />
-    <path
-       inkscape:export-ydpi="96"
-       inkscape:export-xdpi="96"
-       id="path895-6"
-       d="m -92.604169,26.458335 h 72.760414"
-       style="display:inline;fill:#ffffff;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:0.3"
-       inkscape:export-filename="C:\Users\01123\Desktop\reflow oven\vol\display\1.png" />
-    <path
-       inkscape:export-ydpi="96"
-       inkscape:export-xdpi="96"
-       id="path897-5"
-       d="m -92.604169,33.072918 h 72.760414"
-       style="display:inline;fill:#ffffff;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:0.3"
-       inkscape:export-filename="C:\Users\01123\Desktop\reflow oven\vol\display\1.png" />
-    <path
-       inkscape:export-ydpi="96"
-       inkscape:export-xdpi="96"
-       id="path899-7"
-       d="m -92.604169,39.687501 h 72.760414"
-       style="display:inline;fill:#ffffff;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:0.3"
-       inkscape:export-filename="C:\Users\01123\Desktop\reflow oven\vol\display\1.png" />
-    <path
-       inkscape:export-ydpi="96"
-       inkscape:export-xdpi="96"
-       id="path901-8"
-       d="m -92.604169,46.302081 h 72.760414"
-       style="display:inline;fill:#ffffff;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:0.3"
-       inkscape:export-filename="C:\Users\01123\Desktop\reflow oven\vol\display\1.png" />
-    <path
-       inkscape:export-ydpi="96"
-       inkscape:export-xdpi="96"
-       id="path903-9"
-       d="m -92.604169,52.916671 h 72.760414"
-       style="display:inline;fill:#ffffff;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:0.3"
-       inkscape:export-filename="C:\Users\01123\Desktop\reflow oven\vol\display\1.png" />
-    <path
-       inkscape:export-ydpi="96"
-       inkscape:export-xdpi="96"
-       sodipodi:nodetypes="cc"
-       id="path905-8"
-       d="M -85.989585,59.531251 V 6.6145835"
-       style="display:inline;fill:#ffffff;stroke:#000000;stroke-width:0.264583;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.3"
-       inkscape:export-filename="C:\Users\01123\Desktop\reflow oven\vol\display\1.png" />
-    <path
-       inkscape:export-ydpi="96"
-       inkscape:export-xdpi="96"
-       sodipodi:nodetypes="cc"
-       id="path907-3"
-       d="m -79.375002,59.531251 10e-7,-52.9166675"
-       style="display:inline;fill:#ffffff;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:0.3"
-       inkscape:export-filename="C:\Users\01123\Desktop\reflow oven\vol\display\1.png" />
-    <path
-       inkscape:export-ydpi="96"
-       inkscape:export-xdpi="96"
-       sodipodi:nodetypes="cc"
-       id="path909-5"
-       d="M -72.760419,59.531251 V 6.6145835"
-       style="display:inline;fill:#ffffff;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:0.3"
-       inkscape:export-filename="C:\Users\01123\Desktop\reflow oven\vol\display\1.png" />
-    <path
-       inkscape:export-ydpi="96"
-       inkscape:export-xdpi="96"
-       sodipodi:nodetypes="cc"
-       id="path911-1"
-       d="m -66.145836,59.531251 3e-6,-52.9166675"
-       style="display:inline;fill:#ffffff;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:0.3"
-       inkscape:export-filename="C:\Users\01123\Desktop\reflow oven\vol\display\1.png" />
-    <path
-       inkscape:export-ydpi="96"
-       inkscape:export-xdpi="96"
-       sodipodi:nodetypes="cc"
-       id="path913-2"
-       d="M -59.531255,59.531251 V 6.6145835"
-       style="display:inline;fill:#ffffff;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:0.3"
-       inkscape:export-filename="C:\Users\01123\Desktop\reflow oven\vol\display\1.png" />
-    <path
-       inkscape:export-ydpi="96"
-       inkscape:export-xdpi="96"
-       sodipodi:nodetypes="cc"
-       id="path915-3"
-       d="M -52.916665,59.531251 V 6.6145835"
-       style="display:inline;fill:#ffffff;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:0.3"
-       inkscape:export-filename="C:\Users\01123\Desktop\reflow oven\vol\display\1.png" />
-    <path
-       inkscape:export-ydpi="96"
-       inkscape:export-xdpi="96"
-       sodipodi:nodetypes="cc"
-       id="path917-7"
-       d="M -46.302085,59.531251 V 6.6145835"
-       style="display:inline;fill:#ffffff;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:0.3"
-       inkscape:export-filename="C:\Users\01123\Desktop\reflow oven\vol\display\1.png" />
-    <path
-       inkscape:export-ydpi="96"
-       inkscape:export-xdpi="96"
-       sodipodi:nodetypes="cc"
-       id="path919-5"
-       d="M -39.687505,59.531251 V 6.6145835"
-       style="display:inline;fill:#ffffff;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:0.3"
-       inkscape:export-filename="C:\Users\01123\Desktop\reflow oven\vol\display\1.png" />
-    <path
-       inkscape:export-ydpi="96"
-       inkscape:export-xdpi="96"
-       sodipodi:nodetypes="cc"
-       id="path921-7"
-       d="M -33.072915,59.531251 V 6.6145835"
-       style="display:inline;fill:#ffffff;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:0.3"
-       inkscape:export-filename="C:\Users\01123\Desktop\reflow oven\vol\display\1.png" />
-    <path
-       inkscape:export-ydpi="96"
-       inkscape:export-xdpi="96"
-       sodipodi:nodetypes="cc"
-       id="path923-5"
-       d="M -26.458335,59.531251 V 6.6145835"
-       style="display:inline;fill:#ffffff;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:0.3"
-       inkscape:export-filename="C:\Users\01123\Desktop\reflow oven\vol\display\1.png" />
-    <path
-       inkscape:export-ydpi="96"
-       inkscape:export-xdpi="96"
-       sodipodi:nodetypes="cc"
-       id="path925-0"
-       d="M -19.843755,59.531251 V 6.6145835"
-       style="display:inline;fill:#ffffff;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:0.3"
-       inkscape:export-filename="C:\Users\01123\Desktop\reflow oven\vol\display\1.png" />
-    <rect
-       inkscape:export-ydpi="96"
-       inkscape:export-xdpi="96"
-       ry="1.3229166"
-       y="50.270832"
-       x="-101.07083"
-       height="5.2916665"
-       width="6.6145835"
-       id="rect935-4"
-       style="display:inline;fill:#ffffff;stroke:#000000;stroke-width:0.529167;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.3"
-       inkscape:export-filename="C:\Users\01123\Desktop\reflow oven\vol\display\1.png" />
-    <text
-       inkscape:export-ydpi="96"
-       inkscape:export-xdpi="96"
-       id="text929-3"
-       y="54.331051"
-       x="-100.11275"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.96875px;line-height:1.25;font-family:Bahnschrift;-inkscape-font-specification:Bahnschrift;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
-       xml:space="preserve"
-       inkscape:export-filename="C:\Users\01123\Desktop\reflow oven\vol\display\1.png"><tspan
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.96875px;font-family:Bahnschrift;-inkscape-font-specification:Bahnschrift;fill:#000000;stroke-width:0.264583"
-         y="54.331051"
-         x="-100.11275"
-         id="tspan927-8"
-         sodipodi:role="line">35</tspan></text>
-    <rect
-       inkscape:export-ydpi="96"
-       inkscape:export-xdpi="96"
-       style="display:inline;fill:#ffffff;stroke:#000000;stroke-width:0.529167;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.3"
-       id="rect937-1"
-       width="6.6145835"
-       height="5.2916665"
-       x="-101.07083"
-       y="37.04166"
-       ry="1.3229166"
-       inkscape:export-filename="C:\Users\01123\Desktop\reflow oven\vol\display\1.png" />
-    <text
-       inkscape:export-ydpi="96"
-       inkscape:export-xdpi="96"
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.96875px;line-height:1.45;font-family:Bahnschrift;-inkscape-font-specification:Bahnschrift;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
-       x="-100.11275"
-       y="41.101871"
-       id="text941-7"
-       inkscape:export-filename="C:\Users\01123\Desktop\reflow oven\vol\display\1.png"><tspan
-         sodipodi:role="line"
-         id="tspan939-3"
-         x="-100.11275"
-         y="41.101871"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.96875px;font-family:Bahnschrift;-inkscape-font-specification:Bahnschrift;fill:#000000;stroke-width:0.264583">90</tspan></text>
-    <rect
-       inkscape:export-ydpi="96"
-       inkscape:export-xdpi="96"
-       ry="1.3229166"
-       y="23.812473"
-       x="-101.07083"
-       height="5.2916665"
-       width="6.6145835"
-       id="rect943-8"
-       style="display:inline;fill:#ffffff;stroke:#000000;stroke-width:0.529167;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.3"
-       inkscape:export-filename="C:\Users\01123\Desktop\reflow oven\vol\display\1.png" />
-    <text
-       inkscape:export-ydpi="96"
-       inkscape:export-xdpi="96"
-       id="text947-5"
-       y="27.872692"
-       x="-100.64192"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.96875px;line-height:1.25;font-family:Bahnschrift;-inkscape-font-specification:Bahnschrift;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
-       xml:space="preserve"
-       inkscape:export-filename="C:\Users\01123\Desktop\reflow oven\vol\display\1.png"><tspan
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.96875px;font-family:Bahnschrift;-inkscape-font-specification:Bahnschrift;fill:#000000;stroke-width:0.264583"
-         y="27.872692"
-         x="-100.64192"
-         id="tspan945-6"
-         sodipodi:role="line">150</tspan></text>
-    <rect
-       inkscape:export-ydpi="96"
-       inkscape:export-xdpi="96"
-       style="display:inline;fill:#ffffff;stroke:#000000;stroke-width:0.529167;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.3"
-       id="rect949-2"
-       width="6.6145835"
-       height="5.2916665"
-       x="-101.07083"
-       y="10.583309"
-       ry="1.3229166"
-       inkscape:export-filename="C:\Users\01123\Desktop\reflow oven\vol\display\1.png" />
-    <text
-       inkscape:export-ydpi="96"
-       inkscape:export-xdpi="96"
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.96875px;line-height:1.25;font-family:Bahnschrift;-inkscape-font-specification:Bahnschrift;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
-       x="-100.64192"
-       y="14.64352"
-       id="text953-6"
-       inkscape:export-filename="C:\Users\01123\Desktop\reflow oven\vol\display\1.png"><tspan
-         sodipodi:role="line"
-         id="tspan951-2"
-         x="-100.64192"
-         y="14.64352"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.96875px;font-family:Bahnschrift;-inkscape-font-specification:Bahnschrift;fill:#000000;stroke-width:0.264583">210</tspan></text>
-    <path
-       inkscape:export-ydpi="96"
-       inkscape:export-xdpi="96"
-       style="display:inline;fill:#ffffff;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:0.3"
-       d="m -92.604169,6.7468755 h 72.760414 v 0"
-       id="path955-2"
-       inkscape:export-filename="C:\Users\01123\Desktop\reflow oven\vol\display\1.png" />
-    <path
-       inkscape:export-ydpi="96"
-       inkscape:export-xdpi="96"
-       style="display:inline;fill:none;stroke:#000000;stroke-width:0.529167;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="m -92.604169,6.7468755 h 1.322917"
-       id="path957-2"
-       inkscape:export-filename="C:\Users\01123\Desktop\reflow oven\vol\display\1.png" />
-    <text
-       inkscape:export-ydpi="96"
-       inkscape:export-xdpi="96"
-       id="text967-8"
-       y="9.2604179"
-       x="-101.06463"
-       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
-       xml:space="preserve"
-       inkscape:export-filename="C:\Users\01123\Desktop\reflow oven\vol\display\1.png"><tspan
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.61458px;font-family:Bahnschrift;-inkscape-font-specification:Bahnschrift;stroke-width:0.264583"
-         y="9.2604179"
-         x="-101.06463"
-         id="tspan965-5"
-         sodipodi:role="line">°C</tspan></text>
-    <rect
-       inkscape:export-ydpi="96"
-       inkscape:export-xdpi="96"
-       style="display:inline;fill:#ffffff;stroke:#000000;stroke-width:0.529167;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.3"
-       id="rect971-0"
-       width="21.166666"
-       height="5.2916665"
-       x="-101.07083"
-       y="62.441685"
-       ry="1.3229166"
-       inkscape:export-filename="C:\Users\01123\Desktop\reflow oven\vol\display\1.png" />
-    <rect
-       inkscape:export-ydpi="96"
-       inkscape:export-xdpi="96"
-       style="display:inline;fill:#ffffff;stroke:#000000;stroke-width:0.557453;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.3"
-       id="rect983-5"
-       width="7.3800483"
-       height="5.2633815"
-       x="-63.23542"
-       y="62.455814"
-       ry="1.3158454"
-       inkscape:export-filename="C:\Users\01123\Desktop\reflow oven\vol\display\1.png" />
-    <text
-       inkscape:export-ydpi="96"
-       inkscape:export-xdpi="96"
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.96875px;line-height:1.25;font-family:Bahnschrift;-inkscape-font-specification:Bahnschrift;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
-       x="-62.787125"
-       y="66.501755"
-       id="text987-1"
-       inkscape:export-filename="C:\Users\01123\Desktop\reflow oven\vol\display\1.png"><tspan
-         sodipodi:role="line"
-         id="tspan985-0"
-         x="-62.787125"
-         y="66.501755"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.96875px;font-family:Bahnschrift;-inkscape-font-specification:Bahnschrift;fill:#000000;stroke-width:0.264583">400</tspan></text>
-    <rect
-       inkscape:export-ydpi="96"
-       inkscape:export-xdpi="96"
-       ry="1.3158454"
-       y="62.455814"
-       x="-50.006233"
-       height="5.2633815"
-       width="7.3800483"
-       id="rect995-2"
-       style="display:inline;fill:#ffffff;stroke:#000000;stroke-width:0.557453;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.3"
-       inkscape:export-filename="C:\Users\01123\Desktop\reflow oven\vol\display\1.png" />
-    <text
-       inkscape:export-ydpi="96"
-       inkscape:export-xdpi="96"
-       id="text999-8"
-       y="66.501755"
-       x="-49.557945"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.96875px;line-height:1.25;font-family:Bahnschrift;-inkscape-font-specification:Bahnschrift;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
-       xml:space="preserve"
-       inkscape:export-filename="C:\Users\01123\Desktop\reflow oven\vol\display\1.png"><tspan
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.96875px;font-family:Bahnschrift;-inkscape-font-specification:Bahnschrift;fill:#000000;stroke-width:0.264583"
-         y="66.501755"
-         x="-49.557945"
-         id="tspan997-2"
-         sodipodi:role="line">560</tspan></text>
-    <rect
-       inkscape:export-ydpi="96"
-       inkscape:export-xdpi="96"
-       style="display:inline;fill:#ffffff;stroke:#000000;stroke-width:0.557453;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.3"
-       id="rect1001-2"
-       width="7.3800483"
-       height="5.2633815"
-       x="-36.777069"
-       y="62.455814"
-       ry="1.3158454"
-       inkscape:export-filename="C:\Users\01123\Desktop\reflow oven\vol\display\1.png" />
-    <text
-       inkscape:export-ydpi="96"
-       inkscape:export-xdpi="96"
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.96875px;line-height:1.25;font-family:Bahnschrift;-inkscape-font-specification:Bahnschrift;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
-       x="-36.328773"
-       y="66.501755"
-       id="text1005-2"
-       inkscape:export-filename="C:\Users\01123\Desktop\reflow oven\vol\display\1.png"><tspan
-         sodipodi:role="line"
-         id="tspan1003-7"
-         x="-36.328773"
-         y="66.501755"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.96875px;font-family:Bahnschrift;-inkscape-font-specification:Bahnschrift;fill:#000000;stroke-width:0.264583">720</tspan></text>
-    <text
-       inkscape:export-ydpi="96"
-       inkscape:export-xdpi="96"
-       xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
-       x="-24.606819"
-       y="66.696625"
-       id="text1009-1"
-       inkscape:export-filename="C:\Users\01123\Desktop\reflow oven\vol\display\1.png"><tspan
-         sodipodi:role="line"
-         id="tspan1007-3"
-         x="-24.606819"
-         y="66.696625"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.61458px;font-family:Bahnschrift;-inkscape-font-specification:Bahnschrift;stroke-width:0.264583">s</tspan></text>
-    <rect
-       inkscape:export-ydpi="96"
-       inkscape:export-xdpi="96"
-       style="display:inline;fill:#00a0ff;stroke:#ffffff;stroke-width:0.519949;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;fill-opacity:1"
-       id="rect1015-9"
+       style="display:inline;fill:#00a0ff;fill-opacity:1;stroke:#ffffff;stroke-width:0.519949;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect1015-9-7"
        width="34.135883"
        height="5.2962761"
-       x="-52.916664"
-       y="-0.79838949"
+       x="2.7758083"
+       y="7.9328909"
        ry="0.53039587"
-       inkscape:export-filename="C:\Users\01123\Desktop\reflow oven\vol\display\1.png" />
+       inkscape:export-filename="C:\Users\01123\Desktop\reflow oven\vol\display\0.png" />
     <text
        inkscape:export-ydpi="96"
        inkscape:export-xdpi="96"
-       id="text1023-5"
-       y="3.6199615"
-       x="-50.998299"
+       id="text1023-5-3"
+       y="12.365391"
+       x="4.9173641"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.7625px;line-height:1.25;font-family:Bahnschrift;-inkscape-font-specification:Bahnschrift;display:inline;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.264583"
        xml:space="preserve"
-       inkscape:export-filename="C:\Users\01123\Desktop\reflow oven\vol\display\1.png"><tspan
+       inkscape:export-filename="C:\Users\01123\Desktop\reflow oven\vol\display\0.png"><tspan
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.7625px;font-family:Bahnschrift;-inkscape-font-specification:Bahnschrift;fill:#ffffff;stroke-width:0.264583"
-         y="3.6199615"
-         x="-50.998299"
-         id="tspan1021-8"
+         y="12.365391"
+         x="4.9173641"
+         id="tspan1021-8-7"
          sodipodi:role="line">Reflow Profile</tspan></text>
-    <rect
-       inkscape:export-ydpi="96"
-       inkscape:export-xdpi="96"
-       ry="0.53039587"
-       y="-0.79838949"
-       x="-93.662521"
-       height="5.2962761"
-       width="34.135883"
-       id="rect1025-3"
-       style="display:inline;fill:#ff0000;stroke:#ffffff;stroke-width:0.519949;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       inkscape:export-filename="C:\Users\01123\Desktop\reflow oven\vol\display\1.png" />
-    <text
-       inkscape:export-ydpi="96"
-       inkscape:export-xdpi="96"
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.7625px;line-height:1.25;font-family:Bahnschrift;-inkscape-font-specification:Bahnschrift;display:inline;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.264583"
-       x="-91.709312"
-       y="3.4328728"
-       id="text1029-8"
-       inkscape:export-filename="C:\Users\01123\Desktop\reflow oven\vol\display\1.png"><tspan
-         sodipodi:role="line"
-         id="tspan1027-0"
-         x="-91.709312"
-         y="3.4328728"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.7625px;font-family:Bahnschrift;-inkscape-font-specification:Bahnschrift;fill:#ffffff;stroke-width:0.264583">Current Temp.</tspan></text>
-    <rect
-       inkscape:export-ydpi="96"
-       inkscape:export-xdpi="96"
-       ry="0.530397"
-       y="71.437469"
-       x="-100.54166"
-       height="6.6145825"
-       width="30.427084"
-       id="rect1039-2"
-       style="display:inline;fill:#000000;stroke:#ffffff;stroke-width:0.529167;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       inkscape:export-filename="C:\Users\01123\Desktop\reflow oven\vol\display\1.png" />
-    <rect
-       inkscape:export-ydpi="96"
-       inkscape:export-xdpi="96"
-       style="display:inline;fill:#000000;stroke:#ffffff;stroke-width:0.529167;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       id="rect1041-6"
-       width="30.427084"
-       height="6.6145806"
-       x="-100.54166"
-       y="79.374969"
-       ry="0.530397"
-       inkscape:export-filename="C:\Users\01123\Desktop\reflow oven\vol\display\1.png" />
-    <rect
-       inkscape:export-ydpi="96"
-       inkscape:export-xdpi="96"
-       style="display:inline;fill:#000000;stroke:#ffffff;stroke-width:0.529167;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       id="rect1043-5"
-       width="30.427084"
-       height="6.6145859"
-       x="-100.54166"
-       y="87.312469"
-       ry="0.530397"
-       inkscape:export-filename="C:\Users\01123\Desktop\reflow oven\vol\display\1.png" />
-    <rect
-       inkscape:export-ydpi="96"
-       inkscape:export-xdpi="96"
-       ry="0.530397"
-       y="95.249969"
-       x="-100.54166"
-       height="6.6145835"
-       width="30.427084"
-       id="rect1045-4"
-       style="display:inline;fill:#000000;stroke:#ffffff;stroke-width:0.529167;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       inkscape:export-filename="C:\Users\01123\Desktop\reflow oven\vol\display\1.png" />
-    <rect
-       inkscape:export-ydpi="96"
-       inkscape:export-xdpi="96"
-       style="display:inline;fill:#000000;stroke:#ffffff;stroke-width:0.529167;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       id="rect1047-0"
-       width="30.427084"
-       height="6.6145811"
-       x="-100.54166"
-       y="103.18748"
-       ry="0.530397"
-       inkscape:export-filename="C:\Users\01123\Desktop\reflow oven\vol\display\1.png" />
-    <text
-       inkscape:export-ydpi="96"
-       inkscape:export-xdpi="96"
-       id="text1053-8"
-       y="77.085236"
-       x="-99.05442"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.61458px;line-height:1.25;font-family:Bahnschrift;-inkscape-font-specification:Bahnschrift;display:inline;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.264583"
-       xml:space="preserve"
-       inkscape:export-filename="C:\Users\01123\Desktop\reflow oven\vol\display\1.png"><tspan
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.61458px;font-family:Bahnschrift;-inkscape-font-specification:Bahnschrift;fill:#ffffff;stroke-width:0.264583"
-         y="77.085236"
-         x="-99.05442"
-         id="tspan1051-6"
-         sodipodi:role="line">PREHEAT</tspan></text>
-    <text
-       inkscape:export-ydpi="96"
-       inkscape:export-xdpi="96"
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.61458px;line-height:1.25;font-family:Bahnschrift;-inkscape-font-specification:Bahnschrift;display:inline;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.264583"
-       x="-94.291924"
-       y="85.022736"
-       id="text1057-4"
-       inkscape:export-filename="C:\Users\01123\Desktop\reflow oven\vol\display\1.png"><tspan
-         sodipodi:role="line"
-         id="tspan1055-4"
-         x="-94.291924"
-         y="85.022736"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.61458px;font-family:Bahnschrift;-inkscape-font-specification:Bahnschrift;fill:#ffffff;stroke-width:0.264583">SOAK</tspan></text>
-    <text
-       inkscape:export-ydpi="96"
-       inkscape:export-xdpi="96"
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.61458px;line-height:1.25;font-family:Bahnschrift;-inkscape-font-specification:Bahnschrift;display:inline;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.264583"
-       x="-99.05442"
-       y="92.960251"
-       id="text1061-3"
-       inkscape:export-filename="C:\Users\01123\Desktop\reflow oven\vol\display\1.png"><tspan
-         sodipodi:role="line"
-         id="tspan1059-1"
-         x="-99.05442"
-         y="92.960251"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.61458px;font-family:Bahnschrift;-inkscape-font-specification:Bahnschrift;fill:#ffffff;stroke-width:0.264583">HEAT UP</tspan></text>
-    <text
-       inkscape:export-ydpi="96"
-       inkscape:export-xdpi="96"
-       id="text1065-3"
-       y="100.89774"
-       x="-99.05442"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.61458px;line-height:1.25;font-family:Bahnschrift;-inkscape-font-specification:Bahnschrift;display:inline;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.264583"
-       xml:space="preserve"
-       inkscape:export-filename="C:\Users\01123\Desktop\reflow oven\vol\display\1.png"><tspan
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.61458px;font-family:Bahnschrift;-inkscape-font-specification:Bahnschrift;fill:#ffffff;stroke-width:0.264583"
-         y="100.89774"
-         x="-99.05442"
-         id="tspan1063-2"
-         sodipodi:role="line">REFLOW</tspan></text>
-    <text
-       inkscape:export-ydpi="96"
-       inkscape:export-xdpi="96"
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.61458px;line-height:1.25;font-family:Bahnschrift;-inkscape-font-specification:Bahnschrift;display:inline;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.264583"
-       x="-99.05442"
-       y="108.83524"
-       id="text1069-9"
-       inkscape:export-filename="C:\Users\01123\Desktop\reflow oven\vol\display\1.png"><tspan
-         sodipodi:role="line"
-         id="tspan1067-3"
-         x="-99.05442"
-         y="108.83524"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.61458px;font-family:Bahnschrift;-inkscape-font-specification:Bahnschrift;fill:#ffffff;stroke-width:0.264583">CONSOLE</tspan></text>
-    <rect
-       inkscape:export-ydpi="96"
-       inkscape:export-xdpi="96"
-       ry="0.26458147"
-       y="111.12495"
-       x="-100.54166"
-       height="13.22918"
-       width="30.427084"
-       id="rect1071-6"
-       style="display:inline;fill:#ffffff;stroke:#ffffff;stroke-width:0.529167;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       inkscape:export-filename="C:\Users\01123\Desktop\reflow oven\vol\display\1.png" />
-    <rect
-       inkscape:export-ydpi="96"
-       inkscape:export-xdpi="96"
-       style="display:inline;fill:#ffffff;stroke:#ffffff;stroke-width:0.529167;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       id="rect1075-6"
-       width="16.139585"
-       height="13.229151"
-       x="-34.395836"
-       y="111.12497"
-       ry="0.26458147"
-       inkscape:export-filename="C:\Users\01123\Desktop\reflow oven\vol\display\1.png" />
-    <rect
-       inkscape:export-ydpi="96"
-       inkscape:export-xdpi="96"
-       style="display:inline;fill:#ffffff;stroke:#ffffff;stroke-width:0.529167;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       id="rect1077-8"
-       width="30.42709"
-       height="13.229167"
-       x="-67.46875"
-       y="111.12497"
-       ry="0.26458147"
-       inkscape:export-filename="C:\Users\01123\Desktop\reflow oven\vol\display\1.png" />
-    <text
-       inkscape:export-ydpi="96"
-       inkscape:export-xdpi="96"
-       id="text1081-8"
-       y="121.00609"
-       x="-99.05442"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.26042px;line-height:1.25;font-family:Bahnschrift;-inkscape-font-specification:Bahnschrift;display:inline;fill:#00e600;fill-opacity:1;stroke:none;stroke-width:0.264583"
-       xml:space="preserve"
-       inkscape:export-filename="C:\Users\01123\Desktop\reflow oven\vol\display\1.png"><tspan
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.26042px;font-family:Bahnschrift;-inkscape-font-specification:Bahnschrift;fill:#00e600;stroke-width:0.264583;fill-opacity:1"
-         y="121.00609"
-         x="-99.05442"
-         id="tspan1079-1"
-         sodipodi:role="line">START</tspan></text>
-    <text
-       inkscape:export-ydpi="96"
-       inkscape:export-xdpi="96"
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.26042px;line-height:1.25;font-family:Bahnschrift;-inkscape-font-specification:Bahnschrift;display:inline;fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:0.264583;"
-       x="-63.600243"
-       y="121.00609"
-       id="text1085-7"
-       inkscape:export-filename="C:\Users\01123\Desktop\reflow oven\vol\display\1.png"><tspan
-         sodipodi:role="line"
-         id="tspan1083-8"
-         x="-63.600243"
-         y="121.00609"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.26042px;font-family:Bahnschrift;-inkscape-font-specification:Bahnschrift;fill:#ff0000;stroke-width:0.264583;">STOP</tspan></text>
-    <path
-       inkscape:export-ydpi="96"
-       inkscape:export-xdpi="96"
-       style="display:inline;fill:#000000;stroke-width:0.384016"
-       id="path1087-4"
-       d="m -27.614325,112.51764 -0.0599,0.31201 -0.228,1.14004 c -0.36603,0.14398 -0.69603,0.34652 -0.99605,0.58804 l -1.11604,-0.38403 -0.30002,-0.0961 -0.15601,0.27601 -0.76802,1.32006 -0.15601,0.27602 0.22801,0.204 0.86403,0.75604 c -0.0315,0.1965 -0.072,0.39301 -0.072,0.60002 0,0.20701 0.0405,0.40352 0.072,0.60002 l -0.86403,0.75604 -0.22801,0.20401 0.15601,0.27601 0.76802,1.32005 0.15601,0.27601 0.30002,-0.0959 1.11604,-0.38401 c 0.30002,0.24152 0.63002,0.44401 0.99605,0.58802 l 0.228,1.14005 0.0599,0.31202 h 2.16009 l 0.0599,-0.31202 0.22802,-1.14005 c 0.36601,-0.14398 0.69603,-0.3465 0.99603,-0.58802 l 1.11606,0.38401 0.30002,0.0959 0.15599,-0.27601 0.76804,-1.32005 0.15601,-0.27601 -0.22801,-0.20401 -0.86404,-0.75604 c 0.0315,-0.1965 0.072,-0.39301 0.072,-0.60002 0,-0.20701 -0.0405,-0.40352 -0.072,-0.60002 l 0.86404,-0.75604 0.22801,-0.204 -0.15601,-0.27602 -0.76804,-1.32006 -0.15599,-0.27601 -0.30002,0.0961 -1.11606,0.38403 c -0.3,-0.24152 -0.63002,-0.44403 -0.99603,-0.58804 l -0.22802,-1.14004 -0.0599,-0.31201 z m 0.62403,0.76804 h 0.91205 l 0.192,0.99603 0.048,0.22802 0.21601,0.072 c 0.43653,0.13657 0.83254,0.36751 1.16406,0.67202 l 0.168,0.156 0.21601,-0.072 0.97204,-0.33601 0.45602,0.78004 -0.76804,0.68403 -0.18,0.14398 0.0599,0.228 c 0.0495,0.21901 0.072,0.44251 0.072,0.67202 0,0.22951 -0.0225,0.45303 -0.072,0.67203 l -0.048,0.22802 0.168,0.14398 0.76804,0.68403 -0.45602,0.78002 -0.97204,-0.33601 -0.21601,-0.072 -0.168,0.15601 c -0.33152,0.30452 -0.72753,0.53552 -1.16406,0.67203 l -0.21601,0.072 -0.048,0.22801 -0.192,0.99604 h -0.91205 l -0.192,-0.99604 -0.048,-0.22801 -0.21602,-0.072 c -0.43652,-0.13643 -0.83253,-0.36751 -1.16405,-0.67203 l -0.16801,-0.15601 -0.216,0.072 -0.97205,0.33601 -0.45601,-0.78002 0.76802,-0.68403 0.18002,-0.14398 -0.0599,-0.22802 c -0.0495,-0.219 -0.072,-0.44252 -0.072,-0.67203 0,-0.22951 0.0225,-0.45301 0.072,-0.67202 l 0.0599,-0.228 -0.18002,-0.14398 -0.76802,-0.68403 0.45601,-0.78004 0.97205,0.33601 0.216,0.072 0.16801,-0.156 c 0.33152,-0.30451 0.72753,-0.53552 1.16405,-0.67204 l 0.21602,-0.072 0.048,-0.228 z m 0.45602,2.30409 c -1.05604,0 -1.92007,0.86404 -1.92007,1.92007 0,1.05606 0.86403,1.92009 1.92007,1.92009 1.05605,0 1.92008,-0.86403 1.92008,-1.92009 0,-1.05603 -0.86403,-1.92007 -1.92008,-1.92007 z m 0,0.76803 c 0.64053,0 1.15205,0.51153 1.15205,1.15204 0,0.64054 -0.51152,1.15205 -1.15205,1.15205 -0.64052,0 -1.15205,-0.51151 -1.15205,-1.15205 0,-0.64051 0.51153,-1.15204 1.15205,-1.15204 z"
-       inkscape:export-filename="C:\Users\01123\Desktop\reflow oven\vol\display\1.png" />
-    <rect
-       inkscape:export-ydpi="96"
-       inkscape:export-xdpi="96"
-       ry="0.79374999"
-       y="71.437469"
-       x="-67.46875"
-       height="6.6145878"
-       width="48.947922"
-       id="rect1110-8"
-       style="display:inline;fill:#00a0ff;stroke:#ffffff;stroke-width:0.529167;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;fill-opacity:1"
-       inkscape:export-filename="C:\Users\01123\Desktop\reflow oven\vol\display\1.png" />
-    <rect
-       inkscape:export-ydpi="96"
-       inkscape:export-xdpi="96"
-       style="display:inline;fill:#00a0ff;stroke:#ffffff;stroke-width:0.523539;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;fill-opacity:1"
-       id="rect1114-2"
-       width="23.28896"
-       height="6.6202078"
-       x="-67.471565"
-       y="79.372162"
-       ry="0.79442531"
-       inkscape:export-filename="C:\Users\01123\Desktop\reflow oven\vol\display\1.png" />
-    <rect
-       inkscape:export-ydpi="96"
-       inkscape:export-xdpi="96"
-       ry="0.79374999"
-       y="87.312485"
-       x="-67.46875"
-       height="6.6145878"
-       width="48.947922"
-       id="rect1116-6"
-       style="display:inline;fill:#00a0ff;stroke:#ffffff;stroke-width:0.529167;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;fill-opacity:1"
-       inkscape:export-filename="C:\Users\01123\Desktop\reflow oven\vol\display\1.png" />
-    <rect
-       inkscape:export-ydpi="96"
-       inkscape:export-xdpi="96"
-       ry="0.79374999"
-       y="103.18748"
-       x="-67.46875"
-       height="6.6145878"
-       width="48.947922"
-       id="rect1122-5"
-       style="display:inline;fill:#00a0ff;stroke:#ffffff;stroke-width:0.529167;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;fill-opacity:1"
-       inkscape:export-filename="C:\Users\01123\Desktop\reflow oven\vol\display\1.png" />
-    <rect
-       inkscape:export-ydpi="96"
-       inkscape:export-xdpi="96"
-       ry="0.79442531"
-       y="79.372162"
-       x="-42.071533"
-       height="6.6202078"
-       width="23.28896"
-       id="rect1124-4"
-       style="display:inline;fill:#00a0ff;stroke:#ffffff;stroke-width:0.523539;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;fill-opacity:1"
-       inkscape:export-filename="C:\Users\01123\Desktop\reflow oven\vol\display\1.png" />
-    <rect
-       inkscape:export-ydpi="96"
-       inkscape:export-xdpi="96"
-       ry="0.79442531"
-       y="95.247177"
-       x="-67.471565"
-       height="6.6202078"
-       width="23.28896"
-       id="rect1126-0"
-       style="display:inline;fill:#00a0ff;stroke:#ffffff;stroke-width:0.523539;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;fill-opacity:1"
-       inkscape:export-filename="C:\Users\01123\Desktop\reflow oven\vol\display\1.png" />
-    <rect
-       inkscape:export-ydpi="96"
-       inkscape:export-xdpi="96"
-       style="display:inline;fill:#00a0ff;stroke:#ffffff;stroke-width:0.523539;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;fill-opacity:1"
-       id="rect1128-4"
-       width="23.28896"
-       height="6.6202078"
-       x="-42.071533"
-       y="95.247177"
-       ry="0.79442531"
-       inkscape:export-filename="C:\Users\01123\Desktop\reflow oven\vol\display\1.png" />
-    <text
-       inkscape:export-ydpi="96"
-       inkscape:export-xdpi="96"
-       xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;display:inline;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.264583"
-       x="-51.322945"
-       y="84.931305"
-       id="text1136-4"
-       inkscape:export-filename="C:\Users\01123\Desktop\reflow oven\vol\display\1.png"><tspan
-         sodipodi:role="line"
-         id="tspan1134-5"
-         x="-51.322945"
-         y="84.931305"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.61458px;font-family:Bahnschrift;-inkscape-font-specification:Bahnschrift;fill:#ffffff;stroke-width:0.264583">°C</tspan></text>
-    <text
-       inkscape:export-ydpi="96"
-       inkscape:export-xdpi="96"
-       id="text1140-8"
-       y="100.80634"
-       x="-51.322945"
-       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;display:inline;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.264583"
-       xml:space="preserve"
-       inkscape:export-filename="C:\Users\01123\Desktop\reflow oven\vol\display\1.png"><tspan
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.61458px;font-family:Bahnschrift;-inkscape-font-specification:Bahnschrift;fill:#ffffff;stroke-width:0.264583"
-         y="100.80634"
-         x="-51.322945"
-         id="tspan1138-9"
-         sodipodi:role="line">°C</tspan></text>
-    <text
-       inkscape:export-ydpi="96"
-       inkscape:export-xdpi="96"
-       id="text1144-7"
-       y="76.993805"
-       x="-41.797935"
-       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;display:inline;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.264583"
-       xml:space="preserve"
-       inkscape:export-filename="C:\Users\01123\Desktop\reflow oven\vol\display\1.png"><tspan
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.61458px;font-family:Bahnschrift;-inkscape-font-specification:Bahnschrift;fill:#ffffff;stroke-width:0.264583"
-         y="76.993805"
-         x="-41.797935"
-         id="tspan1142-9"
-         sodipodi:role="line">°C/s</tspan></text>
-    <text
-       inkscape:export-ydpi="96"
-       inkscape:export-xdpi="96"
-       xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;display:inline;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.264583"
-       x="-41.797935"
-       y="92.86882"
-       id="text1148-7"
-       inkscape:export-filename="C:\Users\01123\Desktop\reflow oven\vol\display\1.png"><tspan
-         sodipodi:role="line"
-         id="tspan1146-8"
-         x="-41.797935"
-         y="92.86882"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.61458px;font-family:Bahnschrift;-inkscape-font-specification:Bahnschrift;fill:#ffffff;stroke-width:0.264583">°C/s</tspan></text>
-    <text
-       inkscape:export-ydpi="96"
-       inkscape:export-xdpi="96"
-       xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;display:inline;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.264583"
-       x="-23.353506"
-       y="100.80105"
-       id="text1156-8"
-       inkscape:export-filename="C:\Users\01123\Desktop\reflow oven\vol\display\1.png"><tspan
-         sodipodi:role="line"
-         id="tspan1154-4"
-         x="-23.353506"
-         y="100.80105"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.61458px;font-family:Bahnschrift;-inkscape-font-specification:Bahnschrift;fill:#ffffff;stroke-width:0.264583">s</tspan></text>
-    <text
-       inkscape:export-ydpi="96"
-       inkscape:export-xdpi="96"
-       id="text1160-4"
-       y="84.927406"
-       x="-23.058226"
-       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;display:inline;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.264583"
-       xml:space="preserve"
-       inkscape:export-filename="C:\Users\01123\Desktop\reflow oven\vol\display\1.png"><tspan
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.61458px;font-family:Bahnschrift;-inkscape-font-specification:Bahnschrift;fill:#ffffff;stroke-width:0.264583"
-         y="84.927406"
-         x="-23.058226"
-         id="tspan1158-5"
-         sodipodi:role="line">s</tspan></text>
-    <text
-       inkscape:export-ydpi="96"
-       inkscape:export-xdpi="96"
-       id="text1136-3-3"
-       y="66.757454"
-       x="-85.811218"
-       style="font-style:normal;font-weight:normal;font-size:7.59486px;line-height:1.25;font-family:sans-serif;display:inline;fill:#ff2a2a;fill-opacity:1;stroke:none;stroke-width:0.189873"
-       xml:space="preserve"
-       inkscape:export-filename="C:\Users\01123\Desktop\reflow oven\vol\display\1.png"><tspan
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.74681px;font-family:Bahnschrift;-inkscape-font-specification:Bahnschrift;fill:#ff2a2a;stroke-width:0.189873"
-         y="66.757454"
-         x="-85.811218"
-         id="tspan1134-6-5"
-         sodipodi:role="line">°C</tspan></text>
     <rect
        y="-152.13542"
        x="-92.604172"
@@ -2010,7 +1024,7 @@
        height="13.22918"
        width="30.427084"
        id="rect1071-8"
-       style="display:inline;fill:#00e600;stroke:#ffffff;stroke-width:0.529167;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;fill-opacity:1"
+       style="display:inline;fill:#00e600;fill-opacity:1;stroke:#ffffff;stroke-width:0.529167;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        inkscape:export-xdpi="96"
        inkscape:export-ydpi="96"
        inkscape:export-filename="C:\Users\01123\Desktop\reflow oven\vol\display\2.png" />
@@ -2307,7 +1321,7 @@
        inkscape:export-xdpi="96"
        id="path2687"
        d="m -82.020835,-133.61459 h 62.177084"
-       style="fill:none;stroke:#000000;stroke-width:2.38124998;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
+       style="fill:none;stroke:#000000;stroke-width:2.38125;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        inkscape:export-filename="C:\Users\01123\Desktop\reflow oven\vol\display\2.png" />
     <text
        inkscape:export-ydpi="96"
@@ -2530,7 +1544,7 @@
          id="tspan1079-6-0"
          x="10.218508"
          y="-32.452217"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.26042px;font-family:Bahnschrift;-inkscape-font-specification:Bahnschrift;fill:#00e600;stroke-width:0.264583;fill-opacity:1">Enter</tspan></text>
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.26042px;font-family:Bahnschrift;-inkscape-font-specification:Bahnschrift;fill:#00e600;fill-opacity:1;stroke-width:0.264583">Enter</tspan></text>
     <text
        inkscape:export-ydpi="96"
        inkscape:export-xdpi="96"
@@ -2654,7 +1668,7 @@
     <rect
        inkscape:export-ydpi="96"
        inkscape:export-xdpi="96"
-       style="display:inline;fill:#00a0ff;stroke:#000000;stroke-width:0.264999;stroke-linecap:round;fill-opacity:1"
+       style="display:inline;fill:#00a0ff;fill-opacity:1;stroke:#000000;stroke-width:0.264999;stroke-linecap:round"
        id="rect2618-2"
        width="19.84375"
        height="19.84375"
@@ -2671,12 +1685,12 @@
        height="19.84375"
        width="19.84375"
        id="rect2620-9"
-       style="display:inline;fill:#00a0ff;stroke:#000000;stroke-width:0.264999;stroke-linecap:round;fill-opacity:1"
+       style="display:inline;fill:#00a0ff;fill-opacity:1;stroke:#000000;stroke-width:0.264999;stroke-linecap:round"
        inkscape:export-filename="C:\Users\01123\Desktop\reflow oven\vol\display\3.png" />
     <rect
        inkscape:export-ydpi="96"
        inkscape:export-xdpi="96"
-       style="display:inline;fill:#00a0ff;stroke:#000000;stroke-width:0.264999;stroke-linecap:round;fill-opacity:1"
+       style="display:inline;fill:#00a0ff;fill-opacity:1;stroke:#000000;stroke-width:0.264999;stroke-linecap:round"
        id="rect2622-1"
        width="19.84375"
        height="19.84375"
@@ -2693,12 +1707,12 @@
        height="19.84375"
        width="19.84375"
        id="rect2624-6"
-       style="display:inline;fill:#00a0ff;stroke:#000000;stroke-width:0.264999;stroke-linecap:round;fill-opacity:1"
+       style="display:inline;fill:#00a0ff;fill-opacity:1;stroke:#000000;stroke-width:0.264999;stroke-linecap:round"
        inkscape:export-filename="C:\Users\01123\Desktop\reflow oven\vol\display\3.png" />
     <rect
        inkscape:export-ydpi="96"
        inkscape:export-xdpi="96"
-       style="display:inline;fill:#00a0ff;stroke:#000000;stroke-width:0.264999;stroke-linecap:round;fill-opacity:1"
+       style="display:inline;fill:#00a0ff;fill-opacity:1;stroke:#000000;stroke-width:0.264999;stroke-linecap:round"
        id="rect2626-5"
        width="19.84375"
        height="19.84375"
@@ -2715,12 +1729,12 @@
        height="19.84375"
        width="19.84375"
        id="rect2628-0"
-       style="display:inline;fill:#00a0ff;stroke:#000000;stroke-width:0.264999;stroke-linecap:round;fill-opacity:1"
+       style="display:inline;fill:#00a0ff;fill-opacity:1;stroke:#000000;stroke-width:0.264999;stroke-linecap:round"
        inkscape:export-filename="C:\Users\01123\Desktop\reflow oven\vol\display\3.png" />
     <rect
        inkscape:export-ydpi="96"
        inkscape:export-xdpi="96"
-       style="display:inline;fill:#00a0ff;stroke:#000000;stroke-width:0.264999;stroke-linecap:round;fill-opacity:1"
+       style="display:inline;fill:#00a0ff;fill-opacity:1;stroke:#000000;stroke-width:0.264999;stroke-linecap:round"
        id="rect2630-6"
        width="19.84375"
        height="19.84375"
@@ -2737,12 +1751,12 @@
        height="19.84375"
        width="19.84375"
        id="rect2632-3"
-       style="display:inline;fill:#00a0ff;stroke:#000000;stroke-width:0.264999;stroke-linecap:round;fill-opacity:1"
+       style="display:inline;fill:#00a0ff;fill-opacity:1;stroke:#000000;stroke-width:0.264999;stroke-linecap:round"
        inkscape:export-filename="C:\Users\01123\Desktop\reflow oven\vol\display\3.png" />
     <rect
        inkscape:export-ydpi="96"
        inkscape:export-xdpi="96"
-       style="display:inline;fill:#00a0ff;stroke:#000000;stroke-width:0.264999;stroke-linecap:round;fill-opacity:1"
+       style="display:inline;fill:#00a0ff;fill-opacity:1;stroke:#000000;stroke-width:0.264999;stroke-linecap:round"
        id="rect2634-5"
        width="19.84375"
        height="19.84375"
@@ -2753,7 +1767,7 @@
     <rect
        inkscape:export-ydpi="96"
        inkscape:export-xdpi="96"
-       style="display:inline;fill:#00a0ff;stroke:#000000;stroke-width:0.264999;stroke-linecap:round;fill-opacity:1"
+       style="display:inline;fill:#00a0ff;fill-opacity:1;stroke:#000000;stroke-width:0.264999;stroke-linecap:round"
        id="rect2638-9"
        width="42.333355"
        height="19.843748"
@@ -2770,7 +1784,7 @@
        height="19.84375"
        width="19.84375"
        id="rect2640-3"
-       style="display:inline;fill:#00a0ff;stroke:#000000;stroke-width:0.264999;stroke-linecap:round;fill-opacity:1"
+       style="display:inline;fill:#00a0ff;fill-opacity:1;stroke:#000000;stroke-width:0.264999;stroke-linecap:round"
        inkscape:export-filename="C:\Users\01123\Desktop\reflow oven\vol\display\3.png" />
     <rect
        inkscape:export-ydpi="96"
@@ -3078,14 +2092,14 @@
        height="6.6145878"
        width="39.687508"
        id="rect3400"
-       style="display:inline;fill:#00a0ff;stroke:#ffffff;stroke-width:0.52916666;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;fill-opacity:1"
+       style="display:inline;fill:#00a0ff;fill-opacity:1;stroke:#ffffff;stroke-width:0.529167;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        inkscape:export-xdpi="96"
        inkscape:export-ydpi="96"
        inkscape:export-filename="C:\Users\01123\Desktop\reflow oven\vol\display\6.png" />
     <rect
        inkscape:export-ydpi="96"
        inkscape:export-xdpi="96"
-       style="display:inline;fill:#00e600;fill-opacity:1;stroke:#ffffff;stroke-width:0.52916666;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       style="display:inline;fill:#00e600;fill-opacity:1;stroke:#ffffff;stroke-width:0.529167;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="rect3418"
        width="39.687504"
        height="7.9375091"
@@ -3100,14 +2114,14 @@
        height="7.9375081"
        width="39.687508"
        id="rect3436"
-       style="display:inline;fill:#00e600;fill-opacity:1;stroke:#ffffff;stroke-width:0.52916666;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       style="display:inline;fill:#00e600;fill-opacity:1;stroke:#ffffff;stroke-width:0.529167;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        inkscape:export-xdpi="96"
        inkscape:export-ydpi="96"
        inkscape:export-filename="C:\Users\01123\Desktop\reflow oven\vol\display\6.png" />
     <rect
        inkscape:export-ydpi="96"
        inkscape:export-xdpi="96"
-       style="display:inline;fill:#00e600;fill-opacity:1;stroke:#ffffff;stroke-width:0.52916666;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       style="display:inline;fill:#00e600;fill-opacity:1;stroke:#ffffff;stroke-width:0.529167;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="rect3448"
        width="39.687508"
        height="7.9375129"
@@ -3118,7 +2132,7 @@
     <rect
        inkscape:export-ydpi="96"
        inkscape:export-xdpi="96"
-       style="display:inline;fill:#000000;stroke:#ffffff;stroke-width:0.52916666;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       style="display:inline;fill:#000000;stroke:#ffffff;stroke-width:0.529167;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="rect3460"
        width="44.979176"
        height="13.229173"
@@ -3299,7 +2313,7 @@
     <rect
        inkscape:export-ydpi="96"
        inkscape:export-xdpi="96"
-       style="display:inline;fill:#00a0ff;stroke:#ffffff;stroke-width:0.52916666;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;fill-opacity:1"
+       style="display:inline;fill:#00a0ff;fill-opacity:1;stroke:#ffffff;stroke-width:0.529167;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="rect3833"
        width="39.687508"
        height="6.6145878"
@@ -3328,7 +2342,7 @@
        height="6.6145825"
        width="39.687492"
        id="rect3839"
-       style="display:inline;fill:#ff0000;stroke:#ffffff;stroke-width:0.52916666;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       style="display:inline;fill:#ff0000;stroke:#ffffff;stroke-width:0.529167;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        inkscape:export-xdpi="96"
        inkscape:export-ydpi="96"
        inkscape:export-filename="C:\Users\01123\Desktop\reflow oven\vol\display\6.png" />
@@ -3353,7 +2367,7 @@
        height="6.6145878"
        width="39.687508"
        id="rect3845"
-       style="display:inline;fill:#00a0ff;stroke:#ffffff;stroke-width:0.52916666;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;fill-opacity:1"
+       style="display:inline;fill:#00a0ff;fill-opacity:1;stroke:#ffffff;stroke-width:0.529167;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        inkscape:export-xdpi="96"
        inkscape:export-ydpi="96"
        inkscape:export-filename="C:\Users\01123\Desktop\reflow oven\vol\display\6.png" />
@@ -3374,7 +2388,7 @@
     <rect
        inkscape:export-ydpi="96"
        inkscape:export-xdpi="96"
-       style="display:inline;fill:#ff0000;stroke:#ffffff;stroke-width:0.52916666;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       style="display:inline;fill:#ff0000;stroke:#ffffff;stroke-width:0.529167;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="rect3851"
        width="39.687531"
        height="6.6145825"
@@ -3399,7 +2413,7 @@
     <rect
        inkscape:export-ydpi="96"
        inkscape:export-xdpi="96"
-       style="display:inline;fill:#00a0ff;stroke:#ffffff;stroke-width:0.52916666;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;fill-opacity:1"
+       style="display:inline;fill:#00a0ff;fill-opacity:1;stroke:#ffffff;stroke-width:0.529167;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="rect3857"
        width="39.687508"
        height="6.6145878"
@@ -3428,7 +2442,7 @@
        height="6.6145825"
        width="39.6875"
        id="rect3863"
-       style="display:inline;fill:#ff0000;stroke:#ffffff;stroke-width:0.52916666;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       style="display:inline;fill:#ff0000;stroke:#ffffff;stroke-width:0.529167;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        inkscape:export-xdpi="96"
        inkscape:export-ydpi="96"
        inkscape:export-filename="C:\Users\01123\Desktop\reflow oven\vol\display\6.png" />
@@ -3478,7 +2492,7 @@
        height="6.6145878"
        width="39.687508"
        id="rect3875"
-       style="display:inline;fill:#00a0ff;stroke:#ffffff;stroke-width:0.52916666;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;fill-opacity:1"
+       style="display:inline;fill:#00a0ff;fill-opacity:1;stroke:#ffffff;stroke-width:0.529167;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        inkscape:export-xdpi="96"
        inkscape:export-ydpi="96"
        inkscape:export-filename="C:\Users\01123\Desktop\reflow oven\vol\display\6.png" />
@@ -3499,7 +2513,7 @@
     <rect
        inkscape:export-ydpi="96"
        inkscape:export-xdpi="96"
-       style="display:inline;fill:#ff0000;stroke:#ffffff;stroke-width:0.52916666;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       style="display:inline;fill:#ff0000;stroke:#ffffff;stroke-width:0.529167;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="rect3881"
        width="39.6875"
        height="6.6145825"
@@ -3574,7 +2588,7 @@
     <rect
        inkscape:export-ydpi="96"
        inkscape:export-xdpi="96"
-       style="display:inline;fill:#00a0ff;stroke:#ffffff;stroke-width:0.52916666;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;fill-opacity:1"
+       style="display:inline;fill:#00a0ff;fill-opacity:1;stroke:#ffffff;stroke-width:0.529167;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="rect3893"
        width="39.687508"
        height="6.6145878"
@@ -3603,7 +2617,7 @@
        height="6.6145825"
        width="39.687531"
        id="rect3899"
-       style="display:inline;mix-blend-mode:normal;fill:#ff0000;fill-opacity:1;stroke:#ffffff;stroke-width:0.52916666;stroke-linecap:square;stroke-linejoin:bevel;stroke-miterlimit:7.0999999;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal"
+       style="display:inline;mix-blend-mode:normal;fill:#ff0000;fill-opacity:1;stroke:#ffffff;stroke-width:0.529167;stroke-linecap:square;stroke-linejoin:bevel;stroke-miterlimit:7.1;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal"
        inkscape:export-xdpi="96"
        inkscape:export-ydpi="96"
        inkscape:export-filename="C:\Users\01123\Desktop\reflow oven\vol\display\6.png" />
@@ -3628,7 +2642,7 @@
        height="7.9375048"
        width="39.687519"
        id="rect3905"
-       style="display:inline;fill:#00e600;fill-opacity:1;stroke:#ffffff;stroke-width:0.52916666;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       style="display:inline;fill:#00e600;fill-opacity:1;stroke:#ffffff;stroke-width:0.529167;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        inkscape:export-xdpi="96"
        inkscape:export-ydpi="96"
        inkscape:export-filename="C:\Users\01123\Desktop\reflow oven\vol\display\6.png" />
@@ -3649,7 +2663,7 @@
     <rect
        inkscape:export-ydpi="96"
        inkscape:export-xdpi="96"
-       style="display:inline;fill:#ff0000;stroke:#ffffff;stroke-width:0.52916666;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       style="display:inline;fill:#ff0000;stroke:#ffffff;stroke-width:0.529167;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="rect3911"
        width="39.6875"
        height="6.6145825"
@@ -3851,7 +2865,7 @@
     <rect
        inkscape:export-ydpi="96"
        inkscape:export-xdpi="96"
-       style="display:inline;fill:#00a0ff;stroke:#ffffff;stroke-width:0.443587;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;fill-opacity:1"
+       style="display:inline;fill:#00a0ff;fill-opacity:1;stroke:#ffffff;stroke-width:0.443587;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="rect1110-0-9"
        width="34.395824"
        height="6.6145878"
@@ -3891,7 +2905,7 @@
        height="6.6145878"
        width="34.395847"
        id="rect3388-1"
-       style="display:inline;fill:#00a0ff;stroke:#ffffff;stroke-width:0.443587;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;fill-opacity:1"
+       style="display:inline;fill:#00a0ff;fill-opacity:1;stroke:#ffffff;stroke-width:0.443587;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        inkscape:export-xdpi="96"
        inkscape:export-ydpi="96"
        inkscape:export-filename="C:\Users\01123\Desktop\reflow oven\vol\display\4.png" />
@@ -3909,7 +2923,7 @@
     <rect
        inkscape:export-ydpi="96"
        inkscape:export-xdpi="96"
-       style="display:inline;fill:#00a0ff;stroke:#ffffff;stroke-width:0.443587;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;fill-opacity:1"
+       style="display:inline;fill:#00a0ff;fill-opacity:1;stroke:#ffffff;stroke-width:0.443587;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="rect3400-9"
        width="34.395851"
        height="6.6145878"
@@ -4243,33 +3257,8 @@
          sodipodi:role="line">D-TERM</tspan></text>
     <rect
        ry="1.3158454"
-       y="62.455814"
-       x="-76.4646"
-       height="5.2633815"
-       width="7.3800483"
-       id="rect4595"
-       style="display:inline;fill:#ffffff;stroke:#000000;stroke-width:0.557453;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.3"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96"
-       inkscape:export-filename="C:\Users\01123\Desktop\reflow oven\vol\display\1.png" />
-    <text
-       id="text4599"
-       y="66.501755"
-       x="-76.016304"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.96875px;line-height:1.25;font-family:Bahnschrift;-inkscape-font-specification:Bahnschrift;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
-       xml:space="preserve"
-       inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96"
-       inkscape:export-filename="C:\Users\01123\Desktop\reflow oven\vol\display\1.png"><tspan
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.96875px;font-family:Bahnschrift;-inkscape-font-specification:Bahnschrift;fill:#000000;stroke-width:0.264583"
-         y="66.501755"
-         x="-76.016304"
-         id="tspan4597"
-         sodipodi:role="line">240</tspan></text>
-    <rect
-       ry="1.3158454"
-       y="63.752266"
-       x="38.604427"
+       y="65.709778"
+       x="38.329117"
        height="5.2633815"
        width="7.3800483"
        id="rect4601"
@@ -4279,25 +3268,25 @@
        inkscape:export-filename="C:\Users\01123\Desktop\reflow oven\vol\display\0.png" />
     <text
        id="text4605"
-       y="67.798225"
-       x="39.052727"
+       y="69.755737"
+       x="38.777416"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.96875px;line-height:1.25;font-family:Bahnschrift;-inkscape-font-specification:Bahnschrift;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
        xml:space="preserve"
        inkscape:export-xdpi="96"
        inkscape:export-ydpi="96"
        inkscape:export-filename="C:\Users\01123\Desktop\reflow oven\vol\display\0.png"><tspan
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.96875px;font-family:Bahnschrift;-inkscape-font-specification:Bahnschrift;fill:#000000;stroke-width:0.264583"
-         y="67.798225"
-         x="39.052727"
+         y="69.755737"
+         x="38.777416"
          id="tspan4603"
-         sodipodi:role="line">400</tspan></text>
+         sodipodi:role="line">300</tspan></text>
     <rect
        style="display:inline;fill:#ffffff;stroke:#000000;stroke-width:0.557453;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.3"
        id="rect4607"
        width="7.3800483"
        height="5.2633815"
-       x="51.833614"
-       y="63.752266"
+       x="51.558304"
+       y="65.709778"
        ry="1.3158454"
        inkscape:export-xdpi="96"
        inkscape:export-ydpi="96"
@@ -4305,21 +3294,21 @@
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.96875px;line-height:1.25;font-family:Bahnschrift;-inkscape-font-specification:Bahnschrift;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
-       x="52.281906"
-       y="67.798225"
+       x="52.006596"
+       y="69.755737"
        id="text4611"
        inkscape:export-xdpi="96"
        inkscape:export-ydpi="96"
        inkscape:export-filename="C:\Users\01123\Desktop\reflow oven\vol\display\0.png"><tspan
          sodipodi:role="line"
          id="tspan4609"
-         x="52.281906"
-         y="67.798225"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.96875px;font-family:Bahnschrift;-inkscape-font-specification:Bahnschrift;fill:#000000;stroke-width:0.264583">560</tspan></text>
+         x="52.006596"
+         y="69.755737"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.96875px;font-family:Bahnschrift;-inkscape-font-specification:Bahnschrift;fill:#000000;stroke-width:0.264583">420</tspan></text>
     <rect
        ry="1.3158454"
-       y="63.752266"
-       x="65.062775"
+       y="65.709778"
+       x="64.78746"
        height="5.2633815"
        width="7.3800483"
        id="rect4613"
@@ -4329,18 +3318,18 @@
        inkscape:export-filename="C:\Users\01123\Desktop\reflow oven\vol\display\0.png" />
     <text
        id="text4617"
-       y="67.798225"
-       x="65.51107"
+       y="69.755737"
+       x="65.235756"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.96875px;line-height:1.25;font-family:Bahnschrift;-inkscape-font-specification:Bahnschrift;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
        xml:space="preserve"
        inkscape:export-xdpi="96"
        inkscape:export-ydpi="96"
        inkscape:export-filename="C:\Users\01123\Desktop\reflow oven\vol\display\0.png"><tspan
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.96875px;font-family:Bahnschrift;-inkscape-font-specification:Bahnschrift;fill:#000000;stroke-width:0.264583"
-         y="67.798225"
-         x="65.51107"
+         y="69.755737"
+         x="65.235756"
          id="tspan4615"
-         sodipodi:role="line">720</tspan></text>
+         sodipodi:role="line">540</tspan></text>
     <rect
        inkscape:export-ydpi="96"
        inkscape:export-xdpi="96"
@@ -4348,8 +3337,8 @@
        id="rect4619"
        width="7.3800483"
        height="5.2633815"
-       x="25.37525"
-       y="63.752266"
+       x="25.099939"
+       y="65.709778"
        ry="1.3158454"
        inkscape:export-filename="C:\Users\01123\Desktop\reflow oven\vol\display\0.png" />
     <text
@@ -4357,15 +3346,1022 @@
        inkscape:export-xdpi="96"
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.96875px;line-height:1.25;font-family:Bahnschrift;-inkscape-font-specification:Bahnschrift;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
-       x="25.823547"
-       y="67.798225"
+       x="26.049376"
+       y="69.646797"
        id="text4623"
        inkscape:export-filename="C:\Users\01123\Desktop\reflow oven\vol\display\0.png"><tspan
          sodipodi:role="line"
          id="tspan4621"
-         x="25.823547"
-         y="67.798225"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.96875px;font-family:Bahnschrift;-inkscape-font-specification:Bahnschrift;fill:#000000;stroke-width:0.264583">240</tspan></text>
+         x="26.049376"
+         y="69.646797"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.96875px;font-family:Bahnschrift;-inkscape-font-specification:Bahnschrift;fill:#000000;stroke-width:0.264583">180</tspan></text>
+    <rect
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       style="display:inline;fill:#ffffff;stroke:#000000;stroke-width:0.557453;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.3"
+       id="rect4619-2"
+       width="7.3800483"
+       height="5.2633815"
+       x="12.197438"
+       y="65.726799"
+       ry="1.3158454"
+       inkscape:export-filename="C:\Users\01123\Desktop\reflow oven\vol\display\0.png" />
+    <text
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.96875px;line-height:1.25;font-family:Bahnschrift;-inkscape-font-specification:Bahnschrift;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="13.948231"
+       y="69.730385"
+       id="text4623-3"
+       inkscape:export-filename="C:\Users\01123\Desktop\reflow oven\vol\display\0.png"><tspan
+         sodipodi:role="line"
+         id="tspan4621-4"
+         x="13.948231"
+         y="69.730385"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.96875px;font-family:Bahnschrift;-inkscape-font-specification:Bahnschrift;fill:#000000;stroke-width:0.264583">60</tspan></text>
+    <rect
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       style="display:inline;fill:#b3b3b3;stroke:none;stroke-width:0.564999;stroke-linecap:round;stroke-dasharray:0.564999, 2.26"
+       id="rect849-34"
+       width="84.666672"
+       height="127"
+       x="-96.442947"
+       y="-4.7529297e-06"
+       inkscape:export-filename="C:\Users\01123\Desktop\reflow oven\vol\display\0.png" />
+    <rect
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       style="display:inline;fill:#ffffff;stroke:#ffffff;stroke-width:0.529167;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect1100-9"
+       width="48.947918"
+       height="38.364582"
+       x="-62.047112"
+       y="72.760399"
+       ry="0.26458147"
+       inkscape:export-filename="C:\Users\01123\Desktop\reflow oven\vol\display\0.png" />
+    <rect
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       style="display:inline;mix-blend-mode:normal;fill:#ffffff;stroke:#000000;stroke-width:0.530225;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.3"
+       id="rect843-6"
+       width="75.406258"
+       height="48.947952"
+       x="-88.505447"
+       y="15.874965"
+       ry="1.1654273"
+       inkscape:export-filename="C:\Users\01123\Desktop\reflow oven\vol\display\0.png" />
+    <path
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       style="display:inline;fill:none;stroke:#000000;stroke-width:0.494991;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m -14.422109,63.499995 h -72.760422 l 10e-7,-46.302116"
+       id="path853-6"
+       sodipodi:nodetypes="ccc"
+       inkscape:export-filename="C:\Users\01123\Desktop\reflow oven\vol\display\0.png" />
+    <path
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       style="display:inline;fill:none;stroke:#000000;stroke-width:0.529167;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m -80.567948,63.499995 v -1.32292 l 2e-6,-1.32291"
+       id="path855-2"
+       sodipodi:nodetypes="ccc"
+       inkscape:export-filename="C:\Users\01123\Desktop\reflow oven\vol\display\0.png" />
+    <path
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       style="display:inline;fill:none;stroke:#000000;stroke-width:0.529167;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m -73.953365,63.499995 v -1.32292"
+       id="path857-2"
+       inkscape:export-filename="C:\Users\01123\Desktop\reflow oven\vol\display\0.png" />
+    <path
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       style="display:inline;fill:none;stroke:#000000;stroke-width:0.529167;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m -67.338781,63.499995 2e-6,-2.64583"
+       id="path859-9"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="C:\Users\01123\Desktop\reflow oven\vol\display\0.png" />
+    <path
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       style="display:inline;fill:none;stroke:#000000;stroke-width:0.529167;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m -60.724199,63.499995 v -1.32292"
+       id="path861-0"
+       inkscape:export-filename="C:\Users\01123\Desktop\reflow oven\vol\display\0.png" />
+    <path
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       style="display:inline;fill:none;stroke:#000000;stroke-width:0.529167;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m -54.109616,63.499995 4e-6,-2.64583"
+       id="path863-0"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="C:\Users\01123\Desktop\reflow oven\vol\display\0.png" />
+    <path
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       style="display:inline;fill:none;stroke:#000000;stroke-width:0.529167;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m -47.49503,63.499995 v -1.32292"
+       id="path865-7"
+       inkscape:export-filename="C:\Users\01123\Desktop\reflow oven\vol\display\0.png" />
+    <path
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       style="display:inline;fill:none;stroke:#000000;stroke-width:0.529167;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m -40.880447,63.499995 2e-6,-2.64583"
+       id="path867-8"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="C:\Users\01123\Desktop\reflow oven\vol\display\0.png" />
+    <path
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       style="display:inline;fill:none;stroke:#000000;stroke-width:0.529167;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m -34.265859,63.499995 v -1.32292"
+       id="path869-4"
+       inkscape:export-filename="C:\Users\01123\Desktop\reflow oven\vol\display\0.png" />
+    <path
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       style="display:inline;fill:none;stroke:#000000;stroke-width:0.529167;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m -27.651279,63.499995 v -2.64583"
+       id="path871-6"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="C:\Users\01123\Desktop\reflow oven\vol\display\0.png" />
+    <path
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       style="display:inline;fill:none;stroke:#000000;stroke-width:0.529167;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m -21.036699,63.499995 v -1.32292"
+       id="path873-8"
+       inkscape:export-filename="C:\Users\01123\Desktop\reflow oven\vol\display\0.png" />
+    <path
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       style="display:inline;fill:none;stroke:#000000;stroke-width:0.529167;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m -14.422119,63.499995 10e-6,-2.64583"
+       id="path875-3"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="C:\Users\01123\Desktop\reflow oven\vol\display\0.png" />
+    <path
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       style="display:inline;fill:none;stroke:#000000;stroke-width:0.529167;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m -87.182531,56.885415 h 2.645835"
+       id="path877-5"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="C:\Users\01123\Desktop\reflow oven\vol\display\0.png" />
+    <path
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       style="display:inline;fill:none;stroke:#000000;stroke-width:0.529167;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m -87.182531,50.270825 h 1.322916"
+       id="path879-4"
+       inkscape:export-filename="C:\Users\01123\Desktop\reflow oven\vol\display\0.png" />
+    <path
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       style="display:inline;fill:none;stroke:#000000;stroke-width:0.529167;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m -87.182531,43.656245 h 2.645835"
+       id="path881-7"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="C:\Users\01123\Desktop\reflow oven\vol\display\0.png" />
+    <path
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       style="display:inline;fill:none;stroke:#000000;stroke-width:0.529167;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m -87.182531,37.041663 h 1.322916"
+       id="path883-5"
+       inkscape:export-filename="C:\Users\01123\Desktop\reflow oven\vol\display\0.png" />
+    <path
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       style="display:inline;fill:none;stroke:#000000;stroke-width:0.529167;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m -87.182531,30.42708 2.645835,-2e-6"
+       id="path885-4"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="C:\Users\01123\Desktop\reflow oven\vol\display\0.png" />
+    <path
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       style="display:inline;fill:none;stroke:#000000;stroke-width:0.529167;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m -87.182531,23.812494 h 1.322916"
+       id="path887-3"
+       inkscape:export-filename="C:\Users\01123\Desktop\reflow oven\vol\display\0.png" />
+    <path
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       style="display:inline;fill:none;stroke:#000000;stroke-width:0.529167;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m -87.182531,17.197911 2.645835,2e-6"
+       id="path889-5"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="C:\Users\01123\Desktop\reflow oven\vol\display\0.png" />
+    <path
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       style="display:inline;fill:#ffffff;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:0.3"
+       d="m -87.182531,17.197911 h 72.760412 v 0"
+       id="path891-4"
+       inkscape:export-filename="C:\Users\01123\Desktop\reflow oven\vol\display\0.png" />
+    <path
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       style="display:inline;fill:#ffffff;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:0.3"
+       d="m -87.182531,23.812494 h 72.760412"
+       id="path893-5"
+       inkscape:export-filename="C:\Users\01123\Desktop\reflow oven\vol\display\0.png" />
+    <path
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       style="display:inline;fill:#ffffff;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:0.3"
+       d="m -87.182531,30.42708 h 72.760412"
+       id="path895-8"
+       inkscape:export-filename="C:\Users\01123\Desktop\reflow oven\vol\display\0.png" />
+    <path
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       style="display:inline;fill:#ffffff;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:0.3"
+       d="m -87.182531,37.041663 h 72.760412"
+       id="path897-0"
+       inkscape:export-filename="C:\Users\01123\Desktop\reflow oven\vol\display\0.png" />
+    <path
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       style="display:inline;fill:#ffffff;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:0.3"
+       d="m -87.182531,43.656245 h 72.760412"
+       id="path899-1"
+       inkscape:export-filename="C:\Users\01123\Desktop\reflow oven\vol\display\0.png" />
+    <path
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       style="display:inline;fill:#ffffff;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:0.3"
+       d="m -87.182531,50.270825 h 72.760412"
+       id="path901-6"
+       inkscape:export-filename="C:\Users\01123\Desktop\reflow oven\vol\display\0.png" />
+    <path
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       style="display:inline;fill:#ffffff;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:0.3"
+       d="m -87.182531,56.885415 h 72.760412"
+       id="path903-5"
+       inkscape:export-filename="C:\Users\01123\Desktop\reflow oven\vol\display\0.png" />
+    <path
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       style="display:inline;fill:#ffffff;stroke:#000000;stroke-width:0.247495;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.3"
+       d="M -80.567948,63.499995 V 17.197879"
+       id="path905-0"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="C:\Users\01123\Desktop\reflow oven\vol\display\0.png" />
+    <path
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       style="display:inline;fill:#ffffff;stroke:#000000;stroke-width:0.247495px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:0.3"
+       d="m -73.953365,63.499995 1e-6,-46.302116"
+       id="path907-1"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="C:\Users\01123\Desktop\reflow oven\vol\display\0.png" />
+    <path
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       style="display:inline;fill:#ffffff;stroke:#000000;stroke-width:0.247495px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:0.3"
+       d="M -67.338781,63.499995 V 17.197879"
+       id="path909-8"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="C:\Users\01123\Desktop\reflow oven\vol\display\0.png" />
+    <path
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       style="display:inline;fill:#ffffff;stroke:#000000;stroke-width:0.247495px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:0.3"
+       d="m -60.724199,63.499995 2e-6,-46.302116"
+       id="path911-7"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="C:\Users\01123\Desktop\reflow oven\vol\display\0.png" />
+    <path
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       style="display:inline;fill:#ffffff;stroke:#000000;stroke-width:0.247495px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:0.3"
+       d="m -54.109616,63.499995 2e-6,-46.302116"
+       id="path913-9"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="C:\Users\01123\Desktop\reflow oven\vol\display\0.png" />
+    <path
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       style="display:inline;fill:#ffffff;stroke:#000000;stroke-width:0.247495px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:0.3"
+       d="M -47.49503,63.499995 V 17.197879"
+       id="path915-6"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="C:\Users\01123\Desktop\reflow oven\vol\display\0.png" />
+    <path
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       style="display:inline;fill:#ffffff;stroke:#000000;stroke-width:0.247495px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:0.3"
+       d="M -40.880447,63.499995 V 17.197879"
+       id="path917-6"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="C:\Users\01123\Desktop\reflow oven\vol\display\0.png" />
+    <path
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       style="display:inline;fill:#ffffff;stroke:#000000;stroke-width:0.247495px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:0.3"
+       d="M -34.265859,63.499995 V 17.197879"
+       id="path919-0"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="C:\Users\01123\Desktop\reflow oven\vol\display\0.png" />
+    <path
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       style="display:inline;fill:#ffffff;stroke:#000000;stroke-width:0.247495px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:0.3"
+       d="M -27.651279,63.499995 V 17.197879"
+       id="path921-7"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="C:\Users\01123\Desktop\reflow oven\vol\display\0.png" />
+    <path
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       style="display:inline;fill:#ffffff;stroke:#000000;stroke-width:0.247495px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:0.3"
+       d="M -21.036699,63.499995 V 17.197879"
+       id="path923-8"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="C:\Users\01123\Desktop\reflow oven\vol\display\0.png" />
+    <path
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       style="display:inline;fill:#ffffff;stroke:#000000;stroke-width:0.247495px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:0.3"
+       d="m -14.422119,63.499995 10e-6,-46.302116"
+       id="path925-3"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="C:\Users\01123\Desktop\reflow oven\vol\display\0.png" />
+    <rect
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       style="display:inline;fill:#ffffff;stroke:#000000;stroke-width:0.529167;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.3"
+       id="rect935-7"
+       width="6.614583"
+       height="5.2916665"
+       x="-95.924507"
+       y="54.377239"
+       ry="1.3229166"
+       inkscape:export-filename="C:\Users\01123\Desktop\reflow oven\vol\display\0.png" />
+    <text
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.96875px;line-height:1.25;font-family:Bahnschrift;-inkscape-font-specification:Bahnschrift;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="-94.75119"
+       y="58.545063"
+       id="text929-3"
+       inkscape:export-filename="C:\Users\01123\Desktop\reflow oven\vol\display\0.png"><tspan
+         sodipodi:role="line"
+         id="tspan927-2"
+         x="-94.75119"
+         y="58.545063"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.96875px;font-family:Bahnschrift;-inkscape-font-specification:Bahnschrift;fill:#000000;stroke-width:0.264583">35</tspan></text>
+    <rect
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       ry="1.3229166"
+       y="41.14806"
+       x="-95.924507"
+       height="5.2916665"
+       width="6.614583"
+       id="rect937-0"
+       style="display:inline;fill:#ffffff;stroke:#000000;stroke-width:0.529167;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.3"
+       inkscape:export-filename="C:\Users\01123\Desktop\reflow oven\vol\display\0.png" />
+    <text
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       id="text941-8"
+       y="45.262074"
+       x="-95.343094"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.96875px;line-height:1.45;font-family:Bahnschrift;-inkscape-font-specification:Bahnschrift;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       xml:space="preserve"
+       inkscape:export-filename="C:\Users\01123\Desktop\reflow oven\vol\display\0.png"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.96875px;font-family:Bahnschrift;-inkscape-font-specification:Bahnschrift;fill:#000000;stroke-width:0.264583"
+         y="45.262074"
+         x="-95.343094"
+         id="tspan939-1"
+         sodipodi:role="line">105</tspan></text>
+    <rect
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       style="display:inline;fill:#ffffff;stroke:#000000;stroke-width:0.529167;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.3"
+       id="rect943-0"
+       width="6.614583"
+       height="5.2916665"
+       x="-95.924507"
+       y="27.918873"
+       ry="1.3229166"
+       inkscape:export-filename="C:\Users\01123\Desktop\reflow oven\vol\display\0.png" />
+    <text
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.96875px;line-height:1.25;font-family:Bahnschrift;-inkscape-font-specification:Bahnschrift;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="-95.226547"
+       y="32.086712"
+       id="text947-4"
+       inkscape:export-filename="C:\Users\01123\Desktop\reflow oven\vol\display\0.png"><tspan
+         sodipodi:role="line"
+         id="tspan945-6"
+         x="-95.226547"
+         y="32.086712"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.96875px;font-family:Bahnschrift;-inkscape-font-specification:Bahnschrift;fill:#000000;stroke-width:0.264583">175</tspan></text>
+    <rect
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       ry="1.3229166"
+       y="14.781589"
+       x="-95.924515"
+       height="5.2916665"
+       width="6.614583"
+       id="rect949-3"
+       style="display:inline;fill:#ffffff;stroke:#000000;stroke-width:0.529167;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.3"
+       inkscape:export-filename="C:\Users\01123\Desktop\reflow oven\vol\display\0.png" />
+    <text
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       id="text953-5"
+       y="18.803722"
+       x="-95.764641"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.96875px;line-height:1.25;font-family:Bahnschrift;-inkscape-font-specification:Bahnschrift;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       xml:space="preserve"
+       inkscape:export-filename="C:\Users\01123\Desktop\reflow oven\vol\display\0.png"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.96875px;font-family:Bahnschrift;-inkscape-font-specification:Bahnschrift;fill:#000000;stroke-width:0.264583"
+         y="18.803722"
+         x="-95.764641"
+         id="tspan951-5"
+         sodipodi:role="line">245</tspan></text>
+    <rect
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       ry="2.9765625"
+       y="1.9843702"
+       x="-54.109612"
+       height="11.90625"
+       width="39.6875"
+       id="rect971-9"
+       style="display:inline;fill:#ffffff;stroke:#000000;stroke-width:1.08688;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.1"
+       inkscape:export-filename="C:\Users\01123\Desktop\reflow oven\vol\display\0.png" />
+    <text
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       id="text1009-9"
+       y="69.977089"
+       x="-19.460497"
+       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       xml:space="preserve"
+       inkscape:export-filename="C:\Users\01123\Desktop\reflow oven\vol\display\0.png"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.61458px;font-family:Bahnschrift;-inkscape-font-specification:Bahnschrift;stroke-width:0.264583"
+         y="69.977089"
+         x="-19.460497"
+         id="tspan1007-9"
+         sodipodi:role="line">s</tspan></text>
+    <rect
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       style="display:inline;fill:#ff0000;stroke:#ffffff;stroke-width:0.519948;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect1025-4"
+       width="34.135883"
+       height="5.2962761"
+       x="-93.667137"
+       y="1.3229132"
+       ry="0.53039587"
+       inkscape:export-filename="C:\Users\01123\Desktop\reflow oven\vol\display\0.png" />
+    <text
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       id="text1029-5"
+       y="5.7078657"
+       x="-91.443687"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.7625px;line-height:1.25;font-family:Bahnschrift;-inkscape-font-specification:Bahnschrift;display:inline;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       xml:space="preserve"
+       inkscape:export-filename="C:\Users\01123\Desktop\reflow oven\vol\display\0.png"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.7625px;font-family:Bahnschrift;-inkscape-font-specification:Bahnschrift;fill:#ffffff;stroke-width:0.264583"
+         y="5.7078657"
+         x="-91.443687"
+         id="tspan1027-7"
+         sodipodi:role="line">Current Temp.</tspan></text>
+    <rect
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       style="display:inline;fill:#000000;stroke:#ffffff;stroke-width:0.529167;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect1039-4"
+       width="30.427084"
+       height="6.6145825"
+       x="-95.120033"
+       y="72.760414"
+       ry="0.530397"
+       inkscape:export-filename="C:\Users\01123\Desktop\reflow oven\vol\display\0.png" />
+    <rect
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       ry="0.530397"
+       y="80.697914"
+       x="-95.120033"
+       height="6.6145806"
+       width="30.427084"
+       id="rect1041-6"
+       style="display:inline;fill:#000000;stroke:#ffffff;stroke-width:0.529167;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       inkscape:export-filename="C:\Users\01123\Desktop\reflow oven\vol\display\0.png" />
+    <rect
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       ry="0.530397"
+       y="88.635414"
+       x="-95.120033"
+       height="6.6145859"
+       width="30.427084"
+       id="rect1043-8"
+       style="display:inline;fill:#000000;stroke:#ffffff;stroke-width:0.529167;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       inkscape:export-filename="C:\Users\01123\Desktop\reflow oven\vol\display\0.png" />
+    <rect
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       style="display:inline;fill:#000000;stroke:#ffffff;stroke-width:0.529167;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect1045-4"
+       width="30.427084"
+       height="6.6145835"
+       x="-95.120033"
+       y="96.572914"
+       ry="0.530397"
+       inkscape:export-filename="C:\Users\01123\Desktop\reflow oven\vol\display\0.png" />
+    <rect
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       ry="0.530397"
+       y="104.51043"
+       x="-95.120033"
+       height="6.6145811"
+       width="30.427084"
+       id="rect1047-7"
+       style="display:inline;fill:#000000;stroke:#ffffff;stroke-width:0.529167;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       inkscape:export-filename="C:\Users\01123\Desktop\reflow oven\vol\display\0.png" />
+    <text
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.61458px;line-height:1.25;font-family:Bahnschrift;-inkscape-font-specification:Bahnschrift;display:inline;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="-93.632782"
+       y="78.408165"
+       id="text1053-1"
+       inkscape:export-filename="C:\Users\01123\Desktop\reflow oven\vol\display\0.png"><tspan
+         sodipodi:role="line"
+         id="tspan1051-9"
+         x="-93.632782"
+         y="78.408165"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.61458px;font-family:Bahnschrift;-inkscape-font-specification:Bahnschrift;fill:#ffffff;stroke-width:0.264583">PREHEAT</tspan></text>
+    <text
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       id="text1057-0"
+       y="86.34568"
+       x="-88.870285"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.61458px;line-height:1.25;font-family:Bahnschrift;-inkscape-font-specification:Bahnschrift;display:inline;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       xml:space="preserve"
+       inkscape:export-filename="C:\Users\01123\Desktop\reflow oven\vol\display\0.png"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.61458px;font-family:Bahnschrift;-inkscape-font-specification:Bahnschrift;fill:#ffffff;stroke-width:0.264583"
+         y="86.34568"
+         x="-88.870285"
+         id="tspan1055-9"
+         sodipodi:role="line">SOAK</tspan></text>
+    <text
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       id="text1061-0"
+       y="94.283195"
+       x="-93.632782"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.61458px;line-height:1.25;font-family:Bahnschrift;-inkscape-font-specification:Bahnschrift;display:inline;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       xml:space="preserve"
+       inkscape:export-filename="C:\Users\01123\Desktop\reflow oven\vol\display\0.png"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.61458px;font-family:Bahnschrift;-inkscape-font-specification:Bahnschrift;fill:#ffffff;stroke-width:0.264583"
+         y="94.283195"
+         x="-93.632782"
+         id="tspan1059-5"
+         sodipodi:role="line">HEAT UP</tspan></text>
+    <text
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.61458px;line-height:1.25;font-family:Bahnschrift;-inkscape-font-specification:Bahnschrift;display:inline;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="-93.632782"
+       y="102.22068"
+       id="text1065-9"
+       inkscape:export-filename="C:\Users\01123\Desktop\reflow oven\vol\display\0.png"><tspan
+         sodipodi:role="line"
+         id="tspan1063-7"
+         x="-93.632782"
+         y="102.22068"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.61458px;font-family:Bahnschrift;-inkscape-font-specification:Bahnschrift;fill:#ffffff;stroke-width:0.264583">REFLOW</tspan></text>
+    <text
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       id="text1069-6"
+       y="110.15818"
+       x="-93.632782"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.61458px;line-height:1.25;font-family:Bahnschrift;-inkscape-font-specification:Bahnschrift;display:inline;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       xml:space="preserve"
+       inkscape:export-filename="C:\Users\01123\Desktop\reflow oven\vol\display\0.png"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.61458px;font-family:Bahnschrift;-inkscape-font-specification:Bahnschrift;fill:#ffffff;stroke-width:0.264583"
+         y="110.15818"
+         x="-93.632782"
+         id="tspan1067-6"
+         sodipodi:role="line">CONSOLE</tspan></text>
+    <rect
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       style="display:inline;fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:0.529167;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect1071-0"
+       width="30.427084"
+       height="13.22918"
+       x="-95.120033"
+       y="112.4479"
+       ry="0.26458147"
+       inkscape:export-filename="C:\Users\01123\Desktop\reflow oven\vol\display\0.png" />
+    <rect
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       ry="0.26458147"
+       y="112.44793"
+       x="-28.974199"
+       height="13.229151"
+       width="16.139585"
+       id="rect1075-9"
+       style="display:inline;fill:#ffffff;stroke:#ffffff;stroke-width:0.529167;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       inkscape:export-filename="C:\Users\01123\Desktop\reflow oven\vol\display\0.png" />
+    <rect
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       ry="0.26458147"
+       y="112.44791"
+       x="-62.047112"
+       height="13.229166"
+       width="30.427088"
+       id="rect1077-5"
+       style="display:inline;fill:#ffffff;stroke:#ffffff;stroke-width:0.529167;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       inkscape:export-filename="C:\Users\01123\Desktop\reflow oven\vol\display\0.png" />
+    <text
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.26042px;line-height:1.25;font-family:Bahnschrift;-inkscape-font-specification:Bahnschrift;display:inline;fill:#00e600;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="-93.632782"
+       y="122.32903"
+       id="text1081-6"
+       inkscape:export-filename="C:\Users\01123\Desktop\reflow oven\vol\display\0.png"><tspan
+         sodipodi:role="line"
+         id="tspan1079-65"
+         x="-93.632782"
+         y="122.32903"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.26042px;font-family:Bahnschrift;-inkscape-font-specification:Bahnschrift;fill:#00e600;stroke-width:0.264583;fill-opacity:1">START</tspan></text>
+    <text
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       id="text1085-2"
+       y="122.32903"
+       x="-58.178604"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.26042px;line-height:1.25;font-family:Bahnschrift;-inkscape-font-specification:Bahnschrift;display:inline;fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       xml:space="preserve"
+       inkscape:export-filename="C:\Users\01123\Desktop\reflow oven\vol\display\0.png"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.26042px;font-family:Bahnschrift;-inkscape-font-specification:Bahnschrift;fill:#ff0000;stroke-width:0.264583"
+         y="122.32903"
+         x="-58.178604"
+         id="tspan1083-3"
+         sodipodi:role="line">STOP</tspan></text>
+    <path
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       d="m -21.980989,114.14437 -0.0599,0.31201 -0.228,1.14004 c -0.36603,0.14398 -0.69603,0.34652 -0.99605,0.58804 l -1.11604,-0.38403 -0.30002,-0.0961 -0.15601,0.27601 -0.76803,1.32006 -0.15601,0.27602 0.22802,0.204 0.86403,0.75604 c -0.0315,0.1965 -0.072,0.39301 -0.072,0.60002 0,0.20701 0.0405,0.40352 0.072,0.60002 l -0.86403,0.75604 -0.22802,0.20401 0.15601,0.27601 0.76803,1.32005 0.15601,0.27601 0.30002,-0.0959 1.11604,-0.38401 c 0.30002,0.24152 0.63002,0.44401 0.99605,0.58802 l 0.228,1.14005 0.0599,0.31202 h 2.16009 l 0.0599,-0.31202 0.22801,-1.14005 c 0.36602,-0.14398 0.69604,-0.3465 0.99604,-0.58802 l 1.11605,0.38401 0.30002,0.0959 0.156,-0.27601 0.76804,-1.32005 0.15601,-0.27601 -0.22802,-0.20401 -0.86403,-0.75604 c 0.0315,-0.1965 0.072,-0.39301 0.072,-0.60002 0,-0.20701 -0.0405,-0.40352 -0.072,-0.60002 l 0.86403,-0.75604 0.22802,-0.204 -0.15601,-0.27602 -0.76804,-1.32006 -0.156,-0.27601 -0.30002,0.0961 -1.11605,0.38403 c -0.3,-0.24152 -0.63002,-0.44403 -0.99604,-0.58804 l -0.22801,-1.14004 -0.0599,-0.31201 z m 0.62403,0.76804 h 0.91204 l 0.19201,0.99603 0.048,0.22802 0.21601,0.072 c 0.43652,0.13657 0.83254,0.36751 1.16405,0.67202 l 0.168,0.156 0.21602,-0.072 0.97204,-0.33601 0.45602,0.78004 -0.76804,0.68403 -0.18,0.14398 0.0599,0.228 c 0.0495,0.21901 0.072,0.44251 0.072,0.67202 0,0.22951 -0.0225,0.45303 -0.072,0.67203 l -0.048,0.22802 0.168,0.14398 0.76803,0.68403 -0.45601,0.78002 -0.97205,-0.33601 -0.21601,-0.072 -0.168,0.15601 c -0.33151,0.30452 -0.72753,0.53552 -1.16405,0.67203 l -0.21601,0.072 -0.048,0.22801 -0.19201,0.99604 h -0.91204 l -0.19201,-0.99604 -0.048,-0.22801 -0.21601,-0.072 c -0.43652,-0.13643 -0.83254,-0.36751 -1.16405,-0.67203 l -0.16801,-0.15601 -0.216,0.072 -0.97205,0.33601 -0.45601,-0.78002 0.76802,-0.68403 0.18002,-0.14398 -0.0599,-0.22802 c -0.0495,-0.219 -0.072,-0.44252 -0.072,-0.67203 0,-0.22951 0.0225,-0.45301 0.072,-0.67202 l 0.0599,-0.228 -0.18002,-0.14398 -0.76802,-0.68403 0.45601,-0.78004 0.97205,0.33601 0.216,0.072 0.16801,-0.156 c 0.33151,-0.30451 0.72753,-0.53552 1.16405,-0.67204 l 0.21601,-0.072 0.048,-0.228 z m 0.45601,2.30409 c -1.05603,0 -1.92007,0.86404 -1.92007,1.92007 0,1.05606 0.86404,1.92009 1.92007,1.92009 1.05606,0 1.92009,-0.86403 1.92009,-1.92009 0,-1.05603 -0.86403,-1.92007 -1.92009,-1.92007 z m 0,0.76803 c 0.64054,0 1.15205,0.51153 1.15205,1.15204 0,0.64054 -0.51151,1.15205 -1.15205,1.15205 -0.64051,0 -1.15204,-0.51151 -1.15204,-1.15205 0,-0.64051 0.51153,-1.15204 1.15204,-1.15204 z"
+       id="path1087-0"
+       style="display:inline;fill:#000000;stroke-width:0.384016"
+       inkscape:export-filename="C:\Users\01123\Desktop\reflow oven\vol\display\0.png" />
+    <rect
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       style="display:inline;fill:#00a0ff;fill-opacity:1;stroke:#ffffff;stroke-width:0.529167;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect1110-5"
+       width="48.947922"
+       height="6.6145878"
+       x="-62.047112"
+       y="72.760399"
+       ry="0.79374999"
+       inkscape:export-filename="C:\Users\01123\Desktop\reflow oven\vol\display\0.png" />
+    <rect
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       ry="0.79442525"
+       y="80.695091"
+       x="-62.049927"
+       height="6.6202078"
+       width="23.28896"
+       id="rect1114-9"
+       style="display:inline;fill:#00a0ff;fill-opacity:1;stroke:#ffffff;stroke-width:0.52354;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       inkscape:export-filename="C:\Users\01123\Desktop\reflow oven\vol\display\0.png" />
+    <rect
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       style="display:inline;fill:#00a0ff;fill-opacity:1;stroke:#ffffff;stroke-width:0.529167;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect1116-8"
+       width="48.947922"
+       height="6.6145878"
+       x="-62.047112"
+       y="88.635429"
+       ry="0.79374999"
+       inkscape:export-filename="C:\Users\01123\Desktop\reflow oven\vol\display\0.png" />
+    <rect
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       style="display:inline;fill:#00a0ff;fill-opacity:1;stroke:#ffffff;stroke-width:0.529167;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect1122-2"
+       width="48.947922"
+       height="6.6145878"
+       x="-62.047112"
+       y="104.51043"
+       ry="0.79374999"
+       inkscape:export-filename="C:\Users\01123\Desktop\reflow oven\vol\display\0.png" />
+    <rect
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       style="display:inline;fill:#00a0ff;fill-opacity:1;stroke:#ffffff;stroke-width:0.52354;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect1124-3"
+       width="23.28896"
+       height="6.6202078"
+       x="-36.649902"
+       y="80.695091"
+       ry="0.79442525"
+       inkscape:export-filename="C:\Users\01123\Desktop\reflow oven\vol\display\0.png" />
+    <rect
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       style="display:inline;fill:#00a0ff;fill-opacity:1;stroke:#ffffff;stroke-width:0.52354;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect1126-1"
+       width="23.28896"
+       height="6.6202078"
+       x="-62.049927"
+       y="96.570122"
+       ry="0.79442525"
+       inkscape:export-filename="C:\Users\01123\Desktop\reflow oven\vol\display\0.png" />
+    <rect
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       ry="0.79442525"
+       y="96.570122"
+       x="-36.649902"
+       height="6.6202078"
+       width="23.28896"
+       id="rect1128-5"
+       style="display:inline;fill:#00a0ff;fill-opacity:1;stroke:#ffffff;stroke-width:0.52354;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       inkscape:export-filename="C:\Users\01123\Desktop\reflow oven\vol\display\0.png" />
+    <text
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       id="text1136-7"
+       y="86.25425"
+       x="-45.901306"
+       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;display:inline;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       xml:space="preserve"
+       inkscape:export-filename="C:\Users\01123\Desktop\reflow oven\vol\display\0.png"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.61458px;font-family:Bahnschrift;-inkscape-font-specification:Bahnschrift;fill:#ffffff;stroke-width:0.264583"
+         y="86.25425"
+         x="-45.901306"
+         id="tspan1134-1"
+         sodipodi:role="line">°C</tspan></text>
+    <text
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;display:inline;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="-45.901306"
+       y="102.12926"
+       id="text1140-8"
+       inkscape:export-filename="C:\Users\01123\Desktop\reflow oven\vol\display\0.png"><tspan
+         sodipodi:role="line"
+         id="tspan1138-3"
+         x="-45.901306"
+         y="102.12926"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.61458px;font-family:Bahnschrift;-inkscape-font-specification:Bahnschrift;fill:#ffffff;stroke-width:0.264583">°C</tspan></text>
+    <text
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;display:inline;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="-36.376297"
+       y="78.316734"
+       id="text1144-9"
+       inkscape:export-filename="C:\Users\01123\Desktop\reflow oven\vol\display\0.png"><tspan
+         sodipodi:role="line"
+         id="tspan1142-7"
+         x="-36.376297"
+         y="78.316734"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.61458px;font-family:Bahnschrift;-inkscape-font-specification:Bahnschrift;fill:#ffffff;stroke-width:0.264583">°C/s</tspan></text>
+    <text
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       id="text1148-8"
+       y="94.191765"
+       x="-36.376297"
+       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;display:inline;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       xml:space="preserve"
+       inkscape:export-filename="C:\Users\01123\Desktop\reflow oven\vol\display\0.png"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.61458px;font-family:Bahnschrift;-inkscape-font-specification:Bahnschrift;fill:#ffffff;stroke-width:0.264583"
+         y="94.191765"
+         x="-36.376297"
+         id="tspan1146-0"
+         sodipodi:role="line">°C/s</tspan></text>
+    <text
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       id="text1156-8"
+       y="102.16912"
+       x="-17.811678"
+       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;display:inline;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       xml:space="preserve"
+       inkscape:export-filename="C:\Users\01123\Desktop\reflow oven\vol\display\0.png"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.61458px;font-family:Bahnschrift;-inkscape-font-specification:Bahnschrift;fill:#ffffff;stroke-width:0.264583"
+         y="102.16912"
+         x="-17.811678"
+         id="tspan1154-8"
+         sodipodi:role="line">s</tspan></text>
+    <text
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;display:inline;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="-17.811678"
+       y="86.250343"
+       id="text1160-5"
+       inkscape:export-filename="C:\Users\01123\Desktop\reflow oven\vol\display\0.png"><tspan
+         sodipodi:role="line"
+         id="tspan1158-2"
+         x="-17.811678"
+         y="86.250343"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.61458px;font-family:Bahnschrift;-inkscape-font-specification:Bahnschrift;fill:#ffffff;stroke-width:0.264583">s</tspan></text>
+    <text
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:16.5066px;line-height:1.25;font-family:sans-serif;display:inline;fill:#ff2a2a;fill-opacity:1;stroke:none;stroke-width:0.412669"
+       x="-26.932564"
+       y="11.464934"
+       id="text1136-3-9"
+       inkscape:export-filename="C:\Users\01123\Desktop\reflow oven\vol\display\0.png"
+       transform="scale(0.96058628,1.0410309)"><tspan
+         sodipodi:role="line"
+         id="tspan1134-6-6"
+         x="-26.932564"
+         y="11.464934"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.3167px;font-family:Bahnschrift;-inkscape-font-specification:Bahnschrift;fill:#ff2a2a;stroke-width:0.412669">°C</tspan></text>
+    <rect
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       style="display:inline;fill:#00a0ff;fill-opacity:1;stroke:#ffffff;stroke-width:0.519949;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect1015-9-7-5"
+       width="34.135883"
+       height="5.2962761"
+       x="-93.667137"
+       y="7.9328871"
+       ry="0.53039587"
+       inkscape:export-filename="C:\Users\01123\Desktop\reflow oven\vol\display\0.png" />
+    <text
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       id="text1023-5-3-4"
+       y="12.365382"
+       x="-91.525581"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.7625px;line-height:1.25;font-family:Bahnschrift;-inkscape-font-specification:Bahnschrift;display:inline;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       xml:space="preserve"
+       inkscape:export-filename="C:\Users\01123\Desktop\reflow oven\vol\display\0.png"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.7625px;font-family:Bahnschrift;-inkscape-font-specification:Bahnschrift;fill:#ffffff;stroke-width:0.264583"
+         y="12.365382"
+         x="-91.525581"
+         id="tspan1021-8-7-0"
+         sodipodi:role="line">Reflow Profile</tspan></text>
+    <rect
+       ry="1.3158454"
+       y="65.70977"
+       x="-58.113831"
+       height="5.2633815"
+       width="7.3800483"
+       id="rect4601-1"
+       style="display:inline;fill:#ffffff;stroke:#000000;stroke-width:0.557453;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.3"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"
+       inkscape:export-filename="C:\Users\01123\Desktop\reflow oven\vol\display\0.png" />
+    <text
+       id="text4605-7"
+       y="69.75573"
+       x="-57.665527"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.96875px;line-height:1.25;font-family:Bahnschrift;-inkscape-font-specification:Bahnschrift;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       xml:space="preserve"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"
+       inkscape:export-filename="C:\Users\01123\Desktop\reflow oven\vol\display\0.png"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.96875px;font-family:Bahnschrift;-inkscape-font-specification:Bahnschrift;fill:#000000;stroke-width:0.264583"
+         y="69.75573"
+         x="-57.665527"
+         id="tspan4603-0"
+         sodipodi:role="line">300</tspan></text>
+    <rect
+       style="display:inline;fill:#ffffff;stroke:#000000;stroke-width:0.557453;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.3"
+       id="rect4607-8"
+       width="7.3800483"
+       height="5.2633815"
+       x="-44.884644"
+       y="65.70977"
+       ry="1.3158454"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"
+       inkscape:export-filename="C:\Users\01123\Desktop\reflow oven\vol\display\0.png" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.96875px;line-height:1.25;font-family:Bahnschrift;-inkscape-font-specification:Bahnschrift;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="-44.436348"
+       y="69.75573"
+       id="text4611-0"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"
+       inkscape:export-filename="C:\Users\01123\Desktop\reflow oven\vol\display\0.png"><tspan
+         sodipodi:role="line"
+         id="tspan4609-8"
+         x="-44.436348"
+         y="69.75573"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.96875px;font-family:Bahnschrift;-inkscape-font-specification:Bahnschrift;fill:#000000;stroke-width:0.264583">420</tspan></text>
+    <rect
+       ry="1.3158454"
+       y="65.70977"
+       x="-31.655489"
+       height="5.2633815"
+       width="7.3800483"
+       id="rect4613-3"
+       style="display:inline;fill:#ffffff;stroke:#000000;stroke-width:0.557453;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.3"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"
+       inkscape:export-filename="C:\Users\01123\Desktop\reflow oven\vol\display\0.png" />
+    <text
+       id="text4617-3"
+       y="69.75573"
+       x="-31.207186"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.96875px;line-height:1.25;font-family:Bahnschrift;-inkscape-font-specification:Bahnschrift;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       xml:space="preserve"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"
+       inkscape:export-filename="C:\Users\01123\Desktop\reflow oven\vol\display\0.png"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.96875px;font-family:Bahnschrift;-inkscape-font-specification:Bahnschrift;fill:#000000;stroke-width:0.264583"
+         y="69.75573"
+         x="-31.207186"
+         id="tspan4615-2"
+         sodipodi:role="line">540</tspan></text>
+    <rect
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       style="display:inline;fill:#ffffff;stroke:#000000;stroke-width:0.557453;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.3"
+       id="rect4619-1"
+       width="7.3800483"
+       height="5.2633815"
+       x="-71.34301"
+       y="65.70977"
+       ry="1.3158454"
+       inkscape:export-filename="C:\Users\01123\Desktop\reflow oven\vol\display\0.png" />
+    <text
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.96875px;line-height:1.25;font-family:Bahnschrift;-inkscape-font-specification:Bahnschrift;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="-70.39357"
+       y="69.646782"
+       id="text4623-31"
+       inkscape:export-filename="C:\Users\01123\Desktop\reflow oven\vol\display\0.png"><tspan
+         sodipodi:role="line"
+         id="tspan4621-46"
+         x="-70.39357"
+         y="69.646782"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.96875px;font-family:Bahnschrift;-inkscape-font-specification:Bahnschrift;fill:#000000;stroke-width:0.264583">180</tspan></text>
+    <rect
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       style="display:inline;fill:#ffffff;stroke:#000000;stroke-width:0.557453;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.3"
+       id="rect4619-2-1"
+       width="7.3800483"
+       height="5.2633815"
+       x="-84.245506"
+       y="65.726791"
+       ry="1.3158454"
+       inkscape:export-filename="C:\Users\01123\Desktop\reflow oven\vol\display\0.png" />
+    <text
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.96875px;line-height:1.25;font-family:Bahnschrift;-inkscape-font-specification:Bahnschrift;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="-82.49472"
+       y="69.73037"
+       id="text4623-3-3"
+       inkscape:export-filename="C:\Users\01123\Desktop\reflow oven\vol\display\0.png"><tspan
+         sodipodi:role="line"
+         id="tspan4621-4-0"
+         x="-82.49472"
+         y="69.73037"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.96875px;font-family:Bahnschrift;-inkscape-font-specification:Bahnschrift;fill:#000000;stroke-width:0.264583">60</tspan></text>
     <text
        inkscape:export-ydpi="96"
        inkscape:export-xdpi="96"
@@ -4798,7 +4794,7 @@
          id="tspan3835-9"
          x="266.88385"
          y="-138.69975"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.61458px;font-family:Bahnschrift;-inkscape-font-specification:Bahnschrift;fill:#00a0ff;stroke-width:0.264583;fill-opacity:1">°C/s</tspan></text>
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.61458px;font-family:Bahnschrift;-inkscape-font-specification:Bahnschrift;fill:#00a0ff;fill-opacity:1;stroke-width:0.264583">°C/s</tspan></text>
     <rect
        ry="0.530397"
        y="-144.19792"
@@ -4844,7 +4840,7 @@
        inkscape:export-xdpi="96"
        inkscape:export-ydpi="96"
        inkscape:export-filename="C:\Users\01123\Desktop\reflow oven\vol\display\7.png"><tspan
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.61458px;font-family:Bahnschrift;-inkscape-font-specification:Bahnschrift;fill:#00a0ff;stroke-width:0.264583;fill-opacity:1"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.61458px;font-family:Bahnschrift;-inkscape-font-specification:Bahnschrift;fill:#00a0ff;fill-opacity:1;stroke-width:0.264583"
          y="-122.77259"
          x="266.88687"
          id="tspan3847-5"
@@ -4898,7 +4894,7 @@
          id="tspan3859-4"
          x="266.91263"
          y="-114.67712"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.61458px;font-family:Bahnschrift;-inkscape-font-specification:Bahnschrift;fill:#00a0ff;stroke-width:0.264583;fill-opacity:1">°C</tspan></text>
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.61458px;font-family:Bahnschrift;-inkscape-font-specification:Bahnschrift;fill:#00a0ff;fill-opacity:1;stroke-width:0.264583">°C</tspan></text>
     <rect
        ry="0.530397"
        y="-120.38542"
@@ -4969,7 +4965,7 @@
        inkscape:export-xdpi="96"
        inkscape:export-ydpi="96"
        inkscape:export-filename="C:\Users\01123\Desktop\reflow oven\vol\display\7.png"><tspan
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.61458px;font-family:Bahnschrift;-inkscape-font-specification:Bahnschrift;fill:#00a0ff;stroke-width:0.264583;fill-opacity:1"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.61458px;font-family:Bahnschrift;-inkscape-font-specification:Bahnschrift;fill:#00a0ff;fill-opacity:1;stroke-width:0.264583"
          y="-97.699997"
          x="266.93365"
          id="tspan3877-3"
@@ -5073,7 +5069,7 @@
          id="tspan3895-0"
          x="266.97318"
          y="-81.707367"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.61458px;font-family:Bahnschrift;-inkscape-font-specification:Bahnschrift;fill:#00a0ff;stroke-width:0.264583;fill-opacity:1">s</tspan></text>
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.61458px;font-family:Bahnschrift;-inkscape-font-specification:Bahnschrift;fill:#00a0ff;fill-opacity:1;stroke-width:0.264583">s</tspan></text>
     <rect
        ry="0.530397"
        y="-87.312492"
@@ -5119,7 +5115,7 @@
        inkscape:export-xdpi="96"
        inkscape:export-ydpi="96"
        inkscape:export-filename="C:\Users\01123\Desktop\reflow oven\vol\display\7.png"><tspan
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.61458px;font-family:Bahnschrift;-inkscape-font-specification:Bahnschrift;fill:#00a0ff;stroke-width:0.264583;fill-opacity:1"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.61458px;font-family:Bahnschrift;-inkscape-font-specification:Bahnschrift;fill:#00a0ff;fill-opacity:1;stroke-width:0.264583"
          y="-73.73513"
          x="266.93768"
          id="tspan3907-9"
@@ -5339,7 +5335,7 @@
        height="6.6145878"
        width="39.687508"
        id="rect3400-56"
-       style="display:inline;fill:#00a0ff;stroke:#ffffff;stroke-width:0.529167;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;fill-opacity:1"
+       style="display:inline;fill:#00a0ff;fill-opacity:1;stroke:#ffffff;stroke-width:0.529167;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        inkscape:export-xdpi="96"
        inkscape:export-ydpi="96"
        inkscape:export-filename="C:\Users\01123\Desktop\reflow oven\vol\display\8.png" />
@@ -5560,7 +5556,7 @@
     <rect
        inkscape:export-ydpi="96"
        inkscape:export-xdpi="96"
-       style="display:inline;fill:#00a0ff;stroke:#ffffff;stroke-width:0.529167;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;fill-opacity:1"
+       style="display:inline;fill:#00a0ff;fill-opacity:1;stroke:#ffffff;stroke-width:0.529167;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="rect3833-6"
        width="39.687508"
        height="6.6145878"
@@ -5614,7 +5610,7 @@
        height="6.6145878"
        width="39.687508"
        id="rect3845-4"
-       style="display:inline;fill:#00a0ff;stroke:#ffffff;stroke-width:0.529167;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;fill-opacity:1"
+       style="display:inline;fill:#00a0ff;fill-opacity:1;stroke:#ffffff;stroke-width:0.529167;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        inkscape:export-xdpi="96"
        inkscape:export-ydpi="96"
        inkscape:export-filename="C:\Users\01123\Desktop\reflow oven\vol\display\8.png" />
@@ -5660,7 +5656,7 @@
     <rect
        inkscape:export-ydpi="96"
        inkscape:export-xdpi="96"
-       style="display:inline;fill:#00a0ff;stroke:#ffffff;stroke-width:0.529167;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;fill-opacity:1"
+       style="display:inline;fill:#00a0ff;fill-opacity:1;stroke:#ffffff;stroke-width:0.529167;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="rect3857-11"
        width="39.687508"
        height="6.6145878"
@@ -5739,7 +5735,7 @@
        height="6.6145878"
        width="39.687508"
        id="rect3875-7"
-       style="display:inline;fill:#00a0ff;stroke:#ffffff;stroke-width:0.529167;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;fill-opacity:1"
+       style="display:inline;fill:#00a0ff;fill-opacity:1;stroke:#ffffff;stroke-width:0.529167;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        inkscape:export-xdpi="96"
        inkscape:export-ydpi="96"
        inkscape:export-filename="C:\Users\01123\Desktop\reflow oven\vol\display\8.png" />
@@ -5835,7 +5831,7 @@
     <rect
        inkscape:export-ydpi="96"
        inkscape:export-xdpi="96"
-       style="display:inline;fill:#00a0ff;stroke:#ffffff;stroke-width:0.529167;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;fill-opacity:1"
+       style="display:inline;fill:#00a0ff;fill-opacity:1;stroke:#ffffff;stroke-width:0.529167;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="rect3893-14"
        width="39.687508"
        height="6.6145878"
