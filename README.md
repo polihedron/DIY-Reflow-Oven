@@ -17,7 +17,7 @@ I brought Severin TO-2068, 20L 1500W oven at second hand store.
 
 BOM:
 <ul>
-<li>STM32F103 Black Pill Development Board with mounting holes</li>
+<li>STM32F103 Development Board with mounting holes</li>
 <li>5V 3.3V DC Logic Level Converter Bi-Directional Board Module</li>
 <li>Nextion Basic 3,5" 480x320 NX4832T035</li>
 <li>MAX6675 Thermocouple Module</li>
