@@ -1,6 +1,6 @@
 # DIY-Reflow-Oven
 
-Reflov Oven controler with buzzer, four reflow profiles with save and factory reset function.
+Reflow Oven controler with buzzer, four reflow profiles with save and factory reset function.
 
 https://youtu.be/2SATET4nPhk
 
