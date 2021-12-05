@@ -73,11 +73,16 @@ static void MX_USART1_UART_Init(void);
 /* Private user code ---------------------------------------------------------*/
 /* USER CODE BEGIN 0 */
 
+#define config_version 1.30
+
 typedef struct {
+
+	float32_t version;
 
 	float32_t KP;
 	float32_t Ki;
 	float32_t KD;
+
 	float32_t firstHeatUpRate;
 	uint32_t SoakTempeture;
 	uint32_t SoakTime;
@@ -113,7 +118,7 @@ typedef struct {
 	uint32_t ReflowTempeture3;
 	uint32_t ReflowTime3;
 
-}	ReflowTemplate;
+}	config;
 
 
 uint32_t TimerBUZZER;
@@ -126,7 +131,7 @@ float lastTemp;
 float duty;
 
 arm_pid_instance_f32 PID;
-ReflowTemplate ReflowParameters;
+config ReflowParameters;
 
 uint8_t ReflowEnable = 0;
 uint8_t BuzzerEnable = 0;
@@ -146,22 +151,7 @@ uint8_t TempDrawEnable = 0;
 uint32_t TempDrawCounter = 0;
 
 
-//ReflowTemplate ReflowDebug;
-
-//char test2[5]={'1','.','2','3','4'};
 uint8_t test2[5] = {'p','0','x','x','x'};
-
-//void FlashReflowParameters(){
-////Flash_Write_Data(0x0801FC00, (uint32_t*)ReflowParameters, 9);
-//
-//int i;
-//uint8_t *data_p = &ReflowParameters;
-//uint64_t flash_address = 0x0801FC00;//put first flash address here
-//HAL_FLASH_Unlock();
-//for ( i = 0; i < sizeof(ReflowTemplate); i++, data_p++, flash_address++ )
-//    HAL_FLASH_Program(FLASH_TYPEPROGRAM_WORD, flash_address, *data_p);
-//HAL_FLASH_Lock();
-//}
 
 
 void SaveReflowParameters(){
@@ -334,6 +324,7 @@ void Update_Page_2() {
 	NEXTION_SendFloat("t0", ReflowParameters.KP);
 	NEXTION_SendFloat("t1", ReflowParameters.Ki);
 	NEXTION_SendFloat("t2", ReflowParameters.KD);
+	NEXTION_SendFloat_CurrentTemp("t3", ReflowParameters.version);
 }
 
 
@@ -775,28 +766,13 @@ void HandleGui(){
 				Update_Page_0();
 		  }
 
-
-		//N
-		//NEXTION_SendFloat("t0", ReflowParameters.firstHeatUpRate);
-
-
-//	NEXTION_SendFloat("t0",ReflowParameters.firstHeatUpRate );
-//	NEXTION_SenduInt("t1",ReflowParameters.SoakTime );
-//	NEXTION_SenduInt("t2",ReflowParameters.SoakTempeture );
-//	NEXTION_SendFloat("t3",ReflowParameters.secondHeatUpRate );
-//	NEXTION_SenduInt("t4",ReflowParameters.ReflowTime );
-//	NEXTION_SenduInt("t5",ReflowParameters.ReflowTempeture );
 }
 
 
 
 
 void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim) {
-/*	float32_t dx = 0.625/4; //275px / 880s / 500ms
-	float32_t dy = 0.8333; //200px / 240 Grad
-	uint32_t OffsetX = 35;
-	uint32_t OffsetY = 230;
-*/
+
 	TempDrawCounter++;
 
 	if (htim == &htim4) {
@@ -826,8 +802,6 @@ void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim) {
 				sprintf(ConsoleMSG,"HEAT UP");
 			if(ReflowIndex == PhaseIndex[3])
 				sprintf(ConsoleMSG,"REFLOW");
-//			if(ReflowIndex == PhaseIndex[4])
-//				sprintf(ConsoleMSG,"COOL DOWN");
 
 			//Regelabweichung
 			float pid_error =  ReflowCurve[ReflowIndex] - temp;
@@ -924,7 +898,7 @@ void calculateReflowCurve(){
 
 void Draw_Reflow_Curve()	{
 	float32_t dx = 0.20833; //275px / 660s / 500 ms
-		float32_t dy = 0.7143; //175px / 245 Grad
+	float32_t dy = 0.7143; //175px / 245 Grad
 	uint32_t OffsetX = 35;
 	uint32_t OffsetY = 240;
 	uint32_t index = 0;
@@ -993,7 +967,52 @@ int main(void)
 {
   /* USER CODE BEGIN 1 */
 
-	Flash_Read_Data(0x0801FC00, (uint32_t *)&ReflowParameters);
+	Flash_Read_Data(0x0801FC00, (uint32_t *)&ReflowParameters);\
+
+	if (!(ReflowParameters.version == config_version))	{
+		ReflowParameters.firstHeatUpRate3 = 0.75;
+		ReflowParameters.SoakTime3 = 100;
+		ReflowParameters.SoakTempeture3 = 175;
+		ReflowParameters.secondHeatUpRate3 = 1;
+		ReflowParameters.ReflowTime3 = 90;
+		ReflowParameters.ReflowTempeture3 = 240;
+		// Lead 183C https://www.chipquik.com/datasheets/TS391AX50.pdf
+		ReflowParameters.firstHeatUpRate2 = 0.75;
+		ReflowParameters.SoakTime2 = 100;
+		ReflowParameters.SoakTempeture2 = 150;
+		ReflowParameters.secondHeatUpRate2 = 1;
+		ReflowParameters.ReflowTime2 = 100;
+		ReflowParameters.ReflowTempeture2 = 230;
+		// Lead 148C
+		ReflowParameters.firstHeatUpRate1 = 0.75;
+		ReflowParameters.SoakTime1 = 100;
+		ReflowParameters.SoakTempeture1 = 140;
+		ReflowParameters.secondHeatUpRate1 = 1;
+		ReflowParameters.ReflowTime1 = 100;
+		ReflowParameters.ReflowTempeture1 = 175;
+		// Lead 138C http://www.chipquik.com/datasheets/TS391LT50.pdf
+		ReflowParameters.firstHeatUpRate0 = 0.75;
+		ReflowParameters.SoakTime0 = 100;
+		ReflowParameters.SoakTempeture0 = 130;
+		ReflowParameters.secondHeatUpRate0 = 1;
+		ReflowParameters.ReflowTime0 = 100;
+		ReflowParameters.ReflowTempeture0 = 165;
+		// Lead default (138C)
+		ReflowParameters.firstHeatUpRate = 0.75;
+		ReflowParameters.SoakTime = 100;
+		ReflowParameters.SoakTempeture = 130;
+		ReflowParameters.secondHeatUpRate = 1;
+		ReflowParameters.ReflowTime = 100;
+		ReflowParameters.ReflowTempeture = 165;
+
+		ReflowParameters.KP = 85;
+		ReflowParameters.Ki = 0.05;
+		ReflowParameters.KD = 130;
+
+		ReflowParameters.version = config_version;
+		SaveReflowParameters();
+	}
+
 	calculateReflowCurve();
 
 	PID.Kp = ReflowParameters.KP;
@@ -1001,7 +1020,7 @@ int main(void)
 	PID.Kd = ReflowParameters.KD;
 
 	arm_pid_init_f32(&PID, 1);
-	 beep=0;
+	beep=0;
   /* USER CODE END 1 */
 
   /* MCU Configuration--------------------------------------------------------*/
@@ -1056,11 +1075,6 @@ int main(void)
 	  if (HAL_GetTick() - TimerGui > 505)	{
 		  TimerGui = HAL_GetTick();
 		  HandleGui();
-
-		 /* if(strncmp((char *)UART_Recieved_Data, "p0xxx", 5) == 0)	{
-			  debug = 5;
-		  }
-		  */
 	  	}
 		if ((ReflowEnable == 1) && (ReflowIndex == PhaseIndex[4])) {
 			BuzzerEnable = 1;
