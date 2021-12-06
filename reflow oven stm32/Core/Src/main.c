@@ -73,11 +73,11 @@ static void MX_USART1_UART_Init(void);
 /* Private user code ---------------------------------------------------------*/
 /* USER CODE BEGIN 0 */
 
-#define config_version 1.30
+#define config_version 130
 
 typedef struct {
 
-	float32_t version;
+	uint32_t version;
 
 	float32_t KP;
 	float32_t Ki;
@@ -324,7 +324,7 @@ void Update_Page_2() {
 	NEXTION_SendFloat("t0", ReflowParameters.KP);
 	NEXTION_SendFloat("t1", ReflowParameters.Ki);
 	NEXTION_SendFloat("t2", ReflowParameters.KD);
-	NEXTION_SendFloat_CurrentTemp("t3", ReflowParameters.version);
+	NEXTION_SendFloat("t3", (float32_t) ReflowParameters.version/100);
 }
 
 
@@ -781,8 +781,8 @@ void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim) {
 		HAL_SPI_Receive(&hspi1, data, 2, 100);
 		HAL_GPIO_WritePin(CS_GPIO_Port, CS_Pin, 1);
 
-		temp = ((((uint16_t) data[1] << 8) | data[2]) >> 3) * 0.249;
-		// some basic filter to reduce random and noisy temperature readings
+		temp = ((((uint16_t) data[1] << 8) | data[0]) >> 3) * 0.249;
+		// basic filter to reduce random and noisy temperature readings
 		if ((fabs(temp - lastTemp) > 25) && (HAL_GetTick() > 3000))	{
 			temp = lastTemp;
 		}
@@ -967,7 +967,7 @@ int main(void)
 {
   /* USER CODE BEGIN 1 */
 
-	Flash_Read_Data(0x0801FC00, (uint32_t *)&ReflowParameters);\
+	Flash_Read_Data(0x0801FC00, (uint32_t *)&ReflowParameters);
 
 	if (!(ReflowParameters.version == config_version))	{
 		ReflowParameters.firstHeatUpRate3 = 0.75;
