@@ -77,8 +77,6 @@ static void MX_USART1_UART_Init(void);
 
 typedef struct {
 
-	uint32_t version;
-
 	float32_t KP;
 	float32_t Ki;
 	float32_t KD;
@@ -118,6 +116,8 @@ typedef struct {
 	uint32_t ReflowTempeture3;
 	uint32_t ReflowTime3;
 
+	uint32_t version;
+
 }	config;
 
 
@@ -155,7 +155,7 @@ uint8_t test2[5] = {'p','0','x','x','x'};
 
 
 void SaveReflowParameters(){
-	Flash_Write_Data(0x0801FC00, (uint32_t *)&ReflowParameters, 33);
+	Flash_Write_Data(0x0801FC00, (uint32_t *)&ReflowParameters, 34);
 }
 
 

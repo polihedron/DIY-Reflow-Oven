@@ -1525,9 +1525,8 @@ LOAD c:/st/stm32cubeide_1.4.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.exte
                 0x0000000008001550      0x100 ./Core/Src/main.o
                 0x0000000008001550                Update_Page_0
  .text.Update_Page_2
-                0x0000000008001650       0x74 ./Core/Src/main.o
+                0x0000000008001650       0x78 ./Core/Src/main.o
                 0x0000000008001650                Update_Page_2
- *fill*         0x00000000080016c4        0x4 
  .text.HAL_TIM_PeriodElapsedCallback
                 0x00000000080016c8      0x1f8 ./Core/Src/main.o
                 0x00000000080016c8                HAL_TIM_PeriodElapsedCallback
@@ -1544,18 +1543,18 @@ LOAD c:/st/stm32cubeide_1.4.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.exte
                 0x0000000008001ae4       0x34 ./Core/Src/main.o
                 0x0000000008001ae4                stopReflow
  .text.HandleGui
-                0x0000000008001b18      0x7a4 ./Core/Src/main.o
+                0x0000000008001b18      0x7a0 ./Core/Src/main.o
                 0x0000000008001b18                HandleGui
  .text.beepBeep
-                0x00000000080022bc       0x9c ./Core/Src/main.o
-                0x00000000080022bc                beepBeep
+                0x00000000080022b8       0x9c ./Core/Src/main.o
+                0x00000000080022b8                beepBeep
  .text.SystemClock_Config
-                0x0000000008002358       0x62 ./Core/Src/main.o
-                0x0000000008002358                SystemClock_Config
- *fill*         0x00000000080023ba        0x2 
+                0x0000000008002354       0x62 ./Core/Src/main.o
+                0x0000000008002354                SystemClock_Config
+ *fill*         0x00000000080023b6        0x2 
  .text.startup.main
-                0x00000000080023bc      0x360 ./Core/Src/main.o
-                0x00000000080023bc                main
+                0x00000000080023b8      0x364 ./Core/Src/main.o
+                0x00000000080023b8                main
  .text.HAL_MspInit
                 0x000000000800271c       0x44 ./Core/Src/stm32f1xx_hal_msp.o
                 0x000000000800271c                HAL_MspInit
