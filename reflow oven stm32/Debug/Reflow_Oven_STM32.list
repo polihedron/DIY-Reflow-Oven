@@ -27,25 +27,25 @@ Idx Name          Size      VMA       LMA       File off  Algn
                   ALLOC
  11 .ARM.attributes 00000029  00000000  00000000  000201ec  2**0
                   CONTENTS, READONLY
- 12 .debug_info   0001131a  00000000  00000000  00020215  2**0
+ 12 .debug_info   0001130d  00000000  00000000  00020215  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 13 .debug_abbrev 00002a21  00000000  00000000  0003152f  2**0
+ 13 .debug_abbrev 00002a21  00000000  00000000  00031522  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 14 .debug_aranges 000010c0  00000000  00000000  00033f50  2**3
+ 14 .debug_aranges 000010c0  00000000  00000000  00033f48  2**3
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 15 .debug_ranges 00000fb8  00000000  00000000  00035010  2**3
+ 15 .debug_ranges 00000fb8  00000000  00000000  00035008  2**3
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 16 .debug_macro  000196f4  00000000  00000000  00035fc8  2**0
+ 16 .debug_macro  000196f4  00000000  00000000  00035fc0  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 17 .debug_line   000115a6  00000000  00000000  0004f6bc  2**0
+ 17 .debug_line   000115a6  00000000  00000000  0004f6b4  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 18 .debug_str    0008f2dd  00000000  00000000  00060c62  2**0
+ 18 .debug_str    0008f2d7  00000000  00000000  00060c5a  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 19 .comment      000000c3  00000000  00000000  000eff3f  2**0
+ 19 .comment      000000c3  00000000  00000000  000eff31  2**0
                   CONTENTS, READONLY
- 20 .debug_frame  00005bb0  00000000  00000000  000f0004  2**2
+ 20 .debug_frame  00005bb0  00000000  00000000  000efff4  2**2
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 21 .debug_loc    0000005c  00000000  00000000  000f5bb4  2**0
+ 21 .debug_loc    0000005c  00000000  00000000  000f5ba4  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
 
 Disassembly of section .text:
@@ -1547,760 +1547,760 @@ static uint32_t GetPage(uint32_t Address)
  80011c2:	b085      	sub	sp, #20
  80011c4:	af00      	add	r7, sp, #0
  80011c6:	6078      	str	r0, [r7, #4]
-  for (int indx=0; indx<128; indx++)
+  for (uint32_t indx=0; indx<128; indx++)
  80011c8:	2300      	movs	r3, #0
  80011ca:	60fb      	str	r3, [r7, #12]
- 80011cc:	e018      	b.n	8001200 <GetPage+0x40>
+ 80011cc:	e016      	b.n	80011fc <GetPage+0x3c>
   {
 	  if((Address < (0x08000000 + (1024 *(indx+1))) ) && (Address >= (0x08000000 + 1024*indx)))
  80011ce:	68fb      	ldr	r3, [r7, #12]
  80011d0:	f503 3300 	add.w	r3, r3, #131072	; 0x20000
  80011d4:	3301      	adds	r3, #1
  80011d6:	029b      	lsls	r3, r3, #10
- 80011d8:	461a      	mov	r2, r3
- 80011da:	687b      	ldr	r3, [r7, #4]
- 80011dc:	4293      	cmp	r3, r2
- 80011de:	d20c      	bcs.n	80011fa <GetPage+0x3a>
- 80011e0:	68fb      	ldr	r3, [r7, #12]
- 80011e2:	f503 3300 	add.w	r3, r3, #131072	; 0x20000
- 80011e6:	029b      	lsls	r3, r3, #10
- 80011e8:	461a      	mov	r2, r3
- 80011ea:	687b      	ldr	r3, [r7, #4]
- 80011ec:	4293      	cmp	r3, r2
- 80011ee:	d304      	bcc.n	80011fa <GetPage+0x3a>
+ 80011d8:	687a      	ldr	r2, [r7, #4]
+ 80011da:	429a      	cmp	r2, r3
+ 80011dc:	d20b      	bcs.n	80011f6 <GetPage+0x36>
+ 80011de:	68fb      	ldr	r3, [r7, #12]
+ 80011e0:	f503 3300 	add.w	r3, r3, #131072	; 0x20000
+ 80011e4:	029b      	lsls	r3, r3, #10
+ 80011e6:	687a      	ldr	r2, [r7, #4]
+ 80011e8:	429a      	cmp	r2, r3
+ 80011ea:	d304      	bcc.n	80011f6 <GetPage+0x36>
 	  {
 		  return (0x08000000 + 1024*indx);
- 80011f0:	68fb      	ldr	r3, [r7, #12]
- 80011f2:	f503 3300 	add.w	r3, r3, #131072	; 0x20000
- 80011f6:	029b      	lsls	r3, r3, #10
- 80011f8:	e007      	b.n	800120a <GetPage+0x4a>
-  for (int indx=0; indx<128; indx++)
- 80011fa:	68fb      	ldr	r3, [r7, #12]
- 80011fc:	3301      	adds	r3, #1
- 80011fe:	60fb      	str	r3, [r7, #12]
- 8001200:	68fb      	ldr	r3, [r7, #12]
- 8001202:	2b7f      	cmp	r3, #127	; 0x7f
- 8001204:	dde3      	ble.n	80011ce <GetPage+0xe>
+ 80011ec:	68fb      	ldr	r3, [r7, #12]
+ 80011ee:	f503 3300 	add.w	r3, r3, #131072	; 0x20000
+ 80011f2:	029b      	lsls	r3, r3, #10
+ 80011f4:	e007      	b.n	8001206 <GetPage+0x46>
+  for (uint32_t indx=0; indx<128; indx++)
+ 80011f6:	68fb      	ldr	r3, [r7, #12]
+ 80011f8:	3301      	adds	r3, #1
+ 80011fa:	60fb      	str	r3, [r7, #12]
+ 80011fc:	68fb      	ldr	r3, [r7, #12]
+ 80011fe:	2b7f      	cmp	r3, #127	; 0x7f
+ 8001200:	d9e5      	bls.n	80011ce <GetPage+0xe>
 	  }
   }
 
   return -1;
- 8001206:	f04f 33ff 	mov.w	r3, #4294967295
+ 8001202:	f04f 33ff 	mov.w	r3, #4294967295
 }
- 800120a:	4618      	mov	r0, r3
- 800120c:	3714      	adds	r7, #20
- 800120e:	46bd      	mov	sp, r7
- 8001210:	bc80      	pop	{r7}
- 8001212:	4770      	bx	lr
+ 8001206:	4618      	mov	r0, r3
+ 8001208:	3714      	adds	r7, #20
+ 800120a:	46bd      	mov	sp, r7
+ 800120c:	bc80      	pop	{r7}
+ 800120e:	4770      	bx	lr
 
-08001214 <Flash_Write_Data>:
+08001210 <Flash_Write_Data>:
 
 uint32_t Flash_Write_Data (uint32_t StartPageAddress, uint32_t *DATA_32, uint32_t NumberWords)
 {
- 8001214:	b580      	push	{r7, lr}
- 8001216:	b08a      	sub	sp, #40	; 0x28
- 8001218:	af00      	add	r7, sp, #0
- 800121a:	60f8      	str	r0, [r7, #12]
- 800121c:	60b9      	str	r1, [r7, #8]
- 800121e:	607a      	str	r2, [r7, #4]
+ 8001210:	b580      	push	{r7, lr}
+ 8001212:	b08a      	sub	sp, #40	; 0x28
+ 8001214:	af00      	add	r7, sp, #0
+ 8001216:	60f8      	str	r0, [r7, #12]
+ 8001218:	60b9      	str	r1, [r7, #8]
+ 800121a:	607a      	str	r2, [r7, #4]
 
 	static FLASH_EraseInitTypeDef EraseInitStruct;
 	uint32_t PAGEError;
 	int sofar=0;
- 8001220:	2300      	movs	r3, #0
- 8001222:	627b      	str	r3, [r7, #36]	; 0x24
+ 800121c:	2300      	movs	r3, #0
+ 800121e:	627b      	str	r3, [r7, #36]	; 0x24
 
 	int numberofwords = NumberWords;//(strlen(DATA_32)/4) + ((strlen(DATA_32) % 4) != 0);
- 8001224:	687b      	ldr	r3, [r7, #4]
- 8001226:	623b      	str	r3, [r7, #32]
+ 8001220:	687b      	ldr	r3, [r7, #4]
+ 8001222:	623b      	str	r3, [r7, #32]
 
 	  /* Unlock the Flash to enable the flash control register access *************/
 	   HAL_FLASH_Unlock();
- 8001228:	f002 fcec 	bl	8003c04 <HAL_FLASH_Unlock>
+ 8001224:	f002 fcee 	bl	8003c04 <HAL_FLASH_Unlock>
 
 	   /* Erase the user Flash area*/
 
 	  uint32_t StartPage = GetPage(StartPageAddress);
- 800122c:	68f8      	ldr	r0, [r7, #12]
- 800122e:	f7ff ffc7 	bl	80011c0 <GetPage>
- 8001232:	61f8      	str	r0, [r7, #28]
+ 8001228:	68f8      	ldr	r0, [r7, #12]
+ 800122a:	f7ff ffc9 	bl	80011c0 <GetPage>
+ 800122e:	61f8      	str	r0, [r7, #28]
 	  uint32_t EndPageAdress = StartPageAddress + numberofwords*4;
- 8001234:	6a3b      	ldr	r3, [r7, #32]
- 8001236:	009b      	lsls	r3, r3, #2
- 8001238:	461a      	mov	r2, r3
- 800123a:	68fb      	ldr	r3, [r7, #12]
- 800123c:	4413      	add	r3, r2
- 800123e:	61bb      	str	r3, [r7, #24]
+ 8001230:	6a3b      	ldr	r3, [r7, #32]
+ 8001232:	009b      	lsls	r3, r3, #2
+ 8001234:	461a      	mov	r2, r3
+ 8001236:	68fb      	ldr	r3, [r7, #12]
+ 8001238:	4413      	add	r3, r2
+ 800123a:	61bb      	str	r3, [r7, #24]
 	  uint32_t EndPage = GetPage(EndPageAdress);
- 8001240:	69b8      	ldr	r0, [r7, #24]
- 8001242:	f7ff ffbd 	bl	80011c0 <GetPage>
- 8001246:	6178      	str	r0, [r7, #20]
+ 800123c:	69b8      	ldr	r0, [r7, #24]
+ 800123e:	f7ff ffbf 	bl	80011c0 <GetPage>
+ 8001242:	6178      	str	r0, [r7, #20]
 
 	   /* Fill EraseInit structure*/
 	   EraseInitStruct.TypeErase   = FLASH_TYPEERASE_PAGES;
- 8001248:	4b1f      	ldr	r3, [pc, #124]	; (80012c8 <Flash_Write_Data+0xb4>)
- 800124a:	2200      	movs	r2, #0
- 800124c:	601a      	str	r2, [r3, #0]
+ 8001244:	4b1f      	ldr	r3, [pc, #124]	; (80012c4 <Flash_Write_Data+0xb4>)
+ 8001246:	2200      	movs	r2, #0
+ 8001248:	601a      	str	r2, [r3, #0]
 	   EraseInitStruct.PageAddress = StartPage;
- 800124e:	4a1e      	ldr	r2, [pc, #120]	; (80012c8 <Flash_Write_Data+0xb4>)
- 8001250:	69fb      	ldr	r3, [r7, #28]
- 8001252:	6093      	str	r3, [r2, #8]
+ 800124a:	4a1e      	ldr	r2, [pc, #120]	; (80012c4 <Flash_Write_Data+0xb4>)
+ 800124c:	69fb      	ldr	r3, [r7, #28]
+ 800124e:	6093      	str	r3, [r2, #8]
 	   EraseInitStruct.NbPages     = ((EndPage - StartPage)/FLASH_PAGE_SIZE) +1;
- 8001254:	697a      	ldr	r2, [r7, #20]
- 8001256:	69fb      	ldr	r3, [r7, #28]
- 8001258:	1ad3      	subs	r3, r2, r3
- 800125a:	0a9b      	lsrs	r3, r3, #10
- 800125c:	3301      	adds	r3, #1
- 800125e:	4a1a      	ldr	r2, [pc, #104]	; (80012c8 <Flash_Write_Data+0xb4>)
- 8001260:	60d3      	str	r3, [r2, #12]
+ 8001250:	697a      	ldr	r2, [r7, #20]
+ 8001252:	69fb      	ldr	r3, [r7, #28]
+ 8001254:	1ad3      	subs	r3, r2, r3
+ 8001256:	0a9b      	lsrs	r3, r3, #10
+ 8001258:	3301      	adds	r3, #1
+ 800125a:	4a1a      	ldr	r2, [pc, #104]	; (80012c4 <Flash_Write_Data+0xb4>)
+ 800125c:	60d3      	str	r3, [r2, #12]
 
 	   if (HAL_FLASHEx_Erase(&EraseInitStruct, &PAGEError) != HAL_OK)
- 8001262:	f107 0310 	add.w	r3, r7, #16
- 8001266:	4619      	mov	r1, r3
- 8001268:	4817      	ldr	r0, [pc, #92]	; (80012c8 <Flash_Write_Data+0xb4>)
- 800126a:	f002 fdbd 	bl	8003de8 <HAL_FLASHEx_Erase>
- 800126e:	4603      	mov	r3, r0
- 8001270:	2b00      	cmp	r3, #0
- 8001272:	d01d      	beq.n	80012b0 <Flash_Write_Data+0x9c>
+ 800125e:	f107 0310 	add.w	r3, r7, #16
+ 8001262:	4619      	mov	r1, r3
+ 8001264:	4817      	ldr	r0, [pc, #92]	; (80012c4 <Flash_Write_Data+0xb4>)
+ 8001266:	f002 fdbf 	bl	8003de8 <HAL_FLASHEx_Erase>
+ 800126a:	4603      	mov	r3, r0
+ 800126c:	2b00      	cmp	r3, #0
+ 800126e:	d01d      	beq.n	80012ac <Flash_Write_Data+0x9c>
 	   {
 	     /*Error occurred while page erase.*/
 		  return HAL_FLASH_GetError ();
- 8001274:	f002 fcfc 	bl	8003c70 <HAL_FLASH_GetError>
- 8001278:	4603      	mov	r3, r0
- 800127a:	e020      	b.n	80012be <Flash_Write_Data+0xaa>
+ 8001270:	f002 fcfe 	bl	8003c70 <HAL_FLASH_GetError>
+ 8001274:	4603      	mov	r3, r0
+ 8001276:	e020      	b.n	80012ba <Flash_Write_Data+0xaa>
 
 	   /* Program the user Flash area word by word*/
 
 	   while (sofar<numberofwords)
 	   {
 	     if (HAL_FLASH_Program(FLASH_TYPEPROGRAM_WORD, StartPageAddress, DATA_32[sofar]) == HAL_OK)
- 800127c:	6a7b      	ldr	r3, [r7, #36]	; 0x24
- 800127e:	009b      	lsls	r3, r3, #2
- 8001280:	68ba      	ldr	r2, [r7, #8]
- 8001282:	4413      	add	r3, r2
- 8001284:	681b      	ldr	r3, [r3, #0]
- 8001286:	461a      	mov	r2, r3
- 8001288:	f04f 0300 	mov.w	r3, #0
- 800128c:	68f9      	ldr	r1, [r7, #12]
- 800128e:	2002      	movs	r0, #2
- 8001290:	f002 fc48 	bl	8003b24 <HAL_FLASH_Program>
- 8001294:	4603      	mov	r3, r0
- 8001296:	2b00      	cmp	r3, #0
- 8001298:	d106      	bne.n	80012a8 <Flash_Write_Data+0x94>
+ 8001278:	6a7b      	ldr	r3, [r7, #36]	; 0x24
+ 800127a:	009b      	lsls	r3, r3, #2
+ 800127c:	68ba      	ldr	r2, [r7, #8]
+ 800127e:	4413      	add	r3, r2
+ 8001280:	681b      	ldr	r3, [r3, #0]
+ 8001282:	461a      	mov	r2, r3
+ 8001284:	f04f 0300 	mov.w	r3, #0
+ 8001288:	68f9      	ldr	r1, [r7, #12]
+ 800128a:	2002      	movs	r0, #2
+ 800128c:	f002 fc4a 	bl	8003b24 <HAL_FLASH_Program>
+ 8001290:	4603      	mov	r3, r0
+ 8001292:	2b00      	cmp	r3, #0
+ 8001294:	d106      	bne.n	80012a4 <Flash_Write_Data+0x94>
 	     {
 	    	 StartPageAddress += 4;  // use StartPageAddress += 2 for half word and 8 for double word
- 800129a:	68fb      	ldr	r3, [r7, #12]
- 800129c:	3304      	adds	r3, #4
- 800129e:	60fb      	str	r3, [r7, #12]
+ 8001296:	68fb      	ldr	r3, [r7, #12]
+ 8001298:	3304      	adds	r3, #4
+ 800129a:	60fb      	str	r3, [r7, #12]
 	    	 sofar++;
- 80012a0:	6a7b      	ldr	r3, [r7, #36]	; 0x24
- 80012a2:	3301      	adds	r3, #1
- 80012a4:	627b      	str	r3, [r7, #36]	; 0x24
- 80012a6:	e003      	b.n	80012b0 <Flash_Write_Data+0x9c>
+ 800129c:	6a7b      	ldr	r3, [r7, #36]	; 0x24
+ 800129e:	3301      	adds	r3, #1
+ 80012a0:	627b      	str	r3, [r7, #36]	; 0x24
+ 80012a2:	e003      	b.n	80012ac <Flash_Write_Data+0x9c>
 	     }
 	     else
 	     {
 	       /* Error occurred while writing data in Flash memory*/
 	    	 return HAL_FLASH_GetError ();
- 80012a8:	f002 fce2 	bl	8003c70 <HAL_FLASH_GetError>
- 80012ac:	4603      	mov	r3, r0
- 80012ae:	e006      	b.n	80012be <Flash_Write_Data+0xaa>
+ 80012a4:	f002 fce4 	bl	8003c70 <HAL_FLASH_GetError>
+ 80012a8:	4603      	mov	r3, r0
+ 80012aa:	e006      	b.n	80012ba <Flash_Write_Data+0xaa>
 	   while (sofar<numberofwords)
- 80012b0:	6a7a      	ldr	r2, [r7, #36]	; 0x24
- 80012b2:	6a3b      	ldr	r3, [r7, #32]
- 80012b4:	429a      	cmp	r2, r3
- 80012b6:	dbe1      	blt.n	800127c <Flash_Write_Data+0x68>
+ 80012ac:	6a7a      	ldr	r2, [r7, #36]	; 0x24
+ 80012ae:	6a3b      	ldr	r3, [r7, #32]
+ 80012b0:	429a      	cmp	r2, r3
+ 80012b2:	dbe1      	blt.n	8001278 <Flash_Write_Data+0x68>
 	     }
 	   }
 
 	   /* Lock the Flash to disable the flash control register access (recommended
 	      to protect the FLASH memory against possible unwanted operation) *********/
 	   HAL_FLASH_Lock();
- 80012b8:	f002 fcca 	bl	8003c50 <HAL_FLASH_Lock>
+ 80012b4:	f002 fccc 	bl	8003c50 <HAL_FLASH_Lock>
 
 	   return 0;
- 80012bc:	2300      	movs	r3, #0
+ 80012b8:	2300      	movs	r3, #0
 }
- 80012be:	4618      	mov	r0, r3
- 80012c0:	3728      	adds	r7, #40	; 0x28
- 80012c2:	46bd      	mov	sp, r7
- 80012c4:	bd80      	pop	{r7, pc}
- 80012c6:	bf00      	nop
- 80012c8:	2000020c 	.word	0x2000020c
+ 80012ba:	4618      	mov	r0, r3
+ 80012bc:	3728      	adds	r7, #40	; 0x28
+ 80012be:	46bd      	mov	sp, r7
+ 80012c0:	bd80      	pop	{r7, pc}
+ 80012c2:	bf00      	nop
+ 80012c4:	2000020c 	.word	0x2000020c
 
-080012cc <Flash_Read_Data>:
+080012c8 <Flash_Read_Data>:
 
 
 void Flash_Read_Data (uint32_t StartPageAddress, __IO uint32_t * DATA_32)
 {
- 80012cc:	b480      	push	{r7}
- 80012ce:	b083      	sub	sp, #12
- 80012d0:	af00      	add	r7, sp, #0
- 80012d2:	6078      	str	r0, [r7, #4]
- 80012d4:	6039      	str	r1, [r7, #0]
+ 80012c8:	b480      	push	{r7}
+ 80012ca:	b083      	sub	sp, #12
+ 80012cc:	af00      	add	r7, sp, #0
+ 80012ce:	6078      	str	r0, [r7, #4]
+ 80012d0:	6039      	str	r1, [r7, #0]
 	while (1)
 	{
 		*DATA_32 = *(__IO uint32_t *)StartPageAddress;
- 80012d6:	687b      	ldr	r3, [r7, #4]
- 80012d8:	681a      	ldr	r2, [r3, #0]
- 80012da:	683b      	ldr	r3, [r7, #0]
- 80012dc:	601a      	str	r2, [r3, #0]
+ 80012d2:	687b      	ldr	r3, [r7, #4]
+ 80012d4:	681a      	ldr	r2, [r3, #0]
+ 80012d6:	683b      	ldr	r3, [r7, #0]
+ 80012d8:	601a      	str	r2, [r3, #0]
 		if (*DATA_32 == 0xffffffff)
- 80012de:	683b      	ldr	r3, [r7, #0]
- 80012e0:	681b      	ldr	r3, [r3, #0]
- 80012e2:	f1b3 3fff 	cmp.w	r3, #4294967295
- 80012e6:	d103      	bne.n	80012f0 <Flash_Read_Data+0x24>
+ 80012da:	683b      	ldr	r3, [r7, #0]
+ 80012dc:	681b      	ldr	r3, [r3, #0]
+ 80012de:	f1b3 3fff 	cmp.w	r3, #4294967295
+ 80012e2:	d103      	bne.n	80012ec <Flash_Read_Data+0x24>
 		{
 			*DATA_32 = '\0';
- 80012e8:	683b      	ldr	r3, [r7, #0]
- 80012ea:	2200      	movs	r2, #0
- 80012ec:	601a      	str	r2, [r3, #0]
+ 80012e4:	683b      	ldr	r3, [r7, #0]
+ 80012e6:	2200      	movs	r2, #0
+ 80012e8:	601a      	str	r2, [r3, #0]
 			break;
- 80012ee:	e006      	b.n	80012fe <Flash_Read_Data+0x32>
+ 80012ea:	e006      	b.n	80012fa <Flash_Read_Data+0x32>
 		}
 		StartPageAddress += 4;
- 80012f0:	687b      	ldr	r3, [r7, #4]
- 80012f2:	3304      	adds	r3, #4
- 80012f4:	607b      	str	r3, [r7, #4]
+ 80012ec:	687b      	ldr	r3, [r7, #4]
+ 80012ee:	3304      	adds	r3, #4
+ 80012f0:	607b      	str	r3, [r7, #4]
 		DATA_32++;
- 80012f6:	683b      	ldr	r3, [r7, #0]
- 80012f8:	3304      	adds	r3, #4
- 80012fa:	603b      	str	r3, [r7, #0]
+ 80012f2:	683b      	ldr	r3, [r7, #0]
+ 80012f4:	3304      	adds	r3, #4
+ 80012f6:	603b      	str	r3, [r7, #0]
 		*DATA_32 = *(__IO uint32_t *)StartPageAddress;
- 80012fc:	e7eb      	b.n	80012d6 <Flash_Read_Data+0xa>
+ 80012f8:	e7eb      	b.n	80012d2 <Flash_Read_Data+0xa>
 	}
 }
- 80012fe:	bf00      	nop
- 8001300:	370c      	adds	r7, #12
- 8001302:	46bd      	mov	sp, r7
- 8001304:	bc80      	pop	{r7}
- 8001306:	4770      	bx	lr
+ 80012fa:	bf00      	nop
+ 80012fc:	370c      	adds	r7, #12
+ 80012fe:	46bd      	mov	sp, r7
+ 8001300:	bc80      	pop	{r7}
+ 8001302:	4770      	bx	lr
 
-08001308 <arm_pid_f32>:
+08001304 <arm_pid_f32>:
    * @return out processed output sample.
    */
   static __INLINE float32_t arm_pid_f32(
   arm_pid_instance_f32 * S,
   float32_t in)
   {
- 8001308:	b590      	push	{r4, r7, lr}
- 800130a:	b085      	sub	sp, #20
- 800130c:	af00      	add	r7, sp, #0
- 800130e:	6078      	str	r0, [r7, #4]
- 8001310:	6039      	str	r1, [r7, #0]
+ 8001304:	b590      	push	{r4, r7, lr}
+ 8001306:	b085      	sub	sp, #20
+ 8001308:	af00      	add	r7, sp, #0
+ 800130a:	6078      	str	r0, [r7, #4]
+ 800130c:	6039      	str	r1, [r7, #0]
     float32_t out;
 
     /* y[n] = y[n-1] + A0 * x[n] + A1 * x[n-1] + A2 * x[n-2]  */
     out = (S->A0 * in) +
- 8001312:	687b      	ldr	r3, [r7, #4]
- 8001314:	681b      	ldr	r3, [r3, #0]
- 8001316:	6839      	ldr	r1, [r7, #0]
- 8001318:	4618      	mov	r0, r3
- 800131a:	f7ff fd33 	bl	8000d84 <__aeabi_fmul>
- 800131e:	4603      	mov	r3, r0
- 8001320:	461c      	mov	r4, r3
+ 800130e:	687b      	ldr	r3, [r7, #4]
+ 8001310:	681b      	ldr	r3, [r3, #0]
+ 8001312:	6839      	ldr	r1, [r7, #0]
+ 8001314:	4618      	mov	r0, r3
+ 8001316:	f7ff fd35 	bl	8000d84 <__aeabi_fmul>
+ 800131a:	4603      	mov	r3, r0
+ 800131c:	461c      	mov	r4, r3
       (S->A1 * S->state[0]) + (S->A2 * S->state[1]) + (S->state[2]);
+ 800131e:	687b      	ldr	r3, [r7, #4]
+ 8001320:	685a      	ldr	r2, [r3, #4]
  8001322:	687b      	ldr	r3, [r7, #4]
- 8001324:	685a      	ldr	r2, [r3, #4]
- 8001326:	687b      	ldr	r3, [r7, #4]
- 8001328:	68db      	ldr	r3, [r3, #12]
- 800132a:	4619      	mov	r1, r3
- 800132c:	4610      	mov	r0, r2
- 800132e:	f7ff fd29 	bl	8000d84 <__aeabi_fmul>
- 8001332:	4603      	mov	r3, r0
+ 8001324:	68db      	ldr	r3, [r3, #12]
+ 8001326:	4619      	mov	r1, r3
+ 8001328:	4610      	mov	r0, r2
+ 800132a:	f7ff fd2b 	bl	8000d84 <__aeabi_fmul>
+ 800132e:	4603      	mov	r3, r0
     out = (S->A0 * in) +
- 8001334:	4619      	mov	r1, r3
- 8001336:	4620      	mov	r0, r4
- 8001338:	f7ff fc1c 	bl	8000b74 <__addsf3>
- 800133c:	4603      	mov	r3, r0
- 800133e:	461c      	mov	r4, r3
+ 8001330:	4619      	mov	r1, r3
+ 8001332:	4620      	mov	r0, r4
+ 8001334:	f7ff fc1e 	bl	8000b74 <__addsf3>
+ 8001338:	4603      	mov	r3, r0
+ 800133a:	461c      	mov	r4, r3
       (S->A1 * S->state[0]) + (S->A2 * S->state[1]) + (S->state[2]);
+ 800133c:	687b      	ldr	r3, [r7, #4]
+ 800133e:	689a      	ldr	r2, [r3, #8]
  8001340:	687b      	ldr	r3, [r7, #4]
- 8001342:	689a      	ldr	r2, [r3, #8]
- 8001344:	687b      	ldr	r3, [r7, #4]
- 8001346:	691b      	ldr	r3, [r3, #16]
- 8001348:	4619      	mov	r1, r3
- 800134a:	4610      	mov	r0, r2
- 800134c:	f7ff fd1a 	bl	8000d84 <__aeabi_fmul>
- 8001350:	4603      	mov	r3, r0
- 8001352:	4619      	mov	r1, r3
- 8001354:	4620      	mov	r0, r4
- 8001356:	f7ff fc0d 	bl	8000b74 <__addsf3>
- 800135a:	4603      	mov	r3, r0
- 800135c:	461a      	mov	r2, r3
- 800135e:	687b      	ldr	r3, [r7, #4]
- 8001360:	695b      	ldr	r3, [r3, #20]
+ 8001342:	691b      	ldr	r3, [r3, #16]
+ 8001344:	4619      	mov	r1, r3
+ 8001346:	4610      	mov	r0, r2
+ 8001348:	f7ff fd1c 	bl	8000d84 <__aeabi_fmul>
+ 800134c:	4603      	mov	r3, r0
+ 800134e:	4619      	mov	r1, r3
+ 8001350:	4620      	mov	r0, r4
+ 8001352:	f7ff fc0f 	bl	8000b74 <__addsf3>
+ 8001356:	4603      	mov	r3, r0
+ 8001358:	461a      	mov	r2, r3
+ 800135a:	687b      	ldr	r3, [r7, #4]
+ 800135c:	695b      	ldr	r3, [r3, #20]
     out = (S->A0 * in) +
- 8001362:	4619      	mov	r1, r3
- 8001364:	4610      	mov	r0, r2
- 8001366:	f7ff fc05 	bl	8000b74 <__addsf3>
- 800136a:	4603      	mov	r3, r0
- 800136c:	60fb      	str	r3, [r7, #12]
+ 800135e:	4619      	mov	r1, r3
+ 8001360:	4610      	mov	r0, r2
+ 8001362:	f7ff fc07 	bl	8000b74 <__addsf3>
+ 8001366:	4603      	mov	r3, r0
+ 8001368:	60fb      	str	r3, [r7, #12]
 
     /* Update state */
     S->state[1] = S->state[0];
+ 800136a:	687b      	ldr	r3, [r7, #4]
+ 800136c:	68da      	ldr	r2, [r3, #12]
  800136e:	687b      	ldr	r3, [r7, #4]
- 8001370:	68da      	ldr	r2, [r3, #12]
- 8001372:	687b      	ldr	r3, [r7, #4]
- 8001374:	611a      	str	r2, [r3, #16]
+ 8001370:	611a      	str	r2, [r3, #16]
     S->state[0] = in;
- 8001376:	687b      	ldr	r3, [r7, #4]
- 8001378:	683a      	ldr	r2, [r7, #0]
- 800137a:	60da      	str	r2, [r3, #12]
+ 8001372:	687b      	ldr	r3, [r7, #4]
+ 8001374:	683a      	ldr	r2, [r7, #0]
+ 8001376:	60da      	str	r2, [r3, #12]
     S->state[2] = out;
- 800137c:	687b      	ldr	r3, [r7, #4]
- 800137e:	68fa      	ldr	r2, [r7, #12]
- 8001380:	615a      	str	r2, [r3, #20]
+ 8001378:	687b      	ldr	r3, [r7, #4]
+ 800137a:	68fa      	ldr	r2, [r7, #12]
+ 800137c:	615a      	str	r2, [r3, #20]
 
     /* return to application */
     return (out);
- 8001382:	68fb      	ldr	r3, [r7, #12]
+ 800137e:	68fb      	ldr	r3, [r7, #12]
 
   }
- 8001384:	4618      	mov	r0, r3
- 8001386:	3714      	adds	r7, #20
- 8001388:	46bd      	mov	sp, r7
- 800138a:	bd90      	pop	{r4, r7, pc}
+ 8001380:	4618      	mov	r0, r3
+ 8001382:	3714      	adds	r7, #20
+ 8001384:	46bd      	mov	sp, r7
+ 8001386:	bd90      	pop	{r4, r7, pc}
 
-0800138c <SaveReflowParameters>:
+08001388 <SaveReflowParameters>:
+uint8_t TempDrawEnable = 0;
+uint32_t TempDrawCounter = 0;
 
-
-uint8_t test2[5] = {'p','0','x','x','x'};
 
 
 void SaveReflowParameters(){
- 800138c:	b580      	push	{r7, lr}
- 800138e:	af00      	add	r7, sp, #0
+ 8001388:	b580      	push	{r7, lr}
+ 800138a:	af00      	add	r7, sp, #0
 	Flash_Write_Data(0x0801FC00, (uint32_t *)&ReflowParameters, 34);
- 8001390:	2222      	movs	r2, #34	; 0x22
- 8001392:	4903      	ldr	r1, [pc, #12]	; (80013a0 <SaveReflowParameters+0x14>)
- 8001394:	4803      	ldr	r0, [pc, #12]	; (80013a4 <SaveReflowParameters+0x18>)
- 8001396:	f7ff ff3d 	bl	8001214 <Flash_Write_Data>
+ 800138c:	2222      	movs	r2, #34	; 0x22
+ 800138e:	4903      	ldr	r1, [pc, #12]	; (800139c <SaveReflowParameters+0x14>)
+ 8001390:	4803      	ldr	r0, [pc, #12]	; (80013a0 <SaveReflowParameters+0x18>)
+ 8001392:	f7ff ff3d 	bl	8001210 <Flash_Write_Data>
 }
+ 8001396:	bf00      	nop
+ 8001398:	bd80      	pop	{r7, pc}
  800139a:	bf00      	nop
- 800139c:	bd80      	pop	{r7, pc}
- 800139e:	bf00      	nop
- 80013a0:	200012a8 	.word	0x200012a8
- 80013a4:	0801fc00 	.word	0x0801fc00
+ 800139c:	200012a8 	.word	0x200012a8
+ 80013a0:	0801fc00 	.word	0x0801fc00
 
-080013a8 <HAL_UART_RxCpltCallback>:
+080013a4 <HAL_UART_RxCpltCallback>:
 
 
 void HAL_UART_RxCpltCallback(UART_HandleTypeDef *huart){
- 80013a8:	b580      	push	{r7, lr}
- 80013aa:	b082      	sub	sp, #8
- 80013ac:	af00      	add	r7, sp, #0
- 80013ae:	6078      	str	r0, [r7, #4]
+ 80013a4:	b580      	push	{r7, lr}
+ 80013a6:	b082      	sub	sp, #8
+ 80013a8:	af00      	add	r7, sp, #0
+ 80013aa:	6078      	str	r0, [r7, #4]
 	HAL_UART_Receive_IT(&huart1, UART_Recieved_Data, 5);
- 80013b0:	2205      	movs	r2, #5
- 80013b2:	4905      	ldr	r1, [pc, #20]	; (80013c8 <HAL_UART_RxCpltCallback+0x20>)
- 80013b4:	4805      	ldr	r0, [pc, #20]	; (80013cc <HAL_UART_RxCpltCallback+0x24>)
- 80013b6:	f005 f843 	bl	8006440 <HAL_UART_Receive_IT>
+ 80013ac:	2205      	movs	r2, #5
+ 80013ae:	4905      	ldr	r1, [pc, #20]	; (80013c4 <HAL_UART_RxCpltCallback+0x20>)
+ 80013b0:	4805      	ldr	r0, [pc, #20]	; (80013c8 <HAL_UART_RxCpltCallback+0x24>)
+ 80013b2:	f005 f845 	bl	8006440 <HAL_UART_Receive_IT>
 	UART_Recieved_Flag =1;
- 80013ba:	4b05      	ldr	r3, [pc, #20]	; (80013d0 <HAL_UART_RxCpltCallback+0x28>)
- 80013bc:	2201      	movs	r2, #1
- 80013be:	701a      	strb	r2, [r3, #0]
+ 80013b6:	4b05      	ldr	r3, [pc, #20]	; (80013cc <HAL_UART_RxCpltCallback+0x28>)
+ 80013b8:	2201      	movs	r2, #1
+ 80013ba:	701a      	strb	r2, [r3, #0]
 }
- 80013c0:	bf00      	nop
- 80013c2:	3708      	adds	r7, #8
- 80013c4:	46bd      	mov	sp, r7
- 80013c6:	bd80      	pop	{r7, pc}
- 80013c8:	20000004 	.word	0x20000004
- 80013cc:	200002c4 	.word	0x200002c4
- 80013d0:	20000220 	.word	0x20000220
+ 80013bc:	bf00      	nop
+ 80013be:	3708      	adds	r7, #8
+ 80013c0:	46bd      	mov	sp, r7
+ 80013c2:	bd80      	pop	{r7, pc}
+ 80013c4:	20000004 	.word	0x20000004
+ 80013c8:	200002c4 	.word	0x200002c4
+ 80013cc:	20000220 	.word	0x20000220
 
-080013d4 <NEXTION_SendString>:
+080013d0 <NEXTION_SendString>:
 
 
 void NEXTION_SendString (char *ID, char *string){
- 80013d4:	b580      	push	{r7, lr}
- 80013d6:	b090      	sub	sp, #64	; 0x40
- 80013d8:	af00      	add	r7, sp, #0
- 80013da:	6078      	str	r0, [r7, #4]
- 80013dc:	6039      	str	r1, [r7, #0]
+ 80013d0:	b580      	push	{r7, lr}
+ 80013d2:	b090      	sub	sp, #64	; 0x40
+ 80013d4:	af00      	add	r7, sp, #0
+ 80013d6:	6078      	str	r0, [r7, #4]
+ 80013d8:	6039      	str	r1, [r7, #0]
 	char buf[50];
 	int len = sprintf(buf, "%s.txt=\"%s\"", ID, string);
- 80013de:	f107 0008 	add.w	r0, r7, #8
- 80013e2:	683b      	ldr	r3, [r7, #0]
- 80013e4:	687a      	ldr	r2, [r7, #4]
- 80013e6:	490b      	ldr	r1, [pc, #44]	; (8001414 <NEXTION_SendString+0x40>)
- 80013e8:	f006 f940 	bl	800766c <siprintf>
- 80013ec:	63f8      	str	r0, [r7, #60]	; 0x3c
+ 80013da:	f107 0008 	add.w	r0, r7, #8
+ 80013de:	683b      	ldr	r3, [r7, #0]
+ 80013e0:	687a      	ldr	r2, [r7, #4]
+ 80013e2:	490b      	ldr	r1, [pc, #44]	; (8001410 <NEXTION_SendString+0x40>)
+ 80013e4:	f006 f942 	bl	800766c <siprintf>
+ 80013e8:	63f8      	str	r0, [r7, #60]	; 0x3c
 	HAL_UART_Transmit(&huart1, (uint8_t *)buf, len, 1000);
- 80013ee:	6bfb      	ldr	r3, [r7, #60]	; 0x3c
- 80013f0:	b29a      	uxth	r2, r3
- 80013f2:	f107 0108 	add.w	r1, r7, #8
- 80013f6:	f44f 737a 	mov.w	r3, #1000	; 0x3e8
- 80013fa:	4807      	ldr	r0, [pc, #28]	; (8001418 <NEXTION_SendString+0x44>)
- 80013fc:	f004 ff8e 	bl	800631c <HAL_UART_Transmit>
+ 80013ea:	6bfb      	ldr	r3, [r7, #60]	; 0x3c
+ 80013ec:	b29a      	uxth	r2, r3
+ 80013ee:	f107 0108 	add.w	r1, r7, #8
+ 80013f2:	f44f 737a 	mov.w	r3, #1000	; 0x3e8
+ 80013f6:	4807      	ldr	r0, [pc, #28]	; (8001414 <NEXTION_SendString+0x44>)
+ 80013f8:	f004 ff90 	bl	800631c <HAL_UART_Transmit>
 	HAL_UART_Transmit(&huart1, Cmd_End, 3, 100);
- 8001400:	2364      	movs	r3, #100	; 0x64
- 8001402:	2203      	movs	r2, #3
- 8001404:	4905      	ldr	r1, [pc, #20]	; (800141c <NEXTION_SendString+0x48>)
- 8001406:	4804      	ldr	r0, [pc, #16]	; (8001418 <NEXTION_SendString+0x44>)
- 8001408:	f004 ff88 	bl	800631c <HAL_UART_Transmit>
+ 80013fc:	2364      	movs	r3, #100	; 0x64
+ 80013fe:	2203      	movs	r2, #3
+ 8001400:	4905      	ldr	r1, [pc, #20]	; (8001418 <NEXTION_SendString+0x48>)
+ 8001402:	4804      	ldr	r0, [pc, #16]	; (8001414 <NEXTION_SendString+0x44>)
+ 8001404:	f004 ff8a 	bl	800631c <HAL_UART_Transmit>
 
 }
- 800140c:	bf00      	nop
- 800140e:	3740      	adds	r7, #64	; 0x40
- 8001410:	46bd      	mov	sp, r7
- 8001412:	bd80      	pop	{r7, pc}
- 8001414:	0800b0a8 	.word	0x0800b0a8
- 8001418:	200002c4 	.word	0x200002c4
- 800141c:	20000000 	.word	0x20000000
+ 8001408:	bf00      	nop
+ 800140a:	3740      	adds	r7, #64	; 0x40
+ 800140c:	46bd      	mov	sp, r7
+ 800140e:	bd80      	pop	{r7, pc}
+ 8001410:	0800b0a8 	.word	0x0800b0a8
+ 8001414:	200002c4 	.word	0x200002c4
+ 8001418:	20000000 	.word	0x20000000
 
-08001420 <NEXTION_SendFloat>:
+0800141c <NEXTION_SendFloat>:
 
 
 void NEXTION_SendFloat (char *ID, float32_t number){
- 8001420:	b580      	push	{r7, lr}
- 8001422:	b092      	sub	sp, #72	; 0x48
- 8001424:	af02      	add	r7, sp, #8
- 8001426:	6078      	str	r0, [r7, #4]
- 8001428:	6039      	str	r1, [r7, #0]
+ 800141c:	b580      	push	{r7, lr}
+ 800141e:	b092      	sub	sp, #72	; 0x48
+ 8001420:	af02      	add	r7, sp, #8
+ 8001422:	6078      	str	r0, [r7, #4]
+ 8001424:	6039      	str	r1, [r7, #0]
 	char buf[50];
 	int len = sprintf(buf, "%s.txt=\"%.2f\"", ID, number);
- 800142a:	6838      	ldr	r0, [r7, #0]
- 800142c:	f7fe fffc 	bl	8000428 <__aeabi_f2d>
- 8001430:	4602      	mov	r2, r0
- 8001432:	460b      	mov	r3, r1
- 8001434:	f107 0008 	add.w	r0, r7, #8
- 8001438:	e9cd 2300 	strd	r2, r3, [sp]
- 800143c:	687a      	ldr	r2, [r7, #4]
- 800143e:	490b      	ldr	r1, [pc, #44]	; (800146c <NEXTION_SendFloat+0x4c>)
- 8001440:	f006 f914 	bl	800766c <siprintf>
- 8001444:	63f8      	str	r0, [r7, #60]	; 0x3c
+ 8001426:	6838      	ldr	r0, [r7, #0]
+ 8001428:	f7fe fffe 	bl	8000428 <__aeabi_f2d>
+ 800142c:	4602      	mov	r2, r0
+ 800142e:	460b      	mov	r3, r1
+ 8001430:	f107 0008 	add.w	r0, r7, #8
+ 8001434:	e9cd 2300 	strd	r2, r3, [sp]
+ 8001438:	687a      	ldr	r2, [r7, #4]
+ 800143a:	490b      	ldr	r1, [pc, #44]	; (8001468 <NEXTION_SendFloat+0x4c>)
+ 800143c:	f006 f916 	bl	800766c <siprintf>
+ 8001440:	63f8      	str	r0, [r7, #60]	; 0x3c
 	HAL_UART_Transmit(&huart1, (uint8_t *)buf, len, 1000);
- 8001446:	6bfb      	ldr	r3, [r7, #60]	; 0x3c
- 8001448:	b29a      	uxth	r2, r3
- 800144a:	f107 0108 	add.w	r1, r7, #8
- 800144e:	f44f 737a 	mov.w	r3, #1000	; 0x3e8
- 8001452:	4807      	ldr	r0, [pc, #28]	; (8001470 <NEXTION_SendFloat+0x50>)
- 8001454:	f004 ff62 	bl	800631c <HAL_UART_Transmit>
+ 8001442:	6bfb      	ldr	r3, [r7, #60]	; 0x3c
+ 8001444:	b29a      	uxth	r2, r3
+ 8001446:	f107 0108 	add.w	r1, r7, #8
+ 800144a:	f44f 737a 	mov.w	r3, #1000	; 0x3e8
+ 800144e:	4807      	ldr	r0, [pc, #28]	; (800146c <NEXTION_SendFloat+0x50>)
+ 8001450:	f004 ff64 	bl	800631c <HAL_UART_Transmit>
 	HAL_UART_Transmit(&huart1, Cmd_End, 3, 100);
- 8001458:	2364      	movs	r3, #100	; 0x64
- 800145a:	2203      	movs	r2, #3
- 800145c:	4905      	ldr	r1, [pc, #20]	; (8001474 <NEXTION_SendFloat+0x54>)
- 800145e:	4804      	ldr	r0, [pc, #16]	; (8001470 <NEXTION_SendFloat+0x50>)
- 8001460:	f004 ff5c 	bl	800631c <HAL_UART_Transmit>
+ 8001454:	2364      	movs	r3, #100	; 0x64
+ 8001456:	2203      	movs	r2, #3
+ 8001458:	4905      	ldr	r1, [pc, #20]	; (8001470 <NEXTION_SendFloat+0x54>)
+ 800145a:	4804      	ldr	r0, [pc, #16]	; (800146c <NEXTION_SendFloat+0x50>)
+ 800145c:	f004 ff5e 	bl	800631c <HAL_UART_Transmit>
 }
- 8001464:	bf00      	nop
- 8001466:	3740      	adds	r7, #64	; 0x40
- 8001468:	46bd      	mov	sp, r7
- 800146a:	bd80      	pop	{r7, pc}
- 800146c:	0800b0b4 	.word	0x0800b0b4
- 8001470:	200002c4 	.word	0x200002c4
- 8001474:	20000000 	.word	0x20000000
+ 8001460:	bf00      	nop
+ 8001462:	3740      	adds	r7, #64	; 0x40
+ 8001464:	46bd      	mov	sp, r7
+ 8001466:	bd80      	pop	{r7, pc}
+ 8001468:	0800b0b4 	.word	0x0800b0b4
+ 800146c:	200002c4 	.word	0x200002c4
+ 8001470:	20000000 	.word	0x20000000
 
-08001478 <NEXTION_SendFloat_CurrentTemp>:
+08001474 <NEXTION_SendFloat_CurrentTemp>:
 
 void NEXTION_SendFloat_CurrentTemp (char *ID, float32_t number){
- 8001478:	b580      	push	{r7, lr}
- 800147a:	b092      	sub	sp, #72	; 0x48
- 800147c:	af02      	add	r7, sp, #8
- 800147e:	6078      	str	r0, [r7, #4]
- 8001480:	6039      	str	r1, [r7, #0]
+ 8001474:	b580      	push	{r7, lr}
+ 8001476:	b092      	sub	sp, #72	; 0x48
+ 8001478:	af02      	add	r7, sp, #8
+ 800147a:	6078      	str	r0, [r7, #4]
+ 800147c:	6039      	str	r1, [r7, #0]
 	char buf[50];
 	int len = sprintf(buf, "%s.txt=\"%.1f\"", ID, number);
- 8001482:	6838      	ldr	r0, [r7, #0]
- 8001484:	f7fe ffd0 	bl	8000428 <__aeabi_f2d>
- 8001488:	4602      	mov	r2, r0
- 800148a:	460b      	mov	r3, r1
- 800148c:	f107 0008 	add.w	r0, r7, #8
- 8001490:	e9cd 2300 	strd	r2, r3, [sp]
- 8001494:	687a      	ldr	r2, [r7, #4]
- 8001496:	490b      	ldr	r1, [pc, #44]	; (80014c4 <NEXTION_SendFloat_CurrentTemp+0x4c>)
- 8001498:	f006 f8e8 	bl	800766c <siprintf>
- 800149c:	63f8      	str	r0, [r7, #60]	; 0x3c
+ 800147e:	6838      	ldr	r0, [r7, #0]
+ 8001480:	f7fe ffd2 	bl	8000428 <__aeabi_f2d>
+ 8001484:	4602      	mov	r2, r0
+ 8001486:	460b      	mov	r3, r1
+ 8001488:	f107 0008 	add.w	r0, r7, #8
+ 800148c:	e9cd 2300 	strd	r2, r3, [sp]
+ 8001490:	687a      	ldr	r2, [r7, #4]
+ 8001492:	490b      	ldr	r1, [pc, #44]	; (80014c0 <NEXTION_SendFloat_CurrentTemp+0x4c>)
+ 8001494:	f006 f8ea 	bl	800766c <siprintf>
+ 8001498:	63f8      	str	r0, [r7, #60]	; 0x3c
 	HAL_UART_Transmit(&huart1, (uint8_t *)buf, len, 1000);
- 800149e:	6bfb      	ldr	r3, [r7, #60]	; 0x3c
- 80014a0:	b29a      	uxth	r2, r3
- 80014a2:	f107 0108 	add.w	r1, r7, #8
- 80014a6:	f44f 737a 	mov.w	r3, #1000	; 0x3e8
- 80014aa:	4807      	ldr	r0, [pc, #28]	; (80014c8 <NEXTION_SendFloat_CurrentTemp+0x50>)
- 80014ac:	f004 ff36 	bl	800631c <HAL_UART_Transmit>
+ 800149a:	6bfb      	ldr	r3, [r7, #60]	; 0x3c
+ 800149c:	b29a      	uxth	r2, r3
+ 800149e:	f107 0108 	add.w	r1, r7, #8
+ 80014a2:	f44f 737a 	mov.w	r3, #1000	; 0x3e8
+ 80014a6:	4807      	ldr	r0, [pc, #28]	; (80014c4 <NEXTION_SendFloat_CurrentTemp+0x50>)
+ 80014a8:	f004 ff38 	bl	800631c <HAL_UART_Transmit>
 	HAL_UART_Transmit(&huart1, Cmd_End, 3, 100);
- 80014b0:	2364      	movs	r3, #100	; 0x64
- 80014b2:	2203      	movs	r2, #3
- 80014b4:	4905      	ldr	r1, [pc, #20]	; (80014cc <NEXTION_SendFloat_CurrentTemp+0x54>)
- 80014b6:	4804      	ldr	r0, [pc, #16]	; (80014c8 <NEXTION_SendFloat_CurrentTemp+0x50>)
- 80014b8:	f004 ff30 	bl	800631c <HAL_UART_Transmit>
+ 80014ac:	2364      	movs	r3, #100	; 0x64
+ 80014ae:	2203      	movs	r2, #3
+ 80014b0:	4905      	ldr	r1, [pc, #20]	; (80014c8 <NEXTION_SendFloat_CurrentTemp+0x54>)
+ 80014b2:	4804      	ldr	r0, [pc, #16]	; (80014c4 <NEXTION_SendFloat_CurrentTemp+0x50>)
+ 80014b4:	f004 ff32 	bl	800631c <HAL_UART_Transmit>
 }
- 80014bc:	bf00      	nop
- 80014be:	3740      	adds	r7, #64	; 0x40
- 80014c0:	46bd      	mov	sp, r7
- 80014c2:	bd80      	pop	{r7, pc}
- 80014c4:	0800b0c4 	.word	0x0800b0c4
- 80014c8:	200002c4 	.word	0x200002c4
- 80014cc:	20000000 	.word	0x20000000
+ 80014b8:	bf00      	nop
+ 80014ba:	3740      	adds	r7, #64	; 0x40
+ 80014bc:	46bd      	mov	sp, r7
+ 80014be:	bd80      	pop	{r7, pc}
+ 80014c0:	0800b0c4 	.word	0x0800b0c4
+ 80014c4:	200002c4 	.word	0x200002c4
+ 80014c8:	20000000 	.word	0x20000000
 
-080014d0 <NEXTION_SenduInt>:
+080014cc <NEXTION_SenduInt>:
 
 
 void NEXTION_SenduInt (char *ID, uint32_t number){
- 80014d0:	b580      	push	{r7, lr}
- 80014d2:	b090      	sub	sp, #64	; 0x40
- 80014d4:	af00      	add	r7, sp, #0
- 80014d6:	6078      	str	r0, [r7, #4]
- 80014d8:	6039      	str	r1, [r7, #0]
+ 80014cc:	b580      	push	{r7, lr}
+ 80014ce:	b090      	sub	sp, #64	; 0x40
+ 80014d0:	af00      	add	r7, sp, #0
+ 80014d2:	6078      	str	r0, [r7, #4]
+ 80014d4:	6039      	str	r1, [r7, #0]
 	char buf[50];
 	int len = sprintf(buf, "%s.txt=\"%lu\"", ID, number);
- 80014da:	f107 0008 	add.w	r0, r7, #8
- 80014de:	683b      	ldr	r3, [r7, #0]
- 80014e0:	687a      	ldr	r2, [r7, #4]
- 80014e2:	490b      	ldr	r1, [pc, #44]	; (8001510 <NEXTION_SenduInt+0x40>)
- 80014e4:	f006 f8c2 	bl	800766c <siprintf>
- 80014e8:	63f8      	str	r0, [r7, #60]	; 0x3c
+ 80014d6:	f107 0008 	add.w	r0, r7, #8
+ 80014da:	683b      	ldr	r3, [r7, #0]
+ 80014dc:	687a      	ldr	r2, [r7, #4]
+ 80014de:	490b      	ldr	r1, [pc, #44]	; (800150c <NEXTION_SenduInt+0x40>)
+ 80014e0:	f006 f8c4 	bl	800766c <siprintf>
+ 80014e4:	63f8      	str	r0, [r7, #60]	; 0x3c
 	HAL_UART_Transmit(&huart1, (uint8_t *)buf, len, 1000);
- 80014ea:	6bfb      	ldr	r3, [r7, #60]	; 0x3c
- 80014ec:	b29a      	uxth	r2, r3
- 80014ee:	f107 0108 	add.w	r1, r7, #8
- 80014f2:	f44f 737a 	mov.w	r3, #1000	; 0x3e8
- 80014f6:	4807      	ldr	r0, [pc, #28]	; (8001514 <NEXTION_SenduInt+0x44>)
- 80014f8:	f004 ff10 	bl	800631c <HAL_UART_Transmit>
+ 80014e6:	6bfb      	ldr	r3, [r7, #60]	; 0x3c
+ 80014e8:	b29a      	uxth	r2, r3
+ 80014ea:	f107 0108 	add.w	r1, r7, #8
+ 80014ee:	f44f 737a 	mov.w	r3, #1000	; 0x3e8
+ 80014f2:	4807      	ldr	r0, [pc, #28]	; (8001510 <NEXTION_SenduInt+0x44>)
+ 80014f4:	f004 ff12 	bl	800631c <HAL_UART_Transmit>
 	HAL_UART_Transmit(&huart1, Cmd_End, 3, 100);
- 80014fc:	2364      	movs	r3, #100	; 0x64
- 80014fe:	2203      	movs	r2, #3
- 8001500:	4905      	ldr	r1, [pc, #20]	; (8001518 <NEXTION_SenduInt+0x48>)
- 8001502:	4804      	ldr	r0, [pc, #16]	; (8001514 <NEXTION_SenduInt+0x44>)
- 8001504:	f004 ff0a 	bl	800631c <HAL_UART_Transmit>
+ 80014f8:	2364      	movs	r3, #100	; 0x64
+ 80014fa:	2203      	movs	r2, #3
+ 80014fc:	4905      	ldr	r1, [pc, #20]	; (8001514 <NEXTION_SenduInt+0x48>)
+ 80014fe:	4804      	ldr	r0, [pc, #16]	; (8001510 <NEXTION_SenduInt+0x44>)
+ 8001500:	f004 ff0c 	bl	800631c <HAL_UART_Transmit>
 }
- 8001508:	bf00      	nop
- 800150a:	3740      	adds	r7, #64	; 0x40
- 800150c:	46bd      	mov	sp, r7
- 800150e:	bd80      	pop	{r7, pc}
- 8001510:	0800b0d4 	.word	0x0800b0d4
- 8001514:	200002c4 	.word	0x200002c4
- 8001518:	20000000 	.word	0x20000000
+ 8001504:	bf00      	nop
+ 8001506:	3740      	adds	r7, #64	; 0x40
+ 8001508:	46bd      	mov	sp, r7
+ 800150a:	bd80      	pop	{r7, pc}
+ 800150c:	0800b0d4 	.word	0x0800b0d4
+ 8001510:	200002c4 	.word	0x200002c4
+ 8001514:	20000000 	.word	0x20000000
 
-0800151c <NEXTION_CMD>:
+08001518 <NEXTION_CMD>:
 
 
 void NEXTION_CMD (char *string){
- 800151c:	b580      	push	{r7, lr}
- 800151e:	b082      	sub	sp, #8
- 8001520:	af00      	add	r7, sp, #0
- 8001522:	6078      	str	r0, [r7, #4]
+ 8001518:	b580      	push	{r7, lr}
+ 800151a:	b082      	sub	sp, #8
+ 800151c:	af00      	add	r7, sp, #0
+ 800151e:	6078      	str	r0, [r7, #4]
 	HAL_UART_Transmit(&huart1, (uint8_t *)string, strlen(string), 1000);
- 8001524:	6878      	ldr	r0, [r7, #4]
- 8001526:	f7fe fe13 	bl	8000150 <strlen>
- 800152a:	4603      	mov	r3, r0
- 800152c:	b29a      	uxth	r2, r3
- 800152e:	f44f 737a 	mov.w	r3, #1000	; 0x3e8
- 8001532:	6879      	ldr	r1, [r7, #4]
- 8001534:	4806      	ldr	r0, [pc, #24]	; (8001550 <NEXTION_CMD+0x34>)
- 8001536:	f004 fef1 	bl	800631c <HAL_UART_Transmit>
+ 8001520:	6878      	ldr	r0, [r7, #4]
+ 8001522:	f7fe fe15 	bl	8000150 <strlen>
+ 8001526:	4603      	mov	r3, r0
+ 8001528:	b29a      	uxth	r2, r3
+ 800152a:	f44f 737a 	mov.w	r3, #1000	; 0x3e8
+ 800152e:	6879      	ldr	r1, [r7, #4]
+ 8001530:	4806      	ldr	r0, [pc, #24]	; (800154c <NEXTION_CMD+0x34>)
+ 8001532:	f004 fef3 	bl	800631c <HAL_UART_Transmit>
 	HAL_UART_Transmit(&huart1, Cmd_End, 3, 100);
- 800153a:	2364      	movs	r3, #100	; 0x64
- 800153c:	2203      	movs	r2, #3
- 800153e:	4905      	ldr	r1, [pc, #20]	; (8001554 <NEXTION_CMD+0x38>)
- 8001540:	4803      	ldr	r0, [pc, #12]	; (8001550 <NEXTION_CMD+0x34>)
- 8001542:	f004 feeb 	bl	800631c <HAL_UART_Transmit>
+ 8001536:	2364      	movs	r3, #100	; 0x64
+ 8001538:	2203      	movs	r2, #3
+ 800153a:	4905      	ldr	r1, [pc, #20]	; (8001550 <NEXTION_CMD+0x38>)
+ 800153c:	4803      	ldr	r0, [pc, #12]	; (800154c <NEXTION_CMD+0x34>)
+ 800153e:	f004 feed 	bl	800631c <HAL_UART_Transmit>
 }
- 8001546:	bf00      	nop
- 8001548:	3708      	adds	r7, #8
- 800154a:	46bd      	mov	sp, r7
- 800154c:	bd80      	pop	{r7, pc}
- 800154e:	bf00      	nop
- 8001550:	200002c4 	.word	0x200002c4
- 8001554:	20000000 	.word	0x20000000
+ 8001542:	bf00      	nop
+ 8001544:	3708      	adds	r7, #8
+ 8001546:	46bd      	mov	sp, r7
+ 8001548:	bd80      	pop	{r7, pc}
+ 800154a:	bf00      	nop
+ 800154c:	200002c4 	.word	0x200002c4
+ 8001550:	20000000 	.word	0x20000000
 
-08001558 <NextionDrawDot>:
+08001554 <NextionDrawDot>:
 	NEXTION_SenduInt("t5", ReflowParameters.ReflowTempeture);
 	NEXTION_SenduInt("t6", ReflowParameters.ReflowTime);
 }
 
 
 void NextionDrawDot(uint32_t x, uint32_t y){
- 8001558:	b580      	push	{r7, lr}
- 800155a:	b090      	sub	sp, #64	; 0x40
- 800155c:	af00      	add	r7, sp, #0
- 800155e:	6078      	str	r0, [r7, #4]
- 8001560:	6039      	str	r1, [r7, #0]
+ 8001554:	b580      	push	{r7, lr}
+ 8001556:	b090      	sub	sp, #64	; 0x40
+ 8001558:	af00      	add	r7, sp, #0
+ 800155a:	6078      	str	r0, [r7, #4]
+ 800155c:	6039      	str	r1, [r7, #0]
 
 	char buf[50];
 	int len = sprintf(buf, "cirs %lu,%lu,2,1311", x, y);	//RGB888: 0.160.255 RGB565:1311
- 8001562:	f107 0008 	add.w	r0, r7, #8
- 8001566:	683b      	ldr	r3, [r7, #0]
- 8001568:	687a      	ldr	r2, [r7, #4]
- 800156a:	490b      	ldr	r1, [pc, #44]	; (8001598 <NextionDrawDot+0x40>)
- 800156c:	f006 f87e 	bl	800766c <siprintf>
- 8001570:	63f8      	str	r0, [r7, #60]	; 0x3c
+ 800155e:	f107 0008 	add.w	r0, r7, #8
+ 8001562:	683b      	ldr	r3, [r7, #0]
+ 8001564:	687a      	ldr	r2, [r7, #4]
+ 8001566:	490b      	ldr	r1, [pc, #44]	; (8001594 <NextionDrawDot+0x40>)
+ 8001568:	f006 f880 	bl	800766c <siprintf>
+ 800156c:	63f8      	str	r0, [r7, #60]	; 0x3c
 	HAL_UART_Transmit(&huart1, (uint8_t *)buf, len, 1000);
- 8001572:	6bfb      	ldr	r3, [r7, #60]	; 0x3c
- 8001574:	b29a      	uxth	r2, r3
- 8001576:	f107 0108 	add.w	r1, r7, #8
- 800157a:	f44f 737a 	mov.w	r3, #1000	; 0x3e8
- 800157e:	4807      	ldr	r0, [pc, #28]	; (800159c <NextionDrawDot+0x44>)
- 8001580:	f004 fecc 	bl	800631c <HAL_UART_Transmit>
+ 800156e:	6bfb      	ldr	r3, [r7, #60]	; 0x3c
+ 8001570:	b29a      	uxth	r2, r3
+ 8001572:	f107 0108 	add.w	r1, r7, #8
+ 8001576:	f44f 737a 	mov.w	r3, #1000	; 0x3e8
+ 800157a:	4807      	ldr	r0, [pc, #28]	; (8001598 <NextionDrawDot+0x44>)
+ 800157c:	f004 fece 	bl	800631c <HAL_UART_Transmit>
 	HAL_UART_Transmit(&huart1, Cmd_End, 3, 100);
- 8001584:	2364      	movs	r3, #100	; 0x64
- 8001586:	2203      	movs	r2, #3
- 8001588:	4905      	ldr	r1, [pc, #20]	; (80015a0 <NextionDrawDot+0x48>)
- 800158a:	4804      	ldr	r0, [pc, #16]	; (800159c <NextionDrawDot+0x44>)
- 800158c:	f004 fec6 	bl	800631c <HAL_UART_Transmit>
+ 8001580:	2364      	movs	r3, #100	; 0x64
+ 8001582:	2203      	movs	r2, #3
+ 8001584:	4905      	ldr	r1, [pc, #20]	; (800159c <NextionDrawDot+0x48>)
+ 8001586:	4804      	ldr	r0, [pc, #16]	; (8001598 <NextionDrawDot+0x44>)
+ 8001588:	f004 fec8 	bl	800631c <HAL_UART_Transmit>
 }
- 8001590:	bf00      	nop
- 8001592:	3740      	adds	r7, #64	; 0x40
- 8001594:	46bd      	mov	sp, r7
- 8001596:	bd80      	pop	{r7, pc}
- 8001598:	0800b0fc 	.word	0x0800b0fc
- 800159c:	200002c4 	.word	0x200002c4
- 80015a0:	20000000 	.word	0x20000000
+ 800158c:	bf00      	nop
+ 800158e:	3740      	adds	r7, #64	; 0x40
+ 8001590:	46bd      	mov	sp, r7
+ 8001592:	bd80      	pop	{r7, pc}
+ 8001594:	0800b0fc 	.word	0x0800b0fc
+ 8001598:	200002c4 	.word	0x200002c4
+ 800159c:	20000000 	.word	0x20000000
 
-080015a4 <NextionDrawTemp>:
+080015a0 <NextionDrawTemp>:
 
 
 void NextionDrawTemp(uint32_t x, uint32_t y){
- 80015a4:	b580      	push	{r7, lr}
- 80015a6:	b090      	sub	sp, #64	; 0x40
- 80015a8:	af00      	add	r7, sp, #0
- 80015aa:	6078      	str	r0, [r7, #4]
- 80015ac:	6039      	str	r1, [r7, #0]
+ 80015a0:	b580      	push	{r7, lr}
+ 80015a2:	b090      	sub	sp, #64	; 0x40
+ 80015a4:	af00      	add	r7, sp, #0
+ 80015a6:	6078      	str	r0, [r7, #4]
+ 80015a8:	6039      	str	r1, [r7, #0]
 
 	char buf[50];
 	int len = sprintf(buf, "cirs %lu,%lu,2,RED", x, y);
- 80015ae:	f107 0008 	add.w	r0, r7, #8
- 80015b2:	683b      	ldr	r3, [r7, #0]
- 80015b4:	687a      	ldr	r2, [r7, #4]
- 80015b6:	490b      	ldr	r1, [pc, #44]	; (80015e4 <NextionDrawTemp+0x40>)
- 80015b8:	f006 f858 	bl	800766c <siprintf>
- 80015bc:	63f8      	str	r0, [r7, #60]	; 0x3c
+ 80015aa:	f107 0008 	add.w	r0, r7, #8
+ 80015ae:	683b      	ldr	r3, [r7, #0]
+ 80015b0:	687a      	ldr	r2, [r7, #4]
+ 80015b2:	490b      	ldr	r1, [pc, #44]	; (80015e0 <NextionDrawTemp+0x40>)
+ 80015b4:	f006 f85a 	bl	800766c <siprintf>
+ 80015b8:	63f8      	str	r0, [r7, #60]	; 0x3c
 	HAL_UART_Transmit(&huart1, (uint8_t *)buf, len, 1000);
- 80015be:	6bfb      	ldr	r3, [r7, #60]	; 0x3c
- 80015c0:	b29a      	uxth	r2, r3
- 80015c2:	f107 0108 	add.w	r1, r7, #8
- 80015c6:	f44f 737a 	mov.w	r3, #1000	; 0x3e8
- 80015ca:	4807      	ldr	r0, [pc, #28]	; (80015e8 <NextionDrawTemp+0x44>)
- 80015cc:	f004 fea6 	bl	800631c <HAL_UART_Transmit>
+ 80015ba:	6bfb      	ldr	r3, [r7, #60]	; 0x3c
+ 80015bc:	b29a      	uxth	r2, r3
+ 80015be:	f107 0108 	add.w	r1, r7, #8
+ 80015c2:	f44f 737a 	mov.w	r3, #1000	; 0x3e8
+ 80015c6:	4807      	ldr	r0, [pc, #28]	; (80015e4 <NextionDrawTemp+0x44>)
+ 80015c8:	f004 fea8 	bl	800631c <HAL_UART_Transmit>
 	HAL_UART_Transmit(&huart1, Cmd_End, 3, 100);
- 80015d0:	2364      	movs	r3, #100	; 0x64
- 80015d2:	2203      	movs	r2, #3
- 80015d4:	4905      	ldr	r1, [pc, #20]	; (80015ec <NextionDrawTemp+0x48>)
- 80015d6:	4804      	ldr	r0, [pc, #16]	; (80015e8 <NextionDrawTemp+0x44>)
- 80015d8:	f004 fea0 	bl	800631c <HAL_UART_Transmit>
+ 80015cc:	2364      	movs	r3, #100	; 0x64
+ 80015ce:	2203      	movs	r2, #3
+ 80015d0:	4905      	ldr	r1, [pc, #20]	; (80015e8 <NextionDrawTemp+0x48>)
+ 80015d2:	4804      	ldr	r0, [pc, #16]	; (80015e4 <NextionDrawTemp+0x44>)
+ 80015d4:	f004 fea2 	bl	800631c <HAL_UART_Transmit>
 }
- 80015dc:	bf00      	nop
- 80015de:	3740      	adds	r7, #64	; 0x40
- 80015e0:	46bd      	mov	sp, r7
- 80015e2:	bd80      	pop	{r7, pc}
- 80015e4:	0800b110 	.word	0x0800b110
- 80015e8:	200002c4 	.word	0x200002c4
- 80015ec:	20000000 	.word	0x20000000
+ 80015d8:	bf00      	nop
+ 80015da:	3740      	adds	r7, #64	; 0x40
+ 80015dc:	46bd      	mov	sp, r7
+ 80015de:	bd80      	pop	{r7, pc}
+ 80015e0:	0800b110 	.word	0x0800b110
+ 80015e4:	200002c4 	.word	0x200002c4
+ 80015e8:	20000000 	.word	0x20000000
 
-080015f0 <HandleKeyPad>:
+080015ec <HandleKeyPad>:
 
 float32_t HandleKeyPad() {
- 80015f0:	b580      	push	{r7, lr}
- 80015f2:	b082      	sub	sp, #8
- 80015f4:	af00      	add	r7, sp, #0
+ 80015ec:	b580      	push	{r7, lr}
+ 80015ee:	b082      	sub	sp, #8
+ 80015f0:	af00      	add	r7, sp, #0
 
 	//clear Input
 	for (int i = 0; i < 20; i++) {
- 80015f6:	2300      	movs	r3, #0
- 80015f8:	607b      	str	r3, [r7, #4]
- 80015fa:	e007      	b.n	800160c <HandleKeyPad+0x1c>
+ 80015f2:	2300      	movs	r3, #0
+ 80015f4:	607b      	str	r3, [r7, #4]
+ 80015f6:	e007      	b.n	8001608 <HandleKeyPad+0x1c>
 		input[i] = 0;
- 80015fc:	4a28      	ldr	r2, [pc, #160]	; (80016a0 <HandleKeyPad+0xb0>)
- 80015fe:	687b      	ldr	r3, [r7, #4]
- 8001600:	4413      	add	r3, r2
- 8001602:	2200      	movs	r2, #0
- 8001604:	701a      	strb	r2, [r3, #0]
+ 80015f8:	4a29      	ldr	r2, [pc, #164]	; (80016a0 <HandleKeyPad+0xb4>)
+ 80015fa:	687b      	ldr	r3, [r7, #4]
+ 80015fc:	4413      	add	r3, r2
+ 80015fe:	2200      	movs	r2, #0
+ 8001600:	701a      	strb	r2, [r3, #0]
 	for (int i = 0; i < 20; i++) {
- 8001606:	687b      	ldr	r3, [r7, #4]
- 8001608:	3301      	adds	r3, #1
- 800160a:	607b      	str	r3, [r7, #4]
- 800160c:	687b      	ldr	r3, [r7, #4]
- 800160e:	2b13      	cmp	r3, #19
- 8001610:	ddf4      	ble.n	80015fc <HandleKeyPad+0xc>
+ 8001602:	687b      	ldr	r3, [r7, #4]
+ 8001604:	3301      	adds	r3, #1
+ 8001606:	607b      	str	r3, [r7, #4]
+ 8001608:	687b      	ldr	r3, [r7, #4]
+ 800160a:	2b13      	cmp	r3, #19
+ 800160c:	ddf4      	ble.n	80015f8 <HandleKeyPad+0xc>
 	}
 
 	uint8_t index = 0;
- 8001612:	2300      	movs	r3, #0
- 8001614:	70fb      	strb	r3, [r7, #3]
+ 800160e:	2300      	movs	r3, #0
+ 8001610:	70fb      	strb	r3, [r7, #3]
 
 	NEXTION_SendString("t0", "");
- 8001616:	4923      	ldr	r1, [pc, #140]	; (80016a4 <HandleKeyPad+0xb4>)
- 8001618:	4823      	ldr	r0, [pc, #140]	; (80016a8 <HandleKeyPad+0xb8>)
- 800161a:	f7ff fedb 	bl	80013d4 <NEXTION_SendString>
+ 8001612:	4924      	ldr	r1, [pc, #144]	; (80016a4 <HandleKeyPad+0xb8>)
+ 8001614:	4824      	ldr	r0, [pc, #144]	; (80016a8 <HandleKeyPad+0xbc>)
+ 8001616:	f7ff fedb 	bl	80013d0 <NEXTION_SendString>
 	UART_Recieved_Flag = 0;
- 800161e:	4b23      	ldr	r3, [pc, #140]	; (80016ac <HandleKeyPad+0xbc>)
- 8001620:	2200      	movs	r2, #0
- 8001622:	701a      	strb	r2, [r3, #0]
+ 800161a:	4b24      	ldr	r3, [pc, #144]	; (80016ac <HandleKeyPad+0xc0>)
+ 800161c:	2200      	movs	r2, #0
+ 800161e:	701a      	strb	r2, [r3, #0]
 
 	while (strncmp((char*) UART_Recieved_Data, "enter", 5) != 0) {
- 8001624:	e026      	b.n	8001674 <HandleKeyPad+0x84>
+ 8001620:	e027      	b.n	8001672 <HandleKeyPad+0x86>
 
 		if(strncmp((char*) UART_Recieved_Data, "abbre", 5) == 0)
- 8001626:	2205      	movs	r2, #5
- 8001628:	4921      	ldr	r1, [pc, #132]	; (80016b0 <HandleKeyPad+0xc0>)
- 800162a:	4822      	ldr	r0, [pc, #136]	; (80016b4 <HandleKeyPad+0xc4>)
- 800162c:	f006 f83e 	bl	80076ac <strncmp>
- 8001630:	4603      	mov	r3, r0
- 8001632:	2b00      	cmp	r3, #0
- 8001634:	d101      	bne.n	800163a <HandleKeyPad+0x4a>
+ 8001622:	2205      	movs	r2, #5
+ 8001624:	4922      	ldr	r1, [pc, #136]	; (80016b0 <HandleKeyPad+0xc4>)
+ 8001626:	4823      	ldr	r0, [pc, #140]	; (80016b4 <HandleKeyPad+0xc8>)
+ 8001628:	f006 f840 	bl	80076ac <strncmp>
+ 800162c:	4603      	mov	r3, r0
+ 800162e:	2b00      	cmp	r3, #0
+ 8001630:	d101      	bne.n	8001636 <HandleKeyPad+0x4a>
 				return 9999;
- 8001636:	4b20      	ldr	r3, [pc, #128]	; (80016b8 <HandleKeyPad+0xc8>)
- 8001638:	e02e      	b.n	8001698 <HandleKeyPad+0xa8>
+ 8001632:	4b21      	ldr	r3, [pc, #132]	; (80016b8 <HandleKeyPad+0xcc>)
+ 8001634:	e02f      	b.n	8001696 <HandleKeyPad+0xaa>
 		if(strncmp((char*) UART_Recieved_Data, "kback", 5) == 0)
- 800163a:	2205      	movs	r2, #5
- 800163c:	491f      	ldr	r1, [pc, #124]	; (80016bc <HandleKeyPad+0xcc>)
- 800163e:	481d      	ldr	r0, [pc, #116]	; (80016b4 <HandleKeyPad+0xc4>)
- 8001640:	f006 f834 	bl	80076ac <strncmp>
- 8001644:	4603      	mov	r3, r0
- 8001646:	2b00      	cmp	r3, #0
- 8001648:	d101      	bne.n	800164e <HandleKeyPad+0x5e>
+ 8001636:	2205      	movs	r2, #5
+ 8001638:	4920      	ldr	r1, [pc, #128]	; (80016bc <HandleKeyPad+0xd0>)
+ 800163a:	481e      	ldr	r0, [pc, #120]	; (80016b4 <HandleKeyPad+0xc8>)
+ 800163c:	f006 f836 	bl	80076ac <strncmp>
+ 8001640:	4603      	mov	r3, r0
+ 8001642:	2b00      	cmp	r3, #0
+ 8001644:	d101      	bne.n	800164a <HandleKeyPad+0x5e>
 				return 8888;
- 800164a:	4b1d      	ldr	r3, [pc, #116]	; (80016c0 <HandleKeyPad+0xd0>)
- 800164c:	e024      	b.n	8001698 <HandleKeyPad+0xa8>
+ 8001646:	4b1e      	ldr	r3, [pc, #120]	; (80016c0 <HandleKeyPad+0xd4>)
+ 8001648:	e025      	b.n	8001696 <HandleKeyPad+0xaa>
 
 		if (UART_Recieved_Flag == 1) {
- 800164e:	4b17      	ldr	r3, [pc, #92]	; (80016ac <HandleKeyPad+0xbc>)
- 8001650:	781b      	ldrb	r3, [r3, #0]
- 8001652:	2b01      	cmp	r3, #1
- 8001654:	d10e      	bne.n	8001674 <HandleKeyPad+0x84>
+ 800164a:	4b18      	ldr	r3, [pc, #96]	; (80016ac <HandleKeyPad+0xc0>)
+ 800164c:	781b      	ldrb	r3, [r3, #0]
+ 800164e:	b2db      	uxtb	r3, r3
+ 8001650:	2b01      	cmp	r3, #1
+ 8001652:	d10e      	bne.n	8001672 <HandleKeyPad+0x86>
 			input[index] = UART_Recieved_Data[4];
- 8001656:	78fb      	ldrb	r3, [r7, #3]
- 8001658:	4a16      	ldr	r2, [pc, #88]	; (80016b4 <HandleKeyPad+0xc4>)
- 800165a:	7911      	ldrb	r1, [r2, #4]
- 800165c:	4a10      	ldr	r2, [pc, #64]	; (80016a0 <HandleKeyPad+0xb0>)
- 800165e:	54d1      	strb	r1, [r2, r3]
+ 8001654:	78fb      	ldrb	r3, [r7, #3]
+ 8001656:	4a17      	ldr	r2, [pc, #92]	; (80016b4 <HandleKeyPad+0xc8>)
+ 8001658:	7911      	ldrb	r1, [r2, #4]
+ 800165a:	4a11      	ldr	r2, [pc, #68]	; (80016a0 <HandleKeyPad+0xb4>)
+ 800165c:	54d1      	strb	r1, [r2, r3]
 			UART_Recieved_Flag = 0;
- 8001660:	4b12      	ldr	r3, [pc, #72]	; (80016ac <HandleKeyPad+0xbc>)
- 8001662:	2200      	movs	r2, #0
- 8001664:	701a      	strb	r2, [r3, #0]
+ 800165e:	4b13      	ldr	r3, [pc, #76]	; (80016ac <HandleKeyPad+0xc0>)
+ 8001660:	2200      	movs	r2, #0
+ 8001662:	701a      	strb	r2, [r3, #0]
 			index++;
- 8001666:	78fb      	ldrb	r3, [r7, #3]
- 8001668:	3301      	adds	r3, #1
- 800166a:	70fb      	strb	r3, [r7, #3]
+ 8001664:	78fb      	ldrb	r3, [r7, #3]
+ 8001666:	3301      	adds	r3, #1
+ 8001668:	70fb      	strb	r3, [r7, #3]
 			NEXTION_SendString("t0", input);
- 800166c:	490c      	ldr	r1, [pc, #48]	; (80016a0 <HandleKeyPad+0xb0>)
- 800166e:	480e      	ldr	r0, [pc, #56]	; (80016a8 <HandleKeyPad+0xb8>)
- 8001670:	f7ff feb0 	bl	80013d4 <NEXTION_SendString>
+ 800166a:	490d      	ldr	r1, [pc, #52]	; (80016a0 <HandleKeyPad+0xb4>)
+ 800166c:	480e      	ldr	r0, [pc, #56]	; (80016a8 <HandleKeyPad+0xbc>)
+ 800166e:	f7ff feaf 	bl	80013d0 <NEXTION_SendString>
 	while (strncmp((char*) UART_Recieved_Data, "enter", 5) != 0) {
- 8001674:	2205      	movs	r2, #5
- 8001676:	4913      	ldr	r1, [pc, #76]	; (80016c4 <HandleKeyPad+0xd4>)
- 8001678:	480e      	ldr	r0, [pc, #56]	; (80016b4 <HandleKeyPad+0xc4>)
- 800167a:	f006 f817 	bl	80076ac <strncmp>
- 800167e:	4603      	mov	r3, r0
- 8001680:	2b00      	cmp	r3, #0
- 8001682:	d1d0      	bne.n	8001626 <HandleKeyPad+0x36>
+ 8001672:	2205      	movs	r2, #5
+ 8001674:	4913      	ldr	r1, [pc, #76]	; (80016c4 <HandleKeyPad+0xd8>)
+ 8001676:	480f      	ldr	r0, [pc, #60]	; (80016b4 <HandleKeyPad+0xc8>)
+ 8001678:	f006 f818 	bl	80076ac <strncmp>
+ 800167c:	4603      	mov	r3, r0
+ 800167e:	2b00      	cmp	r3, #0
+ 8001680:	d1cf      	bne.n	8001622 <HandleKeyPad+0x36>
 		}
 	}
 	return atof(input);
- 8001684:	4806      	ldr	r0, [pc, #24]	; (80016a0 <HandleKeyPad+0xb0>)
- 8001686:	f005 fb5b 	bl	8006d40 <atof>
- 800168a:	4602      	mov	r2, r0
- 800168c:	460b      	mov	r3, r1
- 800168e:	4610      	mov	r0, r2
- 8001690:	4619      	mov	r1, r3
- 8001692:	f7ff fa19 	bl	8000ac8 <__aeabi_d2f>
- 8001696:	4603      	mov	r3, r0
+ 8001682:	4807      	ldr	r0, [pc, #28]	; (80016a0 <HandleKeyPad+0xb4>)
+ 8001684:	f005 fb5c 	bl	8006d40 <atof>
+ 8001688:	4602      	mov	r2, r0
+ 800168a:	460b      	mov	r3, r1
+ 800168c:	4610      	mov	r0, r2
+ 800168e:	4619      	mov	r1, r3
+ 8001690:	f7ff fa1a 	bl	8000ac8 <__aeabi_d2f>
+ 8001694:	4603      	mov	r3, r0
 }
- 8001698:	4618      	mov	r0, r3
- 800169a:	3708      	adds	r7, #8
- 800169c:	46bd      	mov	sp, r7
- 800169e:	bd80      	pop	{r7, pc}
+ 8001696:	4618      	mov	r0, r3
+ 8001698:	3708      	adds	r7, #8
+ 800169a:	46bd      	mov	sp, r7
+ 800169c:	bd80      	pop	{r7, pc}
+ 800169e:	bf00      	nop
  80016a0:	200002ac 	.word	0x200002ac
  80016a4:	0800b124 	.word	0x0800b124
  80016a8:	0800b128 	.word	0x0800b128
@@ -2354,37 +2354,37 @@ void Update_Page_3() {
  8001702:	68db      	ldr	r3, [r3, #12]
  8001704:	4619      	mov	r1, r3
  8001706:	4815      	ldr	r0, [pc, #84]	; (800175c <Update_Page_3+0x94>)
- 8001708:	f7ff fe8a 	bl	8001420 <NEXTION_SendFloat>
+ 8001708:	f7ff fe88 	bl	800141c <NEXTION_SendFloat>
 	NEXTION_SenduInt("t1", ReflowParameters.SoakTime);
  800170c:	4b12      	ldr	r3, [pc, #72]	; (8001758 <Update_Page_3+0x90>)
  800170e:	695b      	ldr	r3, [r3, #20]
  8001710:	4619      	mov	r1, r3
  8001712:	4813      	ldr	r0, [pc, #76]	; (8001760 <Update_Page_3+0x98>)
- 8001714:	f7ff fedc 	bl	80014d0 <NEXTION_SenduInt>
+ 8001714:	f7ff feda 	bl	80014cc <NEXTION_SenduInt>
 	NEXTION_SenduInt("t2", ReflowParameters.SoakTempeture);
  8001718:	4b0f      	ldr	r3, [pc, #60]	; (8001758 <Update_Page_3+0x90>)
  800171a:	691b      	ldr	r3, [r3, #16]
  800171c:	4619      	mov	r1, r3
  800171e:	4811      	ldr	r0, [pc, #68]	; (8001764 <Update_Page_3+0x9c>)
- 8001720:	f7ff fed6 	bl	80014d0 <NEXTION_SenduInt>
+ 8001720:	f7ff fed4 	bl	80014cc <NEXTION_SenduInt>
 	NEXTION_SendFloat("t3", ReflowParameters.secondHeatUpRate);
  8001724:	4b0c      	ldr	r3, [pc, #48]	; (8001758 <Update_Page_3+0x90>)
  8001726:	699b      	ldr	r3, [r3, #24]
  8001728:	4619      	mov	r1, r3
  800172a:	480f      	ldr	r0, [pc, #60]	; (8001768 <Update_Page_3+0xa0>)
- 800172c:	f7ff fe78 	bl	8001420 <NEXTION_SendFloat>
+ 800172c:	f7ff fe76 	bl	800141c <NEXTION_SendFloat>
 	NEXTION_SenduInt("t4", ReflowParameters.ReflowTime);
  8001730:	4b09      	ldr	r3, [pc, #36]	; (8001758 <Update_Page_3+0x90>)
  8001732:	6a1b      	ldr	r3, [r3, #32]
  8001734:	4619      	mov	r1, r3
  8001736:	480d      	ldr	r0, [pc, #52]	; (800176c <Update_Page_3+0xa4>)
- 8001738:	f7ff feca 	bl	80014d0 <NEXTION_SenduInt>
+ 8001738:	f7ff fec8 	bl	80014cc <NEXTION_SenduInt>
 	NEXTION_SenduInt("t5", ReflowParameters.ReflowTempeture);
  800173c:	4b06      	ldr	r3, [pc, #24]	; (8001758 <Update_Page_3+0x90>)
  800173e:	69db      	ldr	r3, [r3, #28]
  8001740:	4619      	mov	r1, r3
  8001742:	480b      	ldr	r0, [pc, #44]	; (8001770 <Update_Page_3+0xa8>)
- 8001744:	f7ff fec4 	bl	80014d0 <NEXTION_SenduInt>
+ 8001744:	f7ff fec2 	bl	80014cc <NEXTION_SenduInt>
 
 }
  8001748:	bf00      	nop
@@ -2497,7 +2497,7 @@ void Update_Page_0() {
  800180c:	1a9b      	subs	r3, r3, r2
  800180e:	4619      	mov	r1, r3
  8001810:	4620      	mov	r0, r4
- 8001812:	f7ff fec7 	bl	80015a4 <NextionDrawTemp>
+ 8001812:	f7ff fec5 	bl	80015a0 <NextionDrawTemp>
 
 		if(ReflowCurve[TempDrawCounter] == 0 ){
  8001816:	4b23      	ldr	r3, [pc, #140]	; (80018a4 <Update_Page_0+0x130>)
@@ -2520,47 +2520,47 @@ void Update_Page_0() {
  800182a:	681b      	ldr	r3, [r3, #0]
  800182c:	4619      	mov	r1, r3
  800182e:	4820      	ldr	r0, [pc, #128]	; (80018b0 <Update_Page_0+0x13c>)
- 8001830:	f7ff fe22 	bl	8001478 <NEXTION_SendFloat_CurrentTemp>
+ 8001830:	f7ff fe20 	bl	8001474 <NEXTION_SendFloat_CurrentTemp>
 	NEXTION_SendFloat("t1", ReflowParameters.firstHeatUpRate);
  8001834:	4b1f      	ldr	r3, [pc, #124]	; (80018b4 <Update_Page_0+0x140>)
  8001836:	68db      	ldr	r3, [r3, #12]
  8001838:	4619      	mov	r1, r3
  800183a:	481f      	ldr	r0, [pc, #124]	; (80018b8 <Update_Page_0+0x144>)
- 800183c:	f7ff fdf0 	bl	8001420 <NEXTION_SendFloat>
+ 800183c:	f7ff fdee 	bl	800141c <NEXTION_SendFloat>
 	NEXTION_SenduInt("t3", ReflowParameters.SoakTime);
  8001840:	4b1c      	ldr	r3, [pc, #112]	; (80018b4 <Update_Page_0+0x140>)
  8001842:	695b      	ldr	r3, [r3, #20]
  8001844:	4619      	mov	r1, r3
  8001846:	481d      	ldr	r0, [pc, #116]	; (80018bc <Update_Page_0+0x148>)
- 8001848:	f7ff fe42 	bl	80014d0 <NEXTION_SenduInt>
+ 8001848:	f7ff fe40 	bl	80014cc <NEXTION_SenduInt>
 	NEXTION_SenduInt("t2", ReflowParameters.SoakTempeture);
  800184c:	4b19      	ldr	r3, [pc, #100]	; (80018b4 <Update_Page_0+0x140>)
  800184e:	691b      	ldr	r3, [r3, #16]
  8001850:	4619      	mov	r1, r3
  8001852:	481b      	ldr	r0, [pc, #108]	; (80018c0 <Update_Page_0+0x14c>)
- 8001854:	f7ff fe3c 	bl	80014d0 <NEXTION_SenduInt>
+ 8001854:	f7ff fe3a 	bl	80014cc <NEXTION_SenduInt>
 	NEXTION_SendFloat("t4", ReflowParameters.secondHeatUpRate);
  8001858:	4b16      	ldr	r3, [pc, #88]	; (80018b4 <Update_Page_0+0x140>)
  800185a:	699b      	ldr	r3, [r3, #24]
  800185c:	4619      	mov	r1, r3
  800185e:	4819      	ldr	r0, [pc, #100]	; (80018c4 <Update_Page_0+0x150>)
- 8001860:	f7ff fdde 	bl	8001420 <NEXTION_SendFloat>
+ 8001860:	f7ff fddc 	bl	800141c <NEXTION_SendFloat>
 	NEXTION_SenduInt("t6", ReflowParameters.ReflowTime);
  8001864:	4b13      	ldr	r3, [pc, #76]	; (80018b4 <Update_Page_0+0x140>)
  8001866:	6a1b      	ldr	r3, [r3, #32]
  8001868:	4619      	mov	r1, r3
  800186a:	4817      	ldr	r0, [pc, #92]	; (80018c8 <Update_Page_0+0x154>)
- 800186c:	f7ff fe30 	bl	80014d0 <NEXTION_SenduInt>
+ 800186c:	f7ff fe2e 	bl	80014cc <NEXTION_SenduInt>
 	NEXTION_SenduInt("t5", ReflowParameters.ReflowTempeture);
  8001870:	4b10      	ldr	r3, [pc, #64]	; (80018b4 <Update_Page_0+0x140>)
  8001872:	69db      	ldr	r3, [r3, #28]
  8001874:	4619      	mov	r1, r3
  8001876:	4815      	ldr	r0, [pc, #84]	; (80018cc <Update_Page_0+0x158>)
- 8001878:	f7ff fe2a 	bl	80014d0 <NEXTION_SenduInt>
+ 8001878:	f7ff fe28 	bl	80014cc <NEXTION_SenduInt>
 	NEXTION_SendString("g1", ConsoleMSG);
  800187c:	4914      	ldr	r1, [pc, #80]	; (80018d0 <Update_Page_0+0x15c>)
  800187e:	4815      	ldr	r0, [pc, #84]	; (80018d4 <Update_Page_0+0x160>)
- 8001880:	f7ff fda8 	bl	80013d4 <NEXTION_SendString>
+ 8001880:	f7ff fda6 	bl	80013d0 <NEXTION_SendString>
 
 }
  8001884:	bf00      	nop
@@ -2629,19 +2629,19 @@ void Update_Page_2() {
  8001912:	681b      	ldr	r3, [r3, #0]
  8001914:	4619      	mov	r1, r3
  8001916:	4814      	ldr	r0, [pc, #80]	; (8001968 <Update_Page_2+0x90>)
- 8001918:	f7ff fd82 	bl	8001420 <NEXTION_SendFloat>
+ 8001918:	f7ff fd80 	bl	800141c <NEXTION_SendFloat>
 	NEXTION_SendFloat("t1", ReflowParameters.Ki);
  800191c:	4b11      	ldr	r3, [pc, #68]	; (8001964 <Update_Page_2+0x8c>)
  800191e:	685b      	ldr	r3, [r3, #4]
  8001920:	4619      	mov	r1, r3
  8001922:	4812      	ldr	r0, [pc, #72]	; (800196c <Update_Page_2+0x94>)
- 8001924:	f7ff fd7c 	bl	8001420 <NEXTION_SendFloat>
+ 8001924:	f7ff fd7a 	bl	800141c <NEXTION_SendFloat>
 	NEXTION_SendFloat("t2", ReflowParameters.KD);
  8001928:	4b0e      	ldr	r3, [pc, #56]	; (8001964 <Update_Page_2+0x8c>)
  800192a:	689b      	ldr	r3, [r3, #8]
  800192c:	4619      	mov	r1, r3
  800192e:	4810      	ldr	r0, [pc, #64]	; (8001970 <Update_Page_2+0x98>)
- 8001930:	f7ff fd76 	bl	8001420 <NEXTION_SendFloat>
+ 8001930:	f7ff fd74 	bl	800141c <NEXTION_SendFloat>
 	NEXTION_SendFloat("t3", (float32_t) ReflowParameters.version/100);
  8001934:	4b0b      	ldr	r3, [pc, #44]	; (8001964 <Update_Page_2+0x8c>)
  8001936:	f8d3 3084 	ldr.w	r3, [r3, #132]	; 0x84
@@ -2654,7 +2654,7 @@ void Update_Page_2() {
  800194a:	4603      	mov	r3, r0
  800194c:	4619      	mov	r1, r3
  800194e:	480a      	ldr	r0, [pc, #40]	; (8001978 <Update_Page_2+0xa0>)
- 8001950:	f7ff fd66 	bl	8001420 <NEXTION_SendFloat>
+ 8001950:	f7ff fd64 	bl	800141c <NEXTION_SendFloat>
 }
  8001954:	bf00      	nop
  8001956:	3710      	adds	r7, #16
@@ -2780,7 +2780,7 @@ void HandleGui(){
  8001a24:	f04f 0300 	mov.w	r3, #0
  8001a28:	f8c7 308c 	str.w	r3, [r7, #140]	; 0x8c
 			  Output = HandleKeyPad();
- 8001a2c:	f7ff fde0 	bl	80015f0 <HandleKeyPad>
+ 8001a2c:	f7ff fdde 	bl	80015ec <HandleKeyPad>
  8001a30:	f8c7 008c 	str.w	r0, [r7, #140]	; 0x8c
 			  while(Output == 9999){
  8001a34:	e024      	b.n	8001a80 <HandleGui+0x100>
@@ -2814,7 +2814,7 @@ void HandleGui(){
  8001a76:	ddea      	ble.n	8001a4e <HandleGui+0xce>
 					}
 				  Output = HandleKeyPad();
- 8001a78:	f7ff fdba 	bl	80015f0 <HandleKeyPad>
+ 8001a78:	f7ff fdb8 	bl	80015ec <HandleKeyPad>
  8001a7c:	f8c7 008c 	str.w	r0, [r7, #140]	; 0x8c
 			  while(Output == 9999){
  8001a80:	4987      	ldr	r1, [pc, #540]	; (8001ca0 <HandleGui+0x320>)
@@ -2854,7 +2854,7 @@ void HandleGui(){
  8001ac0:	f7ff ff0a 	bl	80018d8 <Update_Page_2>
 		NEXTION_CMD("page 2");
  8001ac4:	487a      	ldr	r0, [pc, #488]	; (8001cb0 <HandleGui+0x330>)
- 8001ac6:	f7ff fd29 	bl	800151c <NEXTION_CMD>
+ 8001ac6:	f7ff fd27 	bl	8001518 <NEXTION_CMD>
 
 		}
 
@@ -2870,7 +2870,7 @@ void HandleGui(){
  8001ada:	f04f 0300 	mov.w	r3, #0
  8001ade:	f8c7 3084 	str.w	r3, [r7, #132]	; 0x84
 			  Output = HandleKeyPad();
- 8001ae2:	f7ff fd85 	bl	80015f0 <HandleKeyPad>
+ 8001ae2:	f7ff fd83 	bl	80015ec <HandleKeyPad>
  8001ae6:	f8c7 0084 	str.w	r0, [r7, #132]	; 0x84
 			  while(Output == 9999){
  8001aea:	e024      	b.n	8001b36 <HandleGui+0x1b6>
@@ -2904,7 +2904,7 @@ void HandleGui(){
  8001b2c:	ddea      	ble.n	8001b04 <HandleGui+0x184>
 					}
 				  Output = HandleKeyPad();
- 8001b2e:	f7ff fd5f 	bl	80015f0 <HandleKeyPad>
+ 8001b2e:	f7ff fd5d 	bl	80015ec <HandleKeyPad>
  8001b32:	f8c7 0084 	str.w	r0, [r7, #132]	; 0x84
 			  while(Output == 9999){
  8001b36:	495a      	ldr	r1, [pc, #360]	; (8001ca0 <HandleGui+0x320>)
@@ -2943,7 +2943,7 @@ void HandleGui(){
  8001b76:	f7ff feaf 	bl	80018d8 <Update_Page_2>
 			NEXTION_CMD("page 2");
  8001b7a:	484d      	ldr	r0, [pc, #308]	; (8001cb0 <HandleGui+0x330>)
- 8001b7c:	f7ff fcce 	bl	800151c <NEXTION_CMD>
+ 8001b7c:	f7ff fccc 	bl	8001518 <NEXTION_CMD>
 
 		}
 
@@ -2959,7 +2959,7 @@ void HandleGui(){
  8001b90:	f04f 0300 	mov.w	r3, #0
  8001b94:	67fb      	str	r3, [r7, #124]	; 0x7c
 			  Output = HandleKeyPad();
- 8001b96:	f7ff fd2b 	bl	80015f0 <HandleKeyPad>
+ 8001b96:	f7ff fd29 	bl	80015ec <HandleKeyPad>
  8001b9a:	67f8      	str	r0, [r7, #124]	; 0x7c
 			  while(Output == 9999){
  8001b9c:	e01d      	b.n	8001bda <HandleGui+0x25a>
@@ -2993,7 +2993,7 @@ void HandleGui(){
  8001bd2:	ddef      	ble.n	8001bb4 <HandleGui+0x234>
 					}
 				  Output = HandleKeyPad();
- 8001bd4:	f7ff fd0c 	bl	80015f0 <HandleKeyPad>
+ 8001bd4:	f7ff fd0a 	bl	80015ec <HandleKeyPad>
  8001bd8:	67f8      	str	r0, [r7, #124]	; 0x7c
 			  while(Output == 9999){
  8001bda:	4931      	ldr	r1, [pc, #196]	; (8001ca0 <HandleGui+0x320>)
@@ -3032,7 +3032,7 @@ void HandleGui(){
  8001c12:	f7ff fe61 	bl	80018d8 <Update_Page_2>
 			NEXTION_CMD("page 2");
  8001c16:	4826      	ldr	r0, [pc, #152]	; (8001cb0 <HandleGui+0x330>)
- 8001c18:	f7ff fc80 	bl	800151c <NEXTION_CMD>
+ 8001c18:	f7ff fc7e 	bl	8001518 <NEXTION_CMD>
 
 		}
 
@@ -3047,7 +3047,7 @@ void HandleGui(){
 			Update_Page_3();
  8001c2c:	f7ff fd4c 	bl	80016c8 <Update_Page_3>
 			SaveReflowParameters();
- 8001c30:	f7ff fbac 	bl	800138c <SaveReflowParameters>
+ 8001c30:	f7ff fbaa 	bl	8001388 <SaveReflowParameters>
 		}
 
 
@@ -3077,7 +3077,7 @@ void HandleGui(){
  8001c58:	f04f 0300 	mov.w	r3, #0
  8001c5c:	677b      	str	r3, [r7, #116]	; 0x74
 			  Output = HandleKeyPad();
- 8001c5e:	f7ff fcc7 	bl	80015f0 <HandleKeyPad>
+ 8001c5e:	f7ff fcc5 	bl	80015ec <HandleKeyPad>
  8001c62:	6778      	str	r0, [r7, #116]	; 0x74
 			  while(Output == 9999){
  8001c64:	e043      	b.n	8001cee <HandleGui+0x36e>
@@ -3130,7 +3130,7 @@ void HandleGui(){
  8001ce6:	ddef      	ble.n	8001cc8 <HandleGui+0x348>
 					}
 				  Output = HandleKeyPad();
- 8001ce8:	f7ff fc82 	bl	80015f0 <HandleKeyPad>
+ 8001ce8:	f7ff fc80 	bl	80015ec <HandleKeyPad>
  8001cec:	6778      	str	r0, [r7, #116]	; 0x74
 			  while(Output == 9999){
  8001cee:	4987      	ldr	r1, [pc, #540]	; (8001f0c <HandleGui+0x58c>)
@@ -3184,7 +3184,7 @@ void HandleGui(){
  8001d46:	f7ff fcbf 	bl	80016c8 <Update_Page_3>
 		NEXTION_CMD("page 3");
  8001d4a:	4874      	ldr	r0, [pc, #464]	; (8001f1c <HandleGui+0x59c>)
- 8001d4c:	f7ff fbe6 	bl	800151c <NEXTION_CMD>
+ 8001d4c:	f7ff fbe4 	bl	8001518 <NEXTION_CMD>
 		calculateReflowCurve();
  8001d50:	f000 fd16 	bl	8002780 <calculateReflowCurve>
 
@@ -3203,7 +3203,7 @@ void HandleGui(){
  8001d64:	f04f 0300 	mov.w	r3, #0
  8001d68:	66fb      	str	r3, [r7, #108]	; 0x6c
 			  Output = HandleKeyPad();
- 8001d6a:	f7ff fc41 	bl	80015f0 <HandleKeyPad>
+ 8001d6a:	f7ff fc3f 	bl	80015ec <HandleKeyPad>
  8001d6e:	66f8      	str	r0, [r7, #108]	; 0x6c
 			  while(Output == 9999){
  8001d70:	e01d      	b.n	8001dae <HandleGui+0x42e>
@@ -3237,7 +3237,7 @@ void HandleGui(){
  8001da6:	ddef      	ble.n	8001d88 <HandleGui+0x408>
 					}
 				  Output = HandleKeyPad();
- 8001da8:	f7ff fc22 	bl	80015f0 <HandleKeyPad>
+ 8001da8:	f7ff fc20 	bl	80015ec <HandleKeyPad>
  8001dac:	66f8      	str	r0, [r7, #108]	; 0x6c
 			  while(Output == 9999){
  8001dae:	4957      	ldr	r1, [pc, #348]	; (8001f0c <HandleGui+0x58c>)
@@ -3284,7 +3284,7 @@ void HandleGui(){
  8001df6:	f7ff fc67 	bl	80016c8 <Update_Page_3>
 			NEXTION_CMD("page 3");
  8001dfa:	4848      	ldr	r0, [pc, #288]	; (8001f1c <HandleGui+0x59c>)
- 8001dfc:	f7ff fb8e 	bl	800151c <NEXTION_CMD>
+ 8001dfc:	f7ff fb8c 	bl	8001518 <NEXTION_CMD>
 			calculateReflowCurve();
  8001e00:	f000 fcbe 	bl	8002780 <calculateReflowCurve>
 
@@ -3303,7 +3303,7 @@ void HandleGui(){
  8001e14:	f04f 0300 	mov.w	r3, #0
  8001e18:	667b      	str	r3, [r7, #100]	; 0x64
 			  Output = HandleKeyPad();
- 8001e1a:	f7ff fbe9 	bl	80015f0 <HandleKeyPad>
+ 8001e1a:	f7ff fbe7 	bl	80015ec <HandleKeyPad>
  8001e1e:	6678      	str	r0, [r7, #100]	; 0x64
 			  while(Output == 9999){
  8001e20:	e01d      	b.n	8001e5e <HandleGui+0x4de>
@@ -3337,7 +3337,7 @@ void HandleGui(){
  8001e56:	ddef      	ble.n	8001e38 <HandleGui+0x4b8>
 					}
 				  Output = HandleKeyPad();
- 8001e58:	f7ff fbca 	bl	80015f0 <HandleKeyPad>
+ 8001e58:	f7ff fbc8 	bl	80015ec <HandleKeyPad>
  8001e5c:	6678      	str	r0, [r7, #100]	; 0x64
 			  while(Output == 9999){
  8001e5e:	492b      	ldr	r1, [pc, #172]	; (8001f0c <HandleGui+0x58c>)
@@ -3394,7 +3394,7 @@ void HandleGui(){
  8001eb8:	f7ff fc06 	bl	80016c8 <Update_Page_3>
 			NEXTION_CMD("page 3");
  8001ebc:	4817      	ldr	r0, [pc, #92]	; (8001f1c <HandleGui+0x59c>)
- 8001ebe:	f7ff fb2d 	bl	800151c <NEXTION_CMD>
+ 8001ebe:	f7ff fb2b 	bl	8001518 <NEXTION_CMD>
 			calculateReflowCurve();
  8001ec2:	f000 fc5d 	bl	8002780 <calculateReflowCurve>
 
@@ -3413,7 +3413,7 @@ void HandleGui(){
  8001ed6:	f04f 0300 	mov.w	r3, #0
  8001eda:	65fb      	str	r3, [r7, #92]	; 0x5c
 			  Output = HandleKeyPad();
- 8001edc:	f7ff fb88 	bl	80015f0 <HandleKeyPad>
+ 8001edc:	f7ff fb86 	bl	80015ec <HandleKeyPad>
  8001ee0:	65f8      	str	r0, [r7, #92]	; 0x5c
 			  while(Output == 9999){
  8001ee2:	e03e      	b.n	8001f62 <HandleGui+0x5e2>
@@ -3464,7 +3464,7 @@ void HandleGui(){
  8001f5a:	ddef      	ble.n	8001f3c <HandleGui+0x5bc>
 					}
 				  Output = HandleKeyPad();
- 8001f5c:	f7ff fb48 	bl	80015f0 <HandleKeyPad>
+ 8001f5c:	f7ff fb46 	bl	80015ec <HandleKeyPad>
  8001f60:	65f8      	str	r0, [r7, #92]	; 0x5c
 			  while(Output == 9999){
  8001f62:	4956      	ldr	r1, [pc, #344]	; (80020bc <HandleGui+0x73c>)
@@ -3518,7 +3518,7 @@ void HandleGui(){
  8001fba:	f7ff fb85 	bl	80016c8 <Update_Page_3>
 			NEXTION_CMD("page 3");
  8001fbe:	4843      	ldr	r0, [pc, #268]	; (80020cc <HandleGui+0x74c>)
- 8001fc0:	f7ff faac 	bl	800151c <NEXTION_CMD>
+ 8001fc0:	f7ff faaa 	bl	8001518 <NEXTION_CMD>
 			calculateReflowCurve();
  8001fc4:	f000 fbdc 	bl	8002780 <calculateReflowCurve>
 		}
@@ -3538,7 +3538,7 @@ void HandleGui(){
  8001fd8:	f04f 0300 	mov.w	r3, #0
  8001fdc:	657b      	str	r3, [r7, #84]	; 0x54
 			  Output = HandleKeyPad();
- 8001fde:	f7ff fb07 	bl	80015f0 <HandleKeyPad>
+ 8001fde:	f7ff fb05 	bl	80015ec <HandleKeyPad>
  8001fe2:	6578      	str	r0, [r7, #84]	; 0x54
 			  while(Output == 9999){
  8001fe4:	e01d      	b.n	8002022 <HandleGui+0x6a2>
@@ -3572,7 +3572,7 @@ void HandleGui(){
  800201a:	ddef      	ble.n	8001ffc <HandleGui+0x67c>
 					}
 				  Output = HandleKeyPad();
- 800201c:	f7ff fae8 	bl	80015f0 <HandleKeyPad>
+ 800201c:	f7ff fae6 	bl	80015ec <HandleKeyPad>
  8002020:	6578      	str	r0, [r7, #84]	; 0x54
 			  while(Output == 9999){
  8002022:	4926      	ldr	r1, [pc, #152]	; (80020bc <HandleGui+0x73c>)
@@ -3619,7 +3619,7 @@ void HandleGui(){
  800206a:	f7ff fb2d 	bl	80016c8 <Update_Page_3>
 			NEXTION_CMD("page 3");
  800206e:	4817      	ldr	r0, [pc, #92]	; (80020cc <HandleGui+0x74c>)
- 8002070:	f7ff fa54 	bl	800151c <NEXTION_CMD>
+ 8002070:	f7ff fa52 	bl	8001518 <NEXTION_CMD>
 			calculateReflowCurve();
  8002074:	f000 fb84 	bl	8002780 <calculateReflowCurve>
 
@@ -3638,7 +3638,7 @@ void HandleGui(){
  8002088:	f04f 0300 	mov.w	r3, #0
  800208c:	64fb      	str	r3, [r7, #76]	; 0x4c
 			  Output = HandleKeyPad();
- 800208e:	f7ff faaf 	bl	80015f0 <HandleKeyPad>
+ 800208e:	f7ff faad 	bl	80015ec <HandleKeyPad>
  8002092:	64f8      	str	r0, [r7, #76]	; 0x4c
 			  while(Output == 9999){
  8002094:	e036      	b.n	8002104 <HandleGui+0x784>
@@ -3686,7 +3686,7 @@ void HandleGui(){
  80020fc:	ddf0      	ble.n	80020e0 <HandleGui+0x760>
 					}
 				  Output = HandleKeyPad();
- 80020fe:	f7ff fa77 	bl	80015f0 <HandleKeyPad>
+ 80020fe:	f7ff fa75 	bl	80015ec <HandleKeyPad>
  8002102:	64f8      	str	r0, [r7, #76]	; 0x4c
 			  while(Output == 9999){
  8002104:	4993      	ldr	r1, [pc, #588]	; (8002354 <HandleGui+0x9d4>)
@@ -3741,7 +3741,7 @@ void HandleGui(){
  800215e:	f7ff fab3 	bl	80016c8 <Update_Page_3>
 			NEXTION_CMD("page 3");
  8002162:	4881      	ldr	r0, [pc, #516]	; (8002368 <HandleGui+0x9e8>)
- 8002164:	f7ff f9da 	bl	800151c <NEXTION_CMD>
+ 8002164:	f7ff f9d8 	bl	8001518 <NEXTION_CMD>
 			calculateReflowCurve();
  8002168:	f000 fb0a 	bl	8002780 <calculateReflowCurve>
 
@@ -3773,7 +3773,7 @@ void HandleGui(){
 			Draw_Reflow_Curve();
  8002194:	f000 fc46 	bl	8002a24 <Draw_Reflow_Curve>
 			SaveReflowParameters();
- 8002198:	f7ff f8f8 	bl	800138c <SaveReflowParameters>
+ 8002198:	f7ff f8f6 	bl	8001388 <SaveReflowParameters>
 
 		}
 
@@ -3823,7 +3823,7 @@ void HandleGui(){
 			  // needed page refresh because of strange nextion timers behavior
 			  NEXTION_CMD("page 3");
  80021e0:	4861      	ldr	r0, [pc, #388]	; (8002368 <HandleGui+0x9e8>)
- 80021e2:	f7ff f99b 	bl	800151c <NEXTION_CMD>
+ 80021e2:	f7ff f999 	bl	8001518 <NEXTION_CMD>
 			  calculateReflowCurve();
  80021e6:	f000 facb 	bl	8002780 <calculateReflowCurve>
 
@@ -3920,7 +3920,7 @@ void HandleGui(){
 			  // needed page refresh because of strange nextion timers behavior
 			  NEXTION_CMD("page 3");
  8002276:	483c      	ldr	r0, [pc, #240]	; (8002368 <HandleGui+0x9e8>)
- 8002278:	f7ff f950 	bl	800151c <NEXTION_CMD>
+ 8002278:	f7ff f94e 	bl	8001518 <NEXTION_CMD>
 			  calculateReflowCurve();
  800227c:	f000 fa80 	bl	8002780 <calculateReflowCurve>
 		  }
@@ -4016,7 +4016,7 @@ void HandleGui(){
 			  // needed page refresh because of strange nextion timers behavior
 			  NEXTION_CMD("page 3");
  800230c:	4816      	ldr	r0, [pc, #88]	; (8002368 <HandleGui+0x9e8>)
- 800230e:	f7ff f905 	bl	800151c <NEXTION_CMD>
+ 800230e:	f7ff f903 	bl	8001518 <NEXTION_CMD>
 			  calculateReflowCurve();
  8002312:	f000 fa35 	bl	8002780 <calculateReflowCurve>
 		  }
@@ -4128,7 +4128,7 @@ void HandleGui(){
 			  // needed page refresh because of strange nextion timers behavior
 			  NEXTION_CMD("page 3");
  80023e2:	4852      	ldr	r0, [pc, #328]	; (800252c <HandleGui+0xbac>)
- 80023e4:	f7ff f89a 	bl	800151c <NEXTION_CMD>
+ 80023e4:	f7ff f898 	bl	8001518 <NEXTION_CMD>
 			  calculateReflowCurve();
  80023e8:	f000 f9ca 	bl	8002780 <calculateReflowCurve>
 		  }
@@ -4507,7 +4507,7 @@ void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim) {
 			duty =  arm_pid_f32(&PID, pid_error);
  8002664:	68f9      	ldr	r1, [r7, #12]
  8002666:	483f      	ldr	r0, [pc, #252]	; (8002764 <HAL_TIM_PeriodElapsedCallback+0x22c>)
- 8002668:	f7fe fe4e 	bl	8001308 <arm_pid_f32>
+ 8002668:	f7fe fe4c 	bl	8001304 <arm_pid_f32>
  800266c:	4603      	mov	r3, r0
  800266e:	4a3e      	ldr	r2, [pc, #248]	; (8002768 <HAL_TIM_PeriodElapsedCallback+0x230>)
  8002670:	6013      	str	r3, [r2, #0]
@@ -5053,7 +5053,7 @@ void Draw_Reflow_Curve()	{
  8002a82:	1a9b      	subs	r3, r3, r2
  8002a84:	4619      	mov	r1, r3
  8002a86:	4620      	mov	r0, r4
- 8002a88:	f7fe fd66 	bl	8001558 <NextionDrawDot>
+ 8002a88:	f7fe fd64 	bl	8001554 <NextionDrawDot>
 		index= index + 4;
  8002a8c:	697b      	ldr	r3, [r7, #20]
  8002a8e:	3304      	adds	r3, #4
@@ -5104,7 +5104,7 @@ void startReflow()	{
  8002ad8:	701a      	strb	r2, [r3, #0]
 	NEXTION_CMD("page 0");
  8002ada:	4807      	ldr	r0, [pc, #28]	; (8002af8 <startReflow+0x28>)
- 8002adc:	f7fe fd1e 	bl	800151c <NEXTION_CMD>
+ 8002adc:	f7fe fd1c 	bl	8001518 <NEXTION_CMD>
 	Draw_Reflow_Curve();
  8002ae0:	f7ff ffa0 	bl	8002a24 <Draw_Reflow_Curve>
 	TempDrawCounter = 0;
@@ -5274,7 +5274,7 @@ int main(void)
 	Flash_Read_Data(0x0801FC00, (uint32_t *)&ReflowParameters);
  8002bfc:	4975      	ldr	r1, [pc, #468]	; (8002dd4 <main+0x1dc>)
  8002bfe:	4876      	ldr	r0, [pc, #472]	; (8002dd8 <main+0x1e0>)
- 8002c00:	f7fe fb64 	bl	80012cc <Flash_Read_Data>
+ 8002c00:	f7fe fb62 	bl	80012c8 <Flash_Read_Data>
 
 	if (!(ReflowParameters.version == config_version))	{
  8002c04:	4b73      	ldr	r3, [pc, #460]	; (8002dd4 <main+0x1dc>)
@@ -5424,7 +5424,7 @@ int main(void)
  8002cec:	2282      	movs	r2, #130	; 0x82
  8002cee:	f8c3 2084 	str.w	r2, [r3, #132]	; 0x84
 		SaveReflowParameters();
- 8002cf2:	f7fe fb4b 	bl	800138c <SaveReflowParameters>
+ 8002cf2:	f7fe fb49 	bl	8001388 <SaveReflowParameters>
 	}
 
 	calculateReflowCurve();
@@ -17049,7 +17049,7 @@ static HAL_StatusTypeDef UART_Receive_IT(UART_HandleTypeDef *huart)
        /*Call legacy weak Rx complete callback*/
        HAL_UART_RxCpltCallback(huart);
  8006bbc:	6878      	ldr	r0, [r7, #4]
- 8006bbe:	f7fa fbf3 	bl	80013a8 <HAL_UART_RxCpltCallback>
+ 8006bbe:	f7fa fbf1 	bl	80013a4 <HAL_UART_RxCpltCallback>
 #endif /* USE_HAL_UART_REGISTER_CALLBACKS */
       }
 

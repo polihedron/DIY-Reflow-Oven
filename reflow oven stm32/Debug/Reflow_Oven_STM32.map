@@ -354,7 +354,6 @@ Discarded input sections
  .data          0x0000000000000000        0x0 ./Core/Src/main.o
  .bss           0x0000000000000000        0x0 ./Core/Src/main.o
  .bss.debug     0x0000000000000000        0x4 ./Core/Src/main.o
- .data.test2    0x0000000000000000        0x5 ./Core/Src/main.o
  .text.UpdatePage
                 0x0000000000000000       0x6c ./Core/Src/main.o
  .debug_macro   0x0000000000000000      0xa9c ./Core/Src/main.o
@@ -3211,45 +3210,45 @@ LOAD c:/st/stm32cubeide_1.4.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.exte
                 0x0000000008001184                __fixunsdfdi
                 0x0000000008001184                __aeabi_d2ulz
  *(.text*)
- .text.GetPage  0x00000000080011c0       0x54 ./Core/Src/FLASH_PAGE.o
+ .text.GetPage  0x00000000080011c0       0x50 ./Core/Src/FLASH_PAGE.o
  .text.Flash_Write_Data
-                0x0000000008001214       0xb8 ./Core/Src/FLASH_PAGE.o
-                0x0000000008001214                Flash_Write_Data
+                0x0000000008001210       0xb8 ./Core/Src/FLASH_PAGE.o
+                0x0000000008001210                Flash_Write_Data
  .text.Flash_Read_Data
-                0x00000000080012cc       0x3c ./Core/Src/FLASH_PAGE.o
-                0x00000000080012cc                Flash_Read_Data
+                0x00000000080012c8       0x3c ./Core/Src/FLASH_PAGE.o
+                0x00000000080012c8                Flash_Read_Data
  .text.arm_pid_f32
-                0x0000000008001308       0x84 ./Core/Src/main.o
+                0x0000000008001304       0x84 ./Core/Src/main.o
  .text.SaveReflowParameters
-                0x000000000800138c       0x1c ./Core/Src/main.o
-                0x000000000800138c                SaveReflowParameters
+                0x0000000008001388       0x1c ./Core/Src/main.o
+                0x0000000008001388                SaveReflowParameters
  .text.HAL_UART_RxCpltCallback
-                0x00000000080013a8       0x2c ./Core/Src/main.o
-                0x00000000080013a8                HAL_UART_RxCpltCallback
+                0x00000000080013a4       0x2c ./Core/Src/main.o
+                0x00000000080013a4                HAL_UART_RxCpltCallback
  .text.NEXTION_SendString
-                0x00000000080013d4       0x4c ./Core/Src/main.o
-                0x00000000080013d4                NEXTION_SendString
+                0x00000000080013d0       0x4c ./Core/Src/main.o
+                0x00000000080013d0                NEXTION_SendString
  .text.NEXTION_SendFloat
-                0x0000000008001420       0x58 ./Core/Src/main.o
-                0x0000000008001420                NEXTION_SendFloat
+                0x000000000800141c       0x58 ./Core/Src/main.o
+                0x000000000800141c                NEXTION_SendFloat
  .text.NEXTION_SendFloat_CurrentTemp
-                0x0000000008001478       0x58 ./Core/Src/main.o
-                0x0000000008001478                NEXTION_SendFloat_CurrentTemp
+                0x0000000008001474       0x58 ./Core/Src/main.o
+                0x0000000008001474                NEXTION_SendFloat_CurrentTemp
  .text.NEXTION_SenduInt
-                0x00000000080014d0       0x4c ./Core/Src/main.o
-                0x00000000080014d0                NEXTION_SenduInt
+                0x00000000080014cc       0x4c ./Core/Src/main.o
+                0x00000000080014cc                NEXTION_SenduInt
  .text.NEXTION_CMD
-                0x000000000800151c       0x3c ./Core/Src/main.o
-                0x000000000800151c                NEXTION_CMD
+                0x0000000008001518       0x3c ./Core/Src/main.o
+                0x0000000008001518                NEXTION_CMD
  .text.NextionDrawDot
-                0x0000000008001558       0x4c ./Core/Src/main.o
-                0x0000000008001558                NextionDrawDot
+                0x0000000008001554       0x4c ./Core/Src/main.o
+                0x0000000008001554                NextionDrawDot
  .text.NextionDrawTemp
-                0x00000000080015a4       0x4c ./Core/Src/main.o
-                0x00000000080015a4                NextionDrawTemp
+                0x00000000080015a0       0x4c ./Core/Src/main.o
+                0x00000000080015a0                NextionDrawTemp
  .text.HandleKeyPad
-                0x00000000080015f0       0xd8 ./Core/Src/main.o
-                0x00000000080015f0                HandleKeyPad
+                0x00000000080015ec       0xdc ./Core/Src/main.o
+                0x00000000080015ec                HandleKeyPad
  .text.Update_Page_3
                 0x00000000080016c8       0xac ./Core/Src/main.o
                 0x00000000080016c8                Update_Page_3
@@ -4394,27 +4393,27 @@ LOAD c:/st/stm32cubeide_1.4.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.exte
 LOAD c:/st/stm32cubeide_1.4.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.win32_2.0.0.202105311346/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libm.a
 LOAD c:/st/stm32cubeide_1.4.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.win32_2.0.0.202105311346/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7-m/nofp\libgcc.a
 
-.debug_info     0x0000000000000000    0x1131a
+.debug_info     0x0000000000000000    0x1130d
  .debug_info    0x0000000000000000      0xc22 ./Core/Src/FLASH_PAGE.o
- .debug_info    0x0000000000000c22     0x2794 ./Core/Src/main.o
- .debug_info    0x00000000000033b6     0x1193 ./Core/Src/stm32f1xx_hal_msp.o
- .debug_info    0x0000000000004549      0xa22 ./Core/Src/stm32f1xx_it.o
- .debug_info    0x0000000000004f6b      0xfb4 ./Core/Src/syscalls.o
- .debug_info    0x0000000000005f1f      0xa25 ./Core/Src/sysmem.o
- .debug_info    0x0000000000006944      0x2be ./Core/Src/system_stm32f1xx.o
- .debug_info    0x0000000000006c02       0x22 ./Core/Startup/startup_stm32f103c8tx.o
- .debug_info    0x0000000000006c24      0x76a ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.o
- .debug_info    0x000000000000738e      0xbdc ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.o
- .debug_info    0x0000000000007f6a      0x81e ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.o
- .debug_info    0x0000000000008788      0x5f3 ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.o
- .debug_info    0x0000000000008d7b      0x8a2 ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.o
- .debug_info    0x000000000000961d      0x701 ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.o
- .debug_info    0x0000000000009d1e      0x88e ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.o
- .debug_info    0x000000000000a5ac     0x16bf ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.o
- .debug_info    0x000000000000bc6b     0x2a45 ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.o
- .debug_info    0x000000000000e6b0     0x14d5 ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.o
- .debug_info    0x000000000000fb85     0x161a ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.o
- .debug_info    0x000000000001119f      0x17b C:\Users\01123\Documents\reflow oven stm32\libs\libarm_cortexM3l_math.a(arm_pid_init_f32.o)
+ .debug_info    0x0000000000000c22     0x2787 ./Core/Src/main.o
+ .debug_info    0x00000000000033a9     0x1193 ./Core/Src/stm32f1xx_hal_msp.o
+ .debug_info    0x000000000000453c      0xa22 ./Core/Src/stm32f1xx_it.o
+ .debug_info    0x0000000000004f5e      0xfb4 ./Core/Src/syscalls.o
+ .debug_info    0x0000000000005f12      0xa25 ./Core/Src/sysmem.o
+ .debug_info    0x0000000000006937      0x2be ./Core/Src/system_stm32f1xx.o
+ .debug_info    0x0000000000006bf5       0x22 ./Core/Startup/startup_stm32f103c8tx.o
+ .debug_info    0x0000000000006c17      0x76a ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.o
+ .debug_info    0x0000000000007381      0xbdc ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.o
+ .debug_info    0x0000000000007f5d      0x81e ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.o
+ .debug_info    0x000000000000877b      0x5f3 ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.o
+ .debug_info    0x0000000000008d6e      0x8a2 ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.o
+ .debug_info    0x0000000000009610      0x701 ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.o
+ .debug_info    0x0000000000009d11      0x88e ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.o
+ .debug_info    0x000000000000a59f     0x16bf ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.o
+ .debug_info    0x000000000000bc5e     0x2a45 ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.o
+ .debug_info    0x000000000000e6a3     0x14d5 ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.o
+ .debug_info    0x000000000000fb78     0x161a ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.o
+ .debug_info    0x0000000000011192      0x17b C:\Users\01123\Documents\reflow oven stm32\libs\libarm_cortexM3l_math.a(arm_pid_init_f32.o)
 
 .debug_abbrev   0x0000000000000000     0x2a21
  .debug_abbrev  0x0000000000000000      0x25a ./Core/Src/FLASH_PAGE.o
@@ -4633,46 +4632,46 @@ LOAD c:/st/stm32cubeide_1.4.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.exte
  .debug_line    0x000000000000fa3d     0x1a1a ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.o
  .debug_line    0x0000000000011457      0x14f C:\Users\01123\Documents\reflow oven stm32\libs\libarm_cortexM3l_math.a(arm_pid_init_f32.o)
 
-.debug_str      0x0000000000000000    0x8f2dd
+.debug_str      0x0000000000000000    0x8f2d7
  .debug_str     0x0000000000000000    0x8868a ./Core/Src/FLASH_PAGE.o
                                       0x88a85 (size before relaxing)
- .debug_str     0x000000000008868a     0x1f7b ./Core/Src/main.o
-                                      0x8aa7d (size before relaxing)
- .debug_str     0x000000000008a605      0x386 ./Core/Src/stm32f1xx_hal_msp.o
+ .debug_str     0x000000000008868a     0x1f75 ./Core/Src/main.o
+                                      0x8aa77 (size before relaxing)
+ .debug_str     0x000000000008a5ff      0x386 ./Core/Src/stm32f1xx_hal_msp.o
                                       0x854fa (size before relaxing)
- .debug_str     0x000000000008a98b       0xdf ./Core/Src/stm32f1xx_it.o
+ .debug_str     0x000000000008a985       0xdf ./Core/Src/stm32f1xx_it.o
                                       0x84fd7 (size before relaxing)
- .debug_str     0x000000000008aa6a     0x1678 ./Core/Src/syscalls.o
+ .debug_str     0x000000000008aa64     0x1678 ./Core/Src/syscalls.o
                                        0x8e8a (size before relaxing)
- .debug_str     0x000000000008c0e2       0x6b ./Core/Src/sysmem.o
+ .debug_str     0x000000000008c0dc       0x6b ./Core/Src/sysmem.o
                                        0x6253 (size before relaxing)
- .debug_str     0x000000000008c14d       0x52 ./Core/Src/system_stm32f1xx.o
+ .debug_str     0x000000000008c147       0x52 ./Core/Src/system_stm32f1xx.o
                                       0x84888 (size before relaxing)
- .debug_str     0x000000000008c19f       0x36 ./Core/Startup/startup_stm32f103c8tx.o
+ .debug_str     0x000000000008c199       0x36 ./Core/Startup/startup_stm32f103c8tx.o
                                          0x67 (size before relaxing)
- .debug_str     0x000000000008c1d5      0x2f5 ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.o
+ .debug_str     0x000000000008c1cf      0x2f5 ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.o
                                       0x84f19 (size before relaxing)
- .debug_str     0x000000000008c4ca      0x300 ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.o
+ .debug_str     0x000000000008c4c4      0x300 ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.o
                                       0x84f21 (size before relaxing)
- .debug_str     0x000000000008c7ca      0x230 ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.o
+ .debug_str     0x000000000008c7c4      0x230 ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.o
                                       0x84c63 (size before relaxing)
- .debug_str     0x000000000008c9fa      0x280 ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.o
+ .debug_str     0x000000000008c9f4      0x280 ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.o
                                       0x84b5e (size before relaxing)
- .debug_str     0x000000000008cc7a      0x330 ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.o
+ .debug_str     0x000000000008cc74      0x330 ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.o
                                       0x84d22 (size before relaxing)
- .debug_str     0x000000000008cfaa      0x31f ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.o
+ .debug_str     0x000000000008cfa4      0x31f ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.o
                                       0x84c4c (size before relaxing)
- .debug_str     0x000000000008d2c9      0x24f ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.o
+ .debug_str     0x000000000008d2c3      0x24f ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.o
                                       0x84c85 (size before relaxing)
- .debug_str     0x000000000008d518      0x53e ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.o
+ .debug_str     0x000000000008d512      0x53e ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.o
                                       0x85194 (size before relaxing)
- .debug_str     0x000000000008da56      0xd38 ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.o
+ .debug_str     0x000000000008da50      0xd38 ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.o
                                       0x85c57 (size before relaxing)
- .debug_str     0x000000000008e78e      0x45a ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.o
+ .debug_str     0x000000000008e788      0x45a ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.o
                                       0x85408 (size before relaxing)
- .debug_str     0x000000000008ebe8      0x5c6 ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.o
+ .debug_str     0x000000000008ebe2      0x5c6 ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.o
                                       0x85277 (size before relaxing)
- .debug_str     0x000000000008f1ae      0x12f C:\Users\01123\Documents\reflow oven stm32\libs\libarm_cortexM3l_math.a(arm_pid_init_f32.o)
+ .debug_str     0x000000000008f1a8      0x12f C:\Users\01123\Documents\reflow oven stm32\libs\libarm_cortexM3l_math.a(arm_pid_init_f32.o)
                                         0x208 (size before relaxing)
 
 .comment        0x0000000000000000       0xc3

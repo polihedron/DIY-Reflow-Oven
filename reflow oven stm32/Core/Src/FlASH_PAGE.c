@@ -12,7 +12,7 @@
 
 static uint32_t GetPage(uint32_t Address)
 {
-  for (int indx=0; indx<128; indx++)
+  for (uint32_t indx=0; indx<128; indx++)
   {
 	  if((Address < (0x08000000 + (1024 *(indx+1))) ) && (Address >= (0x08000000 + 1024*indx)))
 	  {

@@ -140,7 +140,7 @@ uint16_t ReflowIndex = 0;
 float32_t debug = 0;
 uint8_t Cmd_End[3] = {0xFF, 0xFF, 0xFF};
 uint8_t UART_Recieved_Data[5]={'p','0','x','x','x'};
-uint8_t UART_Recieved_Flag = 0;
+volatile uint8_t UART_Recieved_Flag = 0;
 
 char input[20];
 uint16_t PhaseIndex[5]={0};
@@ -150,8 +150,6 @@ char ConsoleMSG[25];
 uint8_t TempDrawEnable = 0;
 uint32_t TempDrawCounter = 0;
 
-
-uint8_t test2[5] = {'p','0','x','x','x'};
 
 
 void SaveReflowParameters(){
